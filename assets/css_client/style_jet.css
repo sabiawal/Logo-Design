@@ -1,0 +1,379 @@
+
+
+ul li 
+{list-style:none;
+}
+/*navbar style end*/
+
+.wrapper {
+    background: none !important;
+}
+
+body {
+    background: none !important;
+}
+
+.main_1 {
+    background: none repeat scroll 0 0 hsla(0, 0%, 0%, 0) !important;
+}
+
+.footer {
+    background: none !important;    
+}
+#jetpay-footer{
+    border-top: 1px dashed hsl(0, 0%, 80%) !important;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+
+.main_1 {
+    background: url("../images/spot-bg-top.jpg") no-repeat scroll left top hsl(0, 0%, 100%);
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1002px;
+}
+
+#jetpay-form span{
+	color: #000000;
+    font-family: 'PT Sans',sans-serif,Arial,Verdana !important;
+    font-size: 14px;
+}
+
+/*.green-btn span:before {
+    background: none repeat scroll 0 0 #7DB701;
+    border-bottom: 3px solid #578307;
+    content: attr(data-hover);
+    height: 50px;
+    left: 0;
+    padding: 0 19px;
+    position: absolute;
+    top: 100%;
+    transform: rotateX(-90deg);
+    transform-origin: 50% 0 0;
+    transition: background 0.3s ease 0s;
+    width: 100%;
+}*/
+
+.green-btn span {
+    background: none repeat scroll 0 0 #7DB701;
+    border-bottom: 3px solid #578307;
+    display: inline-block;
+    height: 50px;
+    line-height: 2.5;
+    padding: 0 19px;
+    position: relative;
+    transform-origin: 50% 0 0;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease 0s;
+}
+
+.jetpay-form-outer{
+	background: #ffffff;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+	border: 1px solid #b5b5b5;
+	padding: 19px;
+	/*margin:0 auto;*/
+	width:72.333%;
+}
+#jetpay-form h3{
+	background: #acacac;
+	padding: 10px 12px;
+	font-size: 20px;
+	font-weight: 700;
+}
+#jetpay-form li{
+	margin: 0 0 10px;
+}
+#jetpay-form label{
+	background: none repeat scroll 0 0 #dddddd;
+    font-size: 16px;
+    padding: 6px 10px 6px 3px;
+	margin: 0 15px 0 0;
+    text-align: right;
+    width: 200px;
+	font-weight: 400;
+	display: inline-block;
+	font-family: 'PT Sans',sans-serif,Arial,Verdana !important;
+}
+#jetpay-form .multiple-items{
+	display: inline-block;
+	vertical-align: top;
+	width: 390px;
+}
+#jetpay-form .multiple-items p{
+	/*font-size: 14px;*/
+	font-weight: 700;
+}
+#jetpay-form input[type="text"], #jetpay-form input[type="password"], #jetpay-form select{
+	width: 300px;
+}
+#jetpay-form .month{
+	width: 50px;
+	margin: 0 10px 0 0;
+}
+#jetpay-form .year{
+	width: 60px;
+}
+.web-form-title{
+	color: #0070c0;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 15px;
+}
+.web-form-title span{
+	padding: 0 0 0 15px;
+}
+#web-order-process .field-box, #web-order-process .simple-field-box{
+	background: #ece9d8;
+	float: left;
+   	min-height: 130px;
+    padding: 15px;
+}
+#web-order-process .simple-field-box{
+	width: 91%;
+}
+#web-order-process .field-box.left{
+	width: 25%;
+}
+#web-order-process .field-box.right{
+	width: 65%;
+	margin: 0 0 0 1%;
+}
+#web-order-process .field-box input[type="text"], 
+#web-order-process .field-box input[type="password"],
+#web-order-process .field-box textarea,
+#web-order-process .field-box select{
+	width: 370px;
+}
+#web-order-process .field-box textarea{
+	min-height: 80px;
+}
+#web-order-process label{
+	font-weight: 400;
+	text-align: left;
+}
+#web-order-process ul{
+	margin: 0 0 15px;
+}
+#web-order-process li{
+	float: left;
+    margin: 0 0 10px 36px;
+    width: 100%;
+}
+.promotional-code-box{
+	border: 1px dashed #ff0000;
+	padding: 20px;
+	color: #ff0000;
+}
+.promotional-code-box li{
+	float: left;
+	width: 100%;
+	margin: 0 0 10px;
+}
+.promotional-code-box button{
+	background: url(../images/silver-btn.jpg) 0 0 repeat-x;
+	border: 1px solid #8f8f8f;
+	color: #e35400;
+	height: 30px;
+	line-height: 1.875;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 0 12px;
+	float: right;
+}
+.promotional-code-box label{
+	float: left;
+}
+.promotional-code-box input[type="text"]{
+	float: right;
+}
+.blue-title1{
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0 0 15px;
+	color: #2c6ba0;
+}
+.greeny-yellow-box{
+	background: #f7fbe2;
+	padding: 20px;
+	font-size: 20px;
+}
+.greeny-yellow-box li{
+	margin: 0 0 16px;
+	width: 100%;
+	float: left;
+}
+.greeny-yellow-box span{
+	float: left;
+}
+.greeny-yellow-box .num{
+	width: 5%;
+	clear: both;
+}
+.greeny-yellow-box .desc{
+	width: 95%;
+}
+.yellow-borderd{
+	border: 2px solid #ffcc00;
+}
+.greeny-yellow-box .green-tick li{
+	background: url(../images/green-arrow2.png) 0 50% no-repeat;
+	padding: 0 0 0 25px;
+}
+#order-ok-body{
+	border-top: 1px solid #a4a4a4;
+}
+.thin-arrow li{
+	background: url(../images/thin-arrow.png) 0 8px no-repeat;
+	font-size: 20px;
+	padding: 0 0 0 30px;
+}
+/*----------------------  order page styles end  ------------------------*/
+
+/*reseller page styles start*/
+#get-started .col-sm-7{
+	position: relative;
+}
+#get-started .turn-ideas{
+	left: 60%;
+    position: absolute;
+    top: 57%;
+}
+.kick-start-box{
+	background: #efefef;
+	padding: 20px;
+}
+.kick-start-box h2{
+	font-size: 32px;
+	font-style: italic;
+	font-weight: 700;
+	color: #0076b3;
+	margin: 0 0 10px;
+}
+.kick-start-box input[type="text"]{
+	width: 396px;
+	height: 41px;
+	line-height: 2;
+	font-size: 20px;
+	border: 0 none;
+	padding-left: 55px;
+	color: #ffffff;
+}
+.kick-start-box .n{
+	background: url(../images/form-blue-bar-n.png) 0 0 no-repeat;
+}
+.kick-start-box .c{
+	background: url(../images/form-blue-bar-c.png) 0 0 no-repeat;
+}
+.kick-start-box .e{
+	background: url(../images/form-blue-bar-e.png) 0 0 no-repeat;
+}
+.kick-start-box .blue-grad-btn{
+	background: url(../images/blue-gradient-btn.png) 0 0 no-repeat;
+	display: inline-block;
+	width: 232px;
+	height: 67px;
+	font-size: 20px;
+	color: #ffffff;
+}
+.kick-start-box .blue-grad-btn:hover{
+	color: #b4ebfd;
+}
+.kick-start-box .placeholder{
+	color: #a9e0fd !important;
+}
+/*reseller page styles end*/
+
+/*styles only for webkit browsers ( i.e, chrome and safari )*/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	#simple-tab .line{
+		top: 49px;
+	}
+}
+
+.blue-title1 
+{font-family: 'PT Sans',sans-serif,Arial,Verdana;
+font-size: 40px;
+font-weight: 700;
+margin: 6px 0 25px;
+color: #2C6BA0;
+}
+
+
+#order-process h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0px 0px 15px;
+}
+
+input[type="text"], input[type="password"], textarea, select {
+    background: url('../images/form-field-shadow.jpg') repeat-x scroll 0% 0% #FFF;
+    border: 1px solid #A8ACAD;
+    padding: 4px;}
+	
+	.theme-blue {
+    color: #06C !important;
+}
+
+.normal-desc-box {
+    padding: 30px 0px;
+}
+
+.green-btn {
+    color: #FFF;
+    font-size: 19px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.order-back-btn, .order-submit-btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    vertical-align: bottom;
+}
+
+a, input{
+	transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+}
+
+button {
+    border: 0px none;
+    padding: 0px;
+}
+
+.order-back-btn, .order-submit-btn{
+	text-transform: uppercase;
+	font-weight: 700;
+	vertical-align: bottom;
+}
+.order-back-btn span{
+	padding: 0 30px !important;
+	border-bottom: 5px solid #578307 !important;
+	line-height: 3.8 !important;
+}
+.order-back-btn span:before{
+	border-bottom: 5px solid #578307 !important;
+}
+.order-submit-btn span{
+	height: 76px !important;
+	line-height: 5.8 !important; 
+	border-bottom: 5px solid #578307 !important;
+	padding: 0 55px !important;
+}
+.order-submit-btn span:before{
+	height: 76px !important;
+	line-height: 3.8 !important;
+	border-bottom: 5px solid #578307 !important;
+}
+.order-submit-btn{
+	margin: 0 0 0 15px;
+	cursor: pointer;
+}

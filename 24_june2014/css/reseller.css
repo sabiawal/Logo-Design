@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.spotlight .list-3 {
+background:url(images/tmb-price-<?php echo COUNTRY;
+?>.jpg) no-repeat 184px 0;
+}
+
+.footer-link p{
+	color:#000;}
+
+.footer-link ul li{
+	color:#000;
+	list-style-image:url(../images/reseller/tick-mark.gif);}
+ul li.fst{
+	color:#000;
+	list-style:disc;}
+ul li.snd{
+	color:#000;
+	list-style-image:url(../images/reseller/tick-mark.gif);}
+span{
+	color:red;}
+.col2-right-layout .col-main {
+    float: left;
+    margin: 0 0 20px 0px;
+    padding: 17px 0 10px 17px;
+    width: 705px;
+}
+.left-col-main{
+	float:left;
+	width:222px;
+	background-image: linear-gradient(top, #f0f0f0, #ffffff);
+	background-image: -moz-linear-gradient(top, #f0f0f0, #ffffff);
+	background-image: -o-linear-gradient(top, #f0f0f0, #ffffff);
+	background-image: -ms-linear-gradient(top, #f0f0f0, #ffffff);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.18, #f0f0f0), color-stop(1.0, #ffffff));
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#ffffff');}
+
+.footer-link a {
+    color:#4971c0;
+}
+.footer-link a:hover {
+    color:#4971c0;
+}

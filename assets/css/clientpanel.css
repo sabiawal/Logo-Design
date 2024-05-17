@@ -1,0 +1,267 @@
+@charset "utf-8";
+@font-face{ font-family: 'LucidaItalic'; src: url('fonts/lucida/lcallig-webfont.eot'); src: url('fonts/lucida/lcallig-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/lucida/lcallig-webfont.woff') format('woff'), url('fonts/lucida/lcallig-webfont.ttf') format('truetype'), url('fonts/lucida/lcallig-webfont.svg#webfont') format('svg'); }
+
+/* CSS Document */
+/*********** Header CSS Starts ****************/
+/*-------------------Global Page Layout -------------------*/
+.wrapper {
+	background:#eee;
+	margin:0 0 10px 0;
+	width:100%;
+}
+/*---------------- Header Layout ------------------*/
+
+.header-container {
+	background:#fff;
+	border-bottom:3px solid #CBCBCB;
+	width:100%;
+}
+.header {
+	background:#fff;
+	margin:0 auto;
+	overflow:hidden;
+	padding:5px 0 0 0;
+	width:1002px;
+}
+.phone-banner-container {
+	width:100%;
+}
+.phone-banner{
+	background:#fff;
+	margin:0 auto;
+	overflow:hidden;
+	padding:10px;
+	width:982px;
+}
+.top-container {
+	padding:5px 0 0 0;
+	width:100%;
+}
+.top {
+    background: #fff;
+    border: 1px solid silver;
+    border-bottom: none;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;	
+	margin:0 auto;
+    overflow: hidden;
+    padding: 15px;
+	width:972px;
+}
+/*--------------- Content Layout ---------------*/
+.main-container {
+	width:100%;
+    margin-top: 0;
+}
+.main {
+	/*background:#FFFFFF url(../images/spot-bg-top.jpg) no-repeat top left;*/
+    background: #fff;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;   
+    /*-webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;*/
+	margin:0px auto;
+	overflow:hidden;
+    padding: 15px;
+	width:972px;
+}
+/*----------------- Footer Layout ----------------*/
+.footer-container {
+	width:100%;
+}
+.footer {
+	/*background:#fff url(../images/spot-bg-bottom.jpg) bottom left no-repeat;*/
+    background:#fff;
+    border: 1px solid silver;
+	border-top:1px dashed #ccc;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+	margin:0px auto;
+	overflow:hidden;
+	padding:15px;
+	width:972px;
+}
+
+
+
+.header {	
+    padding-bottom: 24px;
+	position:relative;
+}
+.limited-sale {
+	position:absolute;
+	top:8px;
+	left:330px;
+	z-index:1111111;
+}
+.header .logo {
+	float:left;
+	width:380px;
+}
+.header .tag {
+	display:block;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+	text-align:center;
+	width:149px;
+}
+.header .tag p {
+	color:#009900;
+	font:bold 16px/24px "Comic Sans MS", cursive;
+	padding:25px 0 0 0;
+}
+.header .tag a img {
+	margin:0 auto;
+}
+.header .offer {
+	float:right;
+	height:121px;
+	position:relative;
+	width:453px;
+}
+.header .welcome{
+    background: url(../images/client/welcome.png) no-repeat;
+    font: normal 15px/44px arial;
+    height: 34px;
+    left: 22px;
+    padding: 0 0 0 130px;
+    position: absolute;
+    top: 125px;
+    width: 380px;
+    z-index: 11;
+}
+.time-red {
+	color:#ff0000;
+	font:bold 17px/18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-0.04em;
+	position:absolute;
+	left:312px;
+	top:8px;
+}
+.phone-banner{
+    background: url(../images/client/telephone_n_guarantee.png) no-repeat 5px 8px;
+    margin: 0 auto;
+    height: 80px;
+    width: 1002px;
+}
+.phone-banner p{
+    color: #0B4A8D;
+    float: right;
+    font: bold 14px/27px Arial,Helvetica,sans-serif;
+    overflow: hidden;
+    padding: 14px 72px 0 0;
+    text-align: right;
+}
+.phone-banner p span{
+    color: #FE5E00;
+    font-size: 27px;
+}
+.limited-offer{
+    margin: 0 0 15px;
+}
+.main-banner .price_banner{
+    float: left;
+}
+
+/*********** Menu Banner CSS Starts ****************/
+.menu-top {
+	display:block;
+	overflow: hidden;
+	margin:0 auto;
+    margin-bottom: 15px;
+}
+.menu-top ul {
+	
+	
+}
+.menu-top ul li {
+	float: left;
+	margin:0 12px 0 0;	
+}
+.menu-top ul li a {
+	background:#7c9223 url(../images/client/nav_hv.png) center no-repeat;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+	/**
+  * color:#223;
+  */ 
+    color:#000;
+	font:bold 17px/40px "Monotype Corsiva", Arial, sans-serif;	
+	padding:7px 10px;	
+}
+.menu-top ul li a:hover, .menu-top ul .selected a {
+	background:#a69a30 url(../images/client/nav_hv.png) center no-repeat;
+	color:#fff;
+	text-decoration:none;
+}
+/*****************************************/
+.menu{
+	display:block;	
+    height: 50px;
+	margin:0 auto;
+    margin-left: 0px;
+	}
+	
+.menu ul{
+background: url(../images/nav_div.gif) no-repeat scroll left top transparent;	
+height:45px;
+padding:0 0 0 2px !important; padding:0;
+
+
+}
+.menu ul li{
+	background: url(../images/nav_div.gif) no-repeat  right top transparent;
+	float:left;
+	padding:0 2px 0 0;}
+	
+.menu ul li a{
+	background:url(../images/nav_bg.gif) repeat-x;
+	color:#000;
+	font:bold 12px/45px Arial, Helvetica, sans-serif;
+	padding:15px;
+	text-transform:uppercase;}
+	
+.menu ul li a:hover, .menu ul .selected a{
+	background:#737373;
+	color:#fff;
+	text-decoration:none;
+	}
+
+#rotator img{
+    border: 0 none;
+    height: 285px;
+    overflow: hidden;
+    width: 665px;
+    
+}
+
+.multi-order{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #eee; 
+    margin-bottom: 15px; 
+    padding: 15px;     
+    padding-bottom: 0; }
+
+.multi-order p{}
+.multi-order p select{padding: 5px; width: 200px;}
+.multi-order p span{display: inline-block;}
+.col-main{padding-left: 0!important;}
+.side-bar {padding-right: 0!important;}
+.top .main-banner {width: 972px!important;}
+.top .main-banner img{height: 257px!important; }

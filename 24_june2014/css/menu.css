@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.menu{
+	display:block;
+	height:50px;
+	margin:0 auto;
+	}
+	
+	.menu ul{
+	background: url(../images/nav_div.gif) no-repeat scroll left top transparent;	
+	height:45px;
+	padding:0 0 0 2px;
+	margin:0 0 0 68px;
+	}
+	.menu ul li{
+		background: url(../images/nav_div.gif) no-repeat  right top transparent;
+		float:left;
+		padding:0 2px 0 0;}
+		
+	.menu ul li a{
+		background:url(../images/nav_bg.gif) repeat-x;
+		color:#000;
+		font:bold 12px/45px Arial, Helvetica, sans-serif;
+		padding:15px 18px;
+		text-transform:uppercase;}
+		
+	.menu ul li a:hover, .menu ul .selected a{
+		background:#737373;
+		color:#fff;
+		text-decoration:none;
+		}

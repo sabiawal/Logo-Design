@@ -1,0 +1,340 @@
+/*--------tooltip css--------*/
+    .ttip {
+    background-image: url("../corfirm.png");
+    background-repeat: no-repeat;
+    background-size: 370px 134px;
+    color: #7D660A;
+    padding: 10px;
+    position: absolute;
+    width: 357px;
+	margin-top: -45px;
+}
+.ttip_bottom {
+    background-image: url("../confirm_bottom.png");
+    background-repeat: no-repeat;
+    background-size: 370px 134px;
+    color: #7D660A;
+    padding: 10px;
+    position: absolute;
+    width: 357px;
+    margin-top: -100px;
+}
+.img_3 {
+    position: relative;
+    top: -75px;
+    z-index: 2;
+}
+.contents {
+    font-size: 13px; 
+    padding: 15px 5px 10px 0; 
+    width: 342px;
+}
+.contents1 {
+    font-size: 13px; 
+    padding: 5px 5px 15px; 
+    width: 340px;
+}
+.note {
+    font-size: 13px;
+    text-align:center;
+    display:block;
+    width: 100%
+}
+#background{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000000;
+    z-index: 1;
+}
+#large {
+    display: none;
+    position: absolute;
+    background: #FFFFFF;
+    padding: 0px;
+    z-index: 10;
+    min-height: 0px;
+    min-width: 0px;
+    color: #336699;
+    margin: 30px 180px;
+}
+#large_bottom {
+    display: none;
+    position: absolute;
+    background: #FFFFFF;
+    padding: 0px;
+    z-index: 10;
+    min-height: 0px;
+    min-width: 0px;
+    color: #336699;
+    margin: -55px 180px;
+}
+#show-email{
+    display: none;
+    background-image: url("../corfirm.png");
+    background-repeat: no-repeat;
+    background-size: 130px 70px;
+    color: #7D660A;
+    padding: 10px;
+    position: absolute;
+    width: 130px; 
+}
+.close-btn {
+    float: right;
+    height: 20px;
+    width: 20px;
+}
+.close-btn1 {
+    float: right;
+    height: 20px;
+    width: 20px;
+}
+#tooltip{
+	position:absolute;
+        opacity: 1;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+        border-radius: 5px;
+        z-index: 2;
+        font-size: 11px;
+	}  
+/*--------end tooltip css--------*/  
+
+img.cs_import1 {
+    border: 1px solid #EEEEEE;
+}
+img.cs_import {
+    border: 1px solid #EEEEEE;
+}
+a img {
+    border: 0 none;
+    padding: 2px;
+}
+.import-email a {
+    display: block;
+    float: left;
+    margin: 0 80px 0 3px;
+    width: 32px;
+	text-decoration:none;
+}
+.import-email {
+	height:36px;
+        margin-top: 20px;
+	padding:0px !important;
+}
+p.seal-image{
+	text-align: center;
+    width: 83px;
+	font-weight:bold;
+}
+p#stores{
+	margin-top:10px!important;
+}
+.contact-import {
+    background-color: #F6F6F6;
+    border: 1px solid #E0E0E0;
+    margin-left: 15px;
+    padding: 10px 5px;
+    width: 580px;
+    }   
+button.connect_btn {
+    padding: 8px 30px 7px;
+}
+.connect-btn {
+    background: linear-gradient(#71A0D8, #3679C8) repeat scroll 0 0 #3679C8;
+    border-color: #709FD7 #4D83C3 #2A68AF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px #8DB2E0 inset;
+    color: #FFFFFF;
+    font: 700 18px/20px Arial,sans-serif;
+    padding: 7px 30px 8px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+.mch {
+    display: inline-block;
+    margin: 9px 0 0;
+}
+.all-contact{
+/*    padding: 5px;*/
+}
+.imp_photo_w img{
+cursor: pointer;
+}
+.imp_photo_h img{
+cursor: pointer;
+}
+.photo_show {
+    float: left;
+    height: 95px;
+    margin: 3px 8px 0 15px;
+    overflow: hidden;
+}
+.photo_show_next{
+    float: left;
+    height: 95px;
+    margin: 3px 8px 0 15px;
+    overflow: hidden;
+}
+.photo_show_{
+    float: left;
+    height: 95px;
+    margin: 3px 8px 0 15px;
+    overflow: hidden;
+}
+.showcontacts{
+color: #CC0033;
+border-bottom: 1px #5691D4 dashed;
+font-family: Tahoma;
+font-size: 13px;
+text-align: left;
+}
+
+.headercontacts {
+color: #FFFFFF;
+font-weight: bold;
+background-color: #5691D4;
+font-family: Tahoma;
+font-size: 13px;
+font-weight: bold;
+text-align: left;
+}
+.showcontacts_bg{height:26px;}
+.importsucess{
+background-color: #FEFFD5;
+background-image: url("images/info_war.png");
+background-position: left center;
+background-repeat: no-repeat;
+border: 1px solid #FFEB70;
+color: #0033FF;
+font-size: 16px;
+font-weight: bold;
+line-height: 1.5;
+margin-bottom: 15px;
+min-height: 40px;
+padding: 5px 5px 5px 80px;
+text-align: left;
+width: 338px;
+}
+.photo_to_desel {
+    bottom: 0;
+    display: none;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+.photo_to_sel {
+    bottom: 0;
+    display: none;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+.show-text {
+    color: green;
+    display: block;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 5px;
+    position: relative;
+    top: -60px;
+    text-align:center;
+}
+.show-text1 {
+    color: green;
+    display: block;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 5px;
+    position: relative;
+    top: -60px;
+    text-align:center;
+}
+.connect_btn {
+    cursor: pointer;
+    background: none repeat scroll 0 0 #339933;
+    border-color: #339933;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px #339933 inset;
+    color: #FFFFFF;
+    font: 700 18px/20px Arial,sans-serif;
+    margin: 5px 0 0 15px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    padding: 8px 30px 7px;
+}
+.sss{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.connect_btn1 {
+    cursor: pointer;
+    background: none repeat scroll 0 0 #339933;
+    border-color: #339933;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px #339933 inset;
+    color: #FFFFFF;
+    font: 700 18px/20px Arial,sans-serif;
+    margin: 5px 0 0 15px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    padding: 8px 30px 7px;
+}
+.sss1{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.how-work{
+    float: right;
+    margin: 0px 10px 0 0; 
+}
+#account-type {
+    margin: 15px 0 0;
+}
+.imp_photo_w {
+    height: 72px;
+    line-height: 25px;
+    width: 72px;
+}
+.imp_photo_w1 {
+    height: 72px;
+    line-height: 25px;
+    width: 72px;
+}
+#account-type {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    margin-bottom: 15px;
+    width: 555px;
+    height: 35px;
+    clear: left;
+    margin-left: 12px;
+}
+.account-img{
+    background-image: url("../images/social_icons/all_image.png");
+    background-position: -130px 0;
+    background-repeat: no-repeat;
+    display: block;
+    height: 34px;
+    margin-left: 10px;
+    width: 50px;
+}
+.account-name i {
+    color: #999999;
+    float: right;
+    font-size: 13px;
+    font-style: normal;
+    margin-right: -480px;
+    margin-top: 10px;
+}

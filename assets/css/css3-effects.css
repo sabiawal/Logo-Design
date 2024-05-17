@@ -1,0 +1,365 @@
+/*main navbar styles start*/
+.navbar-nav > li > a::before {
+	position: absolute;
+	top: 0;
+	left: 33px;
+	overflow: hidden;
+	padding: 10px 0;
+	max-width: 0;
+	color: #f7ffff;
+	white-space: nowrap;
+	/*content: attr(data-hover);
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;*/
+}
+.navbar-nav > li > a:hover::before {
+	max-width: 100%;
+}
+/*main navbar styles end*/
+
+/*orange btn styles start*/
+.orange-btn span {
+	position: relative;
+	display: inline-block;
+	padding: 0 24px;
+	background: url(../images/orange-btn-bg.jpg) 0 0 repeat;
+	/*-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;*/
+}
+.csstransforms3d .orange-btn span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0 24px;
+	background: url(../images/orange-btn-bg.jpg) 0 0 repeat;
+	/*content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;*/
+}
+.orange-btn:hover span{
+	/*-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);*/
+}
+.csstransforms3d .orange-btn:hover span::before {
+	background: url(../images/orange-btn-bg.jpg) 0 0 repeat;
+}
+
+
+.orange-btn1 span {
+	position: relative;
+	display: inline-block;
+	padding: 0 24px;
+	background: #ff8a00;
+	border-bottom: 3px solid #e67c00;
+	/*-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;*/
+}
+.csstransforms3d .orange-btn1 span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0 24px;
+	background: #ff8a00;
+	border-bottom: 3px solid #e67c00;
+	/*content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;*/
+}
+.orange-btn1:hover span{
+	/*-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);*/
+}
+.csstransforms3d .orange-btn1:hover span::before {
+	background: #ff8a00;
+	border-bottom: 3px solid #e67c00;
+}
+/*orange btn styles end*/
+
+/*pink button styles start*/
+.pink-btn{
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+}
+.pink-btn:hover{
+	color: #921b20;
+}
+
+.pink-btn span {
+	position: relative;
+	display: inline-block;
+	padding: 0 19px;
+	background: #f84149;
+	height: 32px;
+	line-height: 2;
+	border-bottom: 2px solid #b73036;
+	/*-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;*/
+}
+.pink-btn span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0 19px;
+	background: #f84149;
+	border-bottom: 2px solid #b73036;
+	/*content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;*/
+}
+.pink-btn:hover span {
+	/*-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);*/
+}
+.pink-btn:hover span::before {
+	background: #f84149;
+}
+/*pink button styles end*/
+
+/*green button styles start*/
+.green-btn{
+	color: #ffffff;
+	font-size: 19px;
+	display: inline-block;
+	text-decoration: none;
+}
+.green-btn:hover, .green-btn:focus{
+	color: #ffffff;
+}
+
+.green-btn span {
+	position: relative;
+	display: inline-block;
+	padding: 0 19px;
+	background: #7db701;
+	height:50px;
+	
+	line-height: 2.8;
+	border-bottom: 3px solid #578307;
+	/*-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;*/
+}
+.green-btn span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	padding: 0 19px;
+	background: #7db701;
+	border-bottom: 3px solid #578307;
+	/*content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;*/
+}
+.green-btn:hover span {
+	/*-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);*/
+}
+.green-btn:hover span::before {
+	background: #7db701;
+}
+.green-btn-port{
+	background: #7db701;
+	border-bottom: 3px solid #578307;
+	color: #FFFFFF;
+    font-size: 20px;
+	display: inline-block;
+	padding: 0 19px;
+	height: 50px;
+	line-height: 2.5;
+}
+.green-btn-port:hover, .green-btn-port:focus{
+    text-decoration: none;
+	color: #ffffff;
+}
+/*green button styles end*/
+
+/*bordered green btn styles start*/
+.multi-color-box .btn-wrap a.green-btn span {
+	position: relative;
+	display: inline-block;
+	background: url(../images/color-box-green.jpg) 0 0 repeat;
+	border: 1px solid #8eda00;
+	border-bottom: 2px solid #5a8c00;
+	width: 113px;
+	/*-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;*/
+}
+.csstransforms3d .multi-color-box .btn-wrap a.green-btn span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/color-box-green.jpg) 0 0 repeat;
+	border: 1px solid #8eda00;
+	border-bottom: 2px solid #5a8c00;
+	width: 113px;
+	/*content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;*/
+}
+.multi-color-box .btn-wrap a.green-btn:hover span {
+	/*-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);*/
+}
+.csstransforms3d .multi-color-box .btn-wrap a.green-btn:hover span::before{
+	background: url(../images/color-box-green.jpg) 0 0 repeat;
+	border: 1px solid #8eda00;
+	border-bottom: 2px solid #5a8c00;
+}
+/*bordered green btn styles end*/
+
+
+/*bordered orange btn styles start*/
+.multi-color-box .btn-wrap a.orange-btn-s span {
+	position: relative;
+	display: inline-block;
+	background: url(../images/color-box-orange.jpg) 0 0 repeat;
+	border: 1px solid #fe8d30;
+	border-bottom: 2px solid #c05700;
+	width: 100%;
+	/*-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;*/
+}
+.csstransforms3d .multi-color-box .btn-wrap a.orange-btn-s span::before {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../images/color-box-orange.jpg) 0 0 repeat;
+	border: 1px solid #fe8d30;
+	border-bottom: 2px solid #c05700;
+	/*content: attr(data-hover);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;*/
+}
+.multi-color-box .btn-wrap a.orange-btn-s:hover span {
+	/*-webkit-transform: rotateX(90deg) translateY(-22px);
+	-moz-transform: rotateX(90deg) translateY(-22px);
+	transform: rotateX(90deg) translateY(-22px);*/
+}
+.csstransforms3d .multi-color-box .btn-wrap a.orange-btn-s:hover span::before {
+	background: url(../images/color-box-orange.jpg) 0 0 repeat;
+	border: 1px solid #fe8d30;
+	border-bottom: 2px solid #c05700;
+}
+/*bordered orange btn styles end*/
+
+/*footer black bar styles start*/
+#black-bar-footer li a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	max-width: 0;
+	color: #00B050;
+	text-decoration: underline;
+	white-space: nowrap;
+	/*content: attr(data-hover);
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;*/
+}
+#black-bar-footer li a:hover::before {
+	max-width: 100%;
+}
+/*footer black bar styles end*/

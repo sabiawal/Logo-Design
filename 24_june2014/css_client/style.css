@@ -1,0 +1,691 @@
+@charset "utf-8";
+/* CSS Document */
+/*********** Header Starts *****************/
+.header {
+	height:150px;
+    padding-bottom: 10px;
+	position:relative;
+}
+.limited-sale {
+	position:absolute;
+	top:8px;
+	left:330px;
+	z-index:1111111;
+}
+.header .logo {
+	float:left;
+	width:380px;
+}
+.header .tag {
+	display:block;
+	float:left;
+	overflow:hidden;
+	padding:10px;
+	text-align:center;
+	width:149px;
+}
+.header .tag p {
+	color:#009900;
+	font:bold 16px/24px "Comic Sans MS", cursive;
+	padding:25px 0 0 0;
+}
+.header .tag a img {
+	margin:0 auto;
+}
+.header .offer {
+	float:right;
+	height:121px;
+	position:relative;
+	width:453px;
+}
+.header .welcome{
+    background: url(../images/client/welcome.png) no-repeat;
+    font: normal 15px/44px arial;
+    height: 34px;
+    left: 22px;
+    padding: 0 0 0 130px;
+    position: absolute;
+    top: 125px;
+    width: 380px;
+    z-index: 11;
+}
+.time-red {
+	color:#ff0000;
+	font:bold 17px/18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-0.04em;
+	position:absolute;
+	left:312px;
+	top:8px;
+}
+.phone-banner{
+    background: url(../images/client/telephone_n_guarantee.png) no-repeat 5px 8px;
+    height: 80px;
+}
+.phone-banner p{
+    color: #0B4A8D;
+    float: right;
+    font: bold 14px/27px Arial,Helvetica,sans-serif;
+    overflow: hidden;
+    padding: 15px 55px 0 0;
+    text-align: right;
+}
+.phone-banner p span{
+    color: #FE5E00;
+    font-size: 27px;
+}
+.limited-offer{
+    margin: 0 0 15px;
+}
+.main-banner .price_banner{
+    float: left;
+}
+/***********   Main Pages Starts  *****************/
+
+/***********   Home Page  *****************/
+.home table th {
+	text-align:center;
+}
+.home table th {
+	font:normal 13px/18px Verdana, Geneva, sans-serif;
+	padding:5px 12px 5px 2px;
+	text-align:right
+}
+.home table th div{text-decoration:underline;}
+.home table th a {
+	border-bottom: 1px dashed #ccc;
+}
+.home table td {
+	font:normal 11px/16px Verdana, Geneva, sans-serif;
+}
+.home .bg-white td, .bg-white th {
+	background:#FFFFFF;
+}
+.home .bg-gray td, .bg-gray th {
+	background:#EFEFEF;
+}
+.home p {
+	text-align:justify;
+}
+.home .button {
+	background:none;
+	background:url(../images/webdesign/order_now.png) no-repeat;
+	border:none;
+	display:inline-block;
+	height:63px;
+	width:144px;
+	cursor:pointer;
+}
+.home .package-list td {
+	font:normal 11px/17px Verdana, Geneva, sans-serif;
+	padding:2px;
+	text-align:left;
+}
+.home .package-list td p {
+	font:normal 11px/18px Verdana, Geneva, sans-serif;
+	padding:5px 2px;
+	text-align:center;
+}
+.home .package-list td p span{
+	background:#8BBC00;
+	font:normal 13px/20px Georgia, "Times New Roman", Times, serif;
+	padding:1px 5px;
+	}
+
+.home .extra-detail{
+	width:750px;
+	}
+.home .extra-detail-outter{
+	background:url(../images/webdesign/white-box.png) no-repeat top left;
+	float:left;	
+	margin:0 20px 20px 0;
+	min-height:254px;	
+	overflow:hidden;
+	padding:10px 0 0;
+	width:350px;
+	}
+.home .extra-detail-inner{
+	background:url(../images/webdesign/white-box.png) no-repeat bottom left;
+	padding: 0 15px;
+	min-height:254px;
+	}
+.home .extra-detail h2{
+	color:#C40022;
+	font:bold 16px/18px Arial, Helvetica, sans-serif;
+	margin:0 0 5px;
+	}
+.home .extra-detail p{
+	color:#505050;
+	}
+.home .extra-detail .button{
+	background:url(../images/webdesign/find_more.png) no-repeat;
+	height:40px;
+	margin:0 0 0 67px;
+	width:172px;
+	}
+
+
+
+/*Footer link Pages*/
+
+.footer-link h1 {
+	color:#8ABB00;
+	font:bold 16px/18px Arial, Helvetica, sans-serif;
+	margin:0 0 15px;
+}
+.footer-link h2 {
+	color:#8ABB00;
+	font:bold 16px/18px Arial, Helvetica, sans-serif;
+	margin:0 0 10px;
+	text-decoration:underline;
+}
+.footer-link p {
+	color:#666;
+	font:normal 14px/18px Verdana, Geneva, sans-serif;
+	margin:0 0 20px;
+}
+.footer-link h3 {
+	color:#666666;
+	font:bold 14px/18px Verdana, Geneva, sans-serif;
+	margin:0 0 10px;
+}
+.footer-link a {
+	color:#3E4A0A;
+}
+.footer-link a:hover {
+	color:#9DCE13;
+}
+.footer-link h4 {
+	color:#666666;
+	font:bold 14px/18px Verdana, Geneva, sans-serif;
+}
+.footer-link ul {
+	margin:0 0 20px 40px;
+}
+.footer-link ul li {
+	color:#444;
+	font:normal 12px/18px Verdana, Geneva, sans-serif;
+	list-style:decimal outside;
+	margin:0 0 5px 0;
+}
+.casestudy p {
+	font:normal 12px/16px Verdana, Geneva, sans-serif;
+}
+.casestudy .flash-object {
+	margin:0 0 30px 0;
+}
+.charity-works {
+	margin:0 0 40px 0;
+}
+.charity-works img {
+	padding:0 10px 10px 0;
+}
+/*Side-bar starts*/
+.side-bar h1 {
+	color:#8ABB00;
+	font:normal 18px/18px Arial, Helvetica, sans-serif;
+	padding:0 0 10px 0;
+}
+.side-bar h2 {
+	font:bold 16px/16px Arial, Helvetica, sans-serif;
+	padding:0 0 5px 0;
+}
+.side-bar p {
+	color:#666;
+	font:normal 12px/16px Verdana, Geneva, sans-serif;
+	padding:0 0 20px 0;
+	text-align:left;
+}
+.side-bar a {
+	color:#3E4A0A;
+}
+.side-bar a:hover {
+	color:#9dce13;
+}
+.side-bar ul {
+	margin:0 0 10px 0;
+}
+.side-bar ul li {
+	color:#990066;
+	font:bold 12px/28px Arial, Helvetica, sans-serif;
+	padding:0 0 0 20px;
+}
+.best-value, .live-support, .charity, .security, .awards, .side-bar .testimonials, .side-bar .customer-support, .side-bar .guarantee, .sidebar-support {
+	margin:0 0 20px 0;
+}
+.sidebar-support {	
+	background:url(../images/webdesign/live-support.jpg) no-repeat center;
+	height:260px;
+    margin:0 0 20px 0;
+    position: relative;
+}
+.sidebar-support span.images{
+    left: 24px;
+    position: absolute;
+    top: 24px;
+}
+.sidebar-support p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;
+	padding:218px 0px 0px 35px;
+	font-weight:bold;
+	color:#ff720e;
+}
+.best-value, .live-support-text, .charity-text, .awards-text, .side-bar .testimonials-text, .side-bar .customer-support-text, .staff-list-text {
+	background:#dce5ad;
+	background:#F7FBE2;
+	overflow:hidden;
+	padding:10px;
+}
+.staff-list-text {
+	overflow:hidden;
+}
+.staff-list-text ul li {
+	background:none;
+	overflow:hidden;
+	padding:0 10px 0 0;
+	width:210px;
+}
+.staff-list-text ul li p {
+	color:#000;
+	font:normal 11px/14px Verdana, Geneva, sans-serif;
+}
+.staff-list-text ul li a {
+	color:#3E4A0A;
+	text-decoration:underline;
+}
+.staff-list-text ul li a:hover {
+	color:#9dce13;
+}
+.newsletter {
+	background:#F7FBE2;
+	padding:10px;
+}
+/*footer-1*/
+
+.footer {    
+	border-top:1px dashed #ccc;    
+}
+.footer .list-1, .footer .list-2, .footer .list-3, .footer .list-4 {
+	float:left;
+	margin:0 0 25px 0;
+	width:240px;
+}
+.footer .list-1 ul, .footer .list-2 ul, .footer .list-3 ul, .footer .list-4 ul {
+}
+.footer .list-1 ul li, .footer .list-2 ul li, .footer .list-3 ul li, .footer .list-4 ul li {
+	color:#98C520;
+	list-style:inside disc;
+}
+.footer .list-1 ul li a, .footer .list-2 ul li a, .footer .list-3 ul li a, .footer .list-4 ul li a {
+	color:#3D3D3D;
+	font:bold 11px/18px Arial, Helvetica, sans-serif;
+}
+.footer .list-1 ul li a:hover, .footer .list-2 ul li a:hover, .footer .list-3 ul li a:hover, .footer .list-4 ul li a:hover {
+	color:#777;
+	text-decoration:none;
+}
+.footer p {
+	color:#555;
+	font:normal 12px/22px Arial, Helvetica, sans-serif;
+	margin:0 0 25px 0;
+	text-align:center;
+}
+/*footer-2*/
+
+	.seals {
+	margin:0 auto;
+	width:1002px;
+}
+.seal-top-all {
+	background:url(../images/webdesign/seal-top.jpg) no-repeat center;
+	height:631px;
+}
+.seal-top-all p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-align:right;
+	padding:520px 200px 0px 0px;
+	line-height:40px;
+	font-weight:bold;
+	color:#403e3f;
+}
+.seal-top-all p span {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:32px;
+	text-align:right;
+	padding:370px 0px 0px 0px;
+	font-weight:bold;
+	color:#ff720e;
+}
+.footer-menu {
+	background:url(../images/footer-menu-bg.jpg) no-repeat;
+	height:36px;
+	margin:0 auto;
+	width:945px;
+}
+.footer-menu ul {
+}
+.footer-menu ul li {
+	float:left;
+}
+.footer-menu ul li a {
+	color:#A5A7AB;
+	font:normal 12px/35px Verdana, Geneva, sans-serif;
+	padding:12px 13px;
+}
+.footer-menu ul li a:hover {
+	color:#4da6e9;
+}
+.button {
+	cursor:pointer;
+}
+.footer .security-seals{margin: 0 auto; width: 358px;}
+.footer .security-seals ul{overflow: hidden;}
+.footer .security-seals ul li{float: left; padding: 0 5px 0 0;}
+
+/****    CLIENT PANEL CSS    ***********/
+.client-panel table{
+    
+}
+.client-panel table td a{
+    display: inline-block;
+    margin: 0 10px 20px 0px;
+}
+.client-panel .imp-submit{
+    
+    background:url(../images/client/submit.png) no-repeat;
+    border:0px; 
+    cursor: pointer;
+    height:40px; 
+    width:251px; 
+}
+.multi-order{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #eee; 
+    margin-bottom: 15px; 
+    padding: 15px;     
+    padding-bottom: 0; }
+
+.multi-order p{}
+.multi-order p select{padding: 5px; width: 200px;}
+.multi-order p span{display: inline-block;}
+
+
+#feedback-containner div{
+	margin-top:10px;
+}
+/*.copyright
+{
+    left: 15px;
+    margin-top: -150px;
+    position: absolute;
+    top: 100%;
+}*/
+
+/*
+ *Savman
+*/
+
+.raitng li {
+	display:inline-block !important;
+	float:left !important;
+}
+.raitng{
+	overflow:hidden;
+}
+
+/**** COPYRIGHT CSS STARTS  ***/
+.copyright .copyright-banner
+{
+    margin-bottom: 15px;
+}
+.copyright h1, .copyright h2, .copyright h3
+{
+    color: #8BBC00;
+    font:bold 27px/30px Verdana,Geneva,sans-serif;    
+    text-align: justify;   
+}
+.copyright h2
+{
+    font-size: 18px;
+}
+.copyright h3
+{
+    font-size: 16px;
+}
+.copyright p, .copyright ul li
+{
+    color: #565655;
+    font: normal 14px/24px arial; 
+   
+    text-align: justify;
+}
+
+.copyright div.faq
+{
+    margin-bottom: 15px;
+}
+
+/*********** Copyright package css Copied form old css ************/
+.copyright-package{color: #333333; font: normal 12px/16px Verdana,Arial,Helvetica,sans-serif;}
+
+.copy_table {    
+  width: 621px;
+  color: #717171;
+  margin: 30px 0 0 0;
+  padding: 0 0 9px 10px;
+  height: 25px;
+  position: relative;
+  z-index: 88;
+  }
+  .copy_table .bGetStartedAlt { float: left; }
+  .copy_table_head {
+    float: left;
+    padding: 6px 0 0 8px;
+    }
+  .copy_table.trademark .copy_table_head { padding-top: 0px; }
+  .copy_table_head.selectPackage { padding: 6px 0 0 0 !important; }
+  .copy_package {
+    width: 63px;
+    font: bold 11px Verdana;
+    color: #717171;
+    z-index: 88;
+    }
+    .copy_package a {
+      text-decoration: none !important;
+      color: #717171;
+      outline: none;
+      }
+      .copy_package a:hover { color: #717171; }
+    .copy_package.silverPack { position: absolute; top: -18px; right: 125px; }
+    .copy_package.goldPack { position: absolute; top: -18px; right: 20px; }
+    /* Trademark Compare Table */   
+    .copy_table.trademark .copy_package.silverPack { position: absolute; top: -18px; right: 230px; }
+    .copy_table.trademark .copy_package.goldPack { position: absolute; top: -18px; right: 125px; width: 64px; }
+    .copy_table.trademark .copy_package.executivePack { position: absolute; top: -18px; right: 20px; width: 64px; }
+     
+    .basic {
+      color: #3c70aa;
+      font-size: 13px;
+	  text-align:center;
+      }
+    .exclusive {
+      color: #ff6000;
+      font-size: 13px;
+	  text-align:center;
+      }      
+    .executivePackage {
+      color: #ffc444;
+      font-size: 13px;
+      }            
+      
+.copy_TableTop {
+  background:url(../images/client/bg_cont_top.gif) no-repeat;
+  width: 631px;
+  height: 10px;
+  font-size: 0;
+  line-height: 10px;
+  padding: 0;
+  margin: 0;
+  }      
+.copy_TableBody {
+  width: 631px;
+  background: #fff url(../images/client/bg_cont_tile.gif) repeat-x;
+  color: #717171;
+  font-size: 10px;
+  margin: 0 0 15px 0;
+  }
+  .copy_TableContent {
+    width: 631px;
+    background: url(../images/client/bg_cont_sides.gif) repeat-y;
+    }
+    .copy_TableContent table {
+      width: 586px;
+      border-collapse: collapse;
+      padding: 5px 0 0 0;
+      margin: 0 0 0 24px;
+      }    
+      .copy_TableContent table tbody {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        }
+        .copy_TableContent table tr td { border-bottom: 1px solid #bfcad5; }
+        .copy_TableContent table tr.last td { border-bottom: none !important; }     
+        .copy_TableContent table tr.packageHighlight td { background: url(../images/client/bg_table_highlight.gif) repeat-x; }   
+        .packageHighlightTitle {
+          color: #004690;
+          }  
+        .copy_TableContent table td {
+          color: #717171;
+          font-size: 11px;
+          padding: 7px 0 7px 0;         
+          } 
+          
+          .copy_TableContent table td.basic a{display: block; margin: 0 0 0 20px;}         
+          .copy_TableContent table td.description { width: 311px; }          
+          .copy_TableContent.trademark table td.description { width: 290px; }
+          .copy_TableContent table td.check {}        
+          .copy_TableContent table td.check.basic { padding: 0 0 0 0px; }                 
+          /*.copy_TableContent table td.check.exclusive { padding: 0 14px 0 0; }    
+           Trademark Compare Table */ 
+          .copy_TableContent.trademark table td.check.basic { padding: 0 0 0 40px; }                 
+          .copy_TableContent.trademark table td.check.exclusive { padding: 0 45px 0 70px; }  
+          .copy_TableContent.trademark table td.check.executivePackage { padding: 0 14px 0 10px; }          
+          .copy_TableFootnote { padding: 5px 0 0 23px; } 
+          .copy_TableContent table td.basic .icoCheck {margin: 0 0 0 94px;}
+          .copy_TableContent table td.basic span {margin: 0 0 0 34px;}
+          .copy_TableContent table td.exclusive .icoCheck {margin: 0 0 0 64px;}        
+                               
+.copy_TableBottom {
+  background: url(../images/client/bg_cont_bottom.gif) no-repeat;
+  width: 631px;
+  height: 9px;
+  font-size: 0;
+  clear: both;
+  }
+
+
+/*copyright order form*/
+.copyright .order h1{color: #0099FF;}
+.copyright .order h2{color: #333;}
+.copyright .order h2 span{color: #7DC011;}
+.copyright .order h2 span span{color: #0099FF;}
+
+/*.copyright .order-form h2{color: #333; font: normal 26px/44px Verdana,Arial,Helvetica,sans-serif;}
+.copyright .order-form h3{color: #333; font: bold 12px/16px Verdana,Arial,Helvetica,sans-serif;}*/
+.copyright .order-form p{overflow: hidden;}
+.copyright .order-form p.hv_card{overflow: inherit;}
+.copyright .order-form p label{width: 150px; text-align: right; padding-right: 8px; font: bold 12px/20px Verdana,Arial,Helvetica,sans-serif; float: left; color: #333;}
+
+
+
+.copyright .order-form p label.state{width: 45px;}
+.copyright .order-form p input.fields{width: 200px; height: 24px; float: left;}
+.copyright .order-form p input.street{width: 455px;}
+.copyright .order-form p input.error{background: #f00;}
+
+.copyright .order-form p.radio input{width: 20px;}
+.copyright .order-form p.radio label{text-align: left; font: normal 12px/20px Verdana,Arial,Helvetica,sans-serif; width: 250px;}
+.copyright .order-form p.radio span{width: 300px; float: left; margin-bottom: 20px;}
+.copyright .order-form p.radio .aboutYourWork:hover{cursor: pointer;}
+
+.copyright .order-form p.submit{}
+.copyright .order-form p.submit input{ color: #0099FF; font:bold 16px/24px Verdana,Arial,Helvetica,sans-serif; margin-left: 158px; padding: 10px 20px; text-transform: capitalize; }
+
+/******** jetpay page css ***********/
+.jetpay h1{
+    font: normal 48px/60px arial;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.form-wrap{
+    border: 2px solid #ccc;
+    border-radius:5px;
+    margin: 0 0 10px;
+    padding: 5px;
+    width: 490px;    
+}
+.form-wrap h2{
+    background: #bbb;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+    
+}
+.label-wrap{
+    
+    padding: 5px;
+}
+.label-wrap span{
+    display: inline-block;
+    padding: 3px 5px;
+    width: 300px;
+}
+.label-wrap span#progress{   
+    width: inherit;
+}
+.label-wrap span.labeltext{
+    background: #eee;
+    border-right: 1px solid #ddd;     
+    text-align: right;
+    width: 145px;
+}
+.label-wrap img{
+    display: inherit;
+}
+
+.label-wrap .button-back, .label-wrap .button-submit
+{
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    outline: none;
+    overflow: hidden; 
+    text-indent: -9999px; 
+}
+.label-wrap .button-back
+{
+   background: url(../images/jetpay-back.jpg) no-repeat 0 -40px; 
+   width: 70px;
+}
+.label-wrap .button-back:hover
+{
+  background: url(../images/jetpay-back.jpg) no-repeat 0 0px;   
+}
+.label-wrap .button-submit
+{
+    background: url(../images/jetpay-make-payment.jpg) no-repeat 0 -40px; 
+    width: 190px;
+    
+}
+.label-wrap .button-submit:hover
+{
+   background: url(../images/jetpay-make-payment.jpg) no-repeat 0 0px; 
+}
+
+ol.steps{margin-left: 45px;}
+ol.steps li{list-style-type: decimal; margin-bottom: 10px; font: normal 13px/16px Verdana,Arial,Helvetica,sans-serif;}
+/*********** Copyright package css Copied form old css Ends ************/

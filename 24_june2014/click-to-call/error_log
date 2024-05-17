@@ -1,0 +1,40 @@
+[30-Mar-2012 03:15:43] PHP Fatal error:  Uncaught exception 'Exception' with message 'JSON-RPC error: NUMBER_NOT_VALID' in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php:21
+Stack trace:
+#0 /home/logodesi/public_html/click-to-call/index.php(20): JSON_RPC_Client->call('clicktocall.cal...', 'F28C3E00', '+08007569910', '+{E.164}', 20, '2012-03-30 09:0...', '', 'BLOCKED')
+#1 {main}
+  thrown in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php on line 21
+[30-Mar-2012 03:16:05] PHP Fatal error:  Uncaught exception 'Exception' with message 'JSON-RPC error: NUMBER_NOT_VALID' in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php:21
+Stack trace:
+#0 /home/logodesi/public_html/click-to-call/index.php(20): JSON_RPC_Client->call('clicktocall.cal...', 'F28C3E00', '+08007569910', '+{E.164}', 20, '2012-03-30 09:0...', '', 'BLOCKED')
+#1 {main}
+  thrown in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php on line 21
+[30-Mar-2012 03:16:18] PHP Fatal error:  Uncaught exception 'Exception' with message 'JSON-RPC error: NUMBER_NOT_VALID' in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php:21
+Stack trace:
+#0 /home/logodesi/public_html/click-to-call/index.php(20): JSON_RPC_Client->call('clicktocall.cal...', 'F28C3E00', '+9779841520846', '+{E.164}', 20, '2012-03-30 09:0...', '', 'BLOCKED')
+#1 {main}
+  thrown in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php on line 21
+[30-Mar-2012 04:52:41] PHP Fatal error:  Uncaught exception 'Exception' with message 'JSON-RPC error: NUMBER_NOT_VALID' in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php:21
+Stack trace:
+#0 /home/logodesi/public_html/click-to-call/index.php(20): JSON_RPC_Client->call('clicktocall.cal...', 'F28C3E00', '+9548615909', '+{E.164}', 20, '2012-03-30 09:0...', '', 'BLOCKED')
+#1 {main}
+  thrown in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php on line 21
+[03-Apr-2012 02:54:49] PHP Fatal error:  Uncaught exception 'Exception' with message 'JSON-RPC error: NUMBER_NOT_VALID' in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php:21
+Stack trace:
+#0 /home/logodesi/public_html/click-to-call/index.php(20): JSON_RPC_Client->call('clicktocall.cal...', 'F28C3E00', '+9779841520846', '+{E.164}', 60, '2012-04-03 09:0...', '', 'BLOCKED')
+#1 {main}
+  thrown in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php on line 21
+[03-Apr-2012 03:01:07] PHP Fatal error:  Uncaught exception 'Exception' with message 'JSON-RPC error: NUMBER_NOT_VALID' in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php:21
+Stack trace:
+#0 /home/logodesi/public_html/click-to-call/index.php(20): JSON_RPC_Client->call('clicktocall.cal...', 'F28C3E00', '+97719841520846', '+{E.164}', 60, '2012-04-03 09:0...', '', 'BLOCKED')
+#1 {main}
+  thrown in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php on line 21
+[03-Apr-2012 03:01:33] PHP Fatal error:  Uncaught exception 'Exception' with message 'JSON-RPC error: NUMBER_NOT_VALID' in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php:21
+Stack trace:
+#0 /home/logodesi/public_html/click-to-call/index.php(20): JSON_RPC_Client->call('clicktocall.cal...', 'F28C3E00', '+9779841520846', '+{E.164}', 60, '2012-04-03 09:0...', '', 'BLOCKED')
+#1 {main}
+  thrown in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php on line 21
+[03-Apr-2012 03:22:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'JSON-RPC error: NUMBER_NOT_VALID' in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php:21
+Stack trace:
+#0 /home/logodesi/public_html/click-to-call/index.php(20): JSON_RPC_Client->call('clicktocall.cal...', 'F28C3E00', '+19548615909 ', '+{E.164}', 60, '2012-04-03 09:0...', '', 'BLOCKED')
+#1 {main}
+  thrown in /home/logodesi/public_html/click-to-call/JSON_RPC_Client.php on line 21

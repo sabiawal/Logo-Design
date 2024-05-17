@@ -1,0 +1,135 @@
+[25-May-2011 23:32:33] PHP Parse error:  syntax error, unexpected $end in /home/logodesi/public_html/application/controllers/logodesign.php on line 146
+[29-May-2011 23:02:56] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:08] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:37] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[29-May-2011 23:03:48] PHP Fatal error:  Call to undefined function  stie_url() in /home/logodesi/public_html/application/views/terms.php on line 111
+[01-Jun-2011 07:38:30] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/logodesi/public_html/application/controllers/logodesign.php on line 141
+[01-Jun-2011 07:38:30] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in /home/logodesi/public_html/application/controllers/logodesign.php on line 141
+[01-Jun-2011 07:38:30] PHP Parse error:  syntax error, unexpected $end in /home/logodesi/public_html/application/controllers/logodesign.php on line 192
+[01-Jun-2011 07:38:30] PHP Parse error:  syntax error, unexpected $end in /home/logodesi/public_html/application/controllers/logodesign.php on line 353
+[01-Jun-2011 07:38:31] PHP Parse error:  syntax error, unexpected $end in /home/logodesi/public_html/application/controllers/logodesign.php on line 353
+[18-Jun-2011 23:19:11] PHP Parse error:  syntax error, unexpected $end in /home/logodesi/public_html/application/controllers/logodesign.php on line 145
+[18-Jun-2011 23:19:11] PHP Parse error:  syntax error, unexpected $end in /home/logodesi/public_html/application/controllers/logodesign.php on line 145
+[18-Jun-2011 23:19:12] PHP Parse error:  syntax error, unexpected $end, expecting '(' in /home/logodesi/public_html/application/controllers/logodesign.php on line 481
+[31-Jul-2011 01:04:36] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 01:07:58] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 01:08:03] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 01:08:56] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 01:13:56] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:04:20] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:07:56] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:13:55] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:14:14] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:17:58] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:20:12] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:21:11] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:21:14] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:21:17] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:21:20] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:21:37] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:22:08] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:23:21] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:23:48] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:25:37] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:25:49] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:25:52] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:26:14] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:28:24] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 02:30:28] PHP Parse error:  syntax error, unexpected $end in /home/logodesi/public_html/system/core/Hooks.php on line 143
+[31-Jul-2011 02:30:29] PHP Fatal error:  Class 'CI_Input' not found in /home/logodesi/public_html/system/core/Common.php on line 166
+[31-Jul-2011 02:34:06] PHP Fatal error:  Call to a member function insert() on a non-object in /home/logodesi/public_html/application/models/logodesignmodel.php on line 151
+[31-Jul-2011 03:11:42] PHP Parse error:  syntax error, unexpected $end in /home/logodesi/public_html/application/views/ordertwo.php on line 1394
+[04-Jan-2012 21:20:04] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/logodesi/public_html/default.php(1) : eval()'d code on line 1
+[04-Jan-2012 21:20:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/logodesi/public_html/default.php(1) : eval()'d code on line 1
+[21-Mar-2012 11:32:11] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:11] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:11] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'application/config/constants.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:11] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:11] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:11] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'application/config/constants.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:13] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:13] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:13] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'application/config/constants.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:14] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:14] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:14] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'application/config/constants.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:15] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:15] PHP Warning:  require(application/config/constants.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:32:15] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'application/config/constants.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/logodesi/public_html/system/core/CodeIgniter.php on line 62
+[21-Mar-2012 11:55:50] PHP Parse error:  syntax error, unexpected '=' in /home/logodesi/public_html/includes/web-design/footer.php on line 32
+[01-May-2012 02:07:18] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 02:12:25] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 02:14:06] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 02:41:54] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 02:43:36] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 03:23:55] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 03:24:11] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:13:04] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:13:38] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:14:39] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:19:20] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:30:03] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:34:15] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:34:59] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:36:04] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:47:35] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:49:32] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 04:59:14] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[01-May-2012 05:09:05] PHP Fatal error:  Call to undefined method Logodesignmodel::captchamail() in /home/logodesi/public_html/application/controllers/logodesign.php on line 245
+[03-May-2012 03:19:51] PHP Parse error:  syntax error, unexpected '}' in /home/logodesi/public_html/application/views/thankyou.php on line 26
+[16-May-2012 03:50:45] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/logodesi/public_html/application/views/paybank.php on line 300
+[13-Jun-2012 11:37:04] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:26] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:26] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:26] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:26] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:26] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:26] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:26] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:26] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:26] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:27] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:27] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:27] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:27] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:27] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:27] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:27] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:27] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:27] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:29] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:30] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:30] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:30] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:31] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:32] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:33] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:52] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[13-Jun-2012 11:37:53] PHP Parse error:  syntax error, unexpected ':' in /home/logodesi/public_html/application/controllers/logodesign.php on line 150
+[31-May-2013 07:23:02] PHP Fatal error:  Call to undefined function  getextension() in /home2/logodesi/public_html/application/views/client/clientFinalFiles.php on line 67
+[31-May-2013 07:23:26] PHP Fatal error:  Call to undefined function  getextension() in /home2/logodesi/public_html/application/views/client/clientFinalFiles.php on line 67

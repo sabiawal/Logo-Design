@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+/*------ Col2-set ------*/
+.col2-set {
+	width:700px;
+	overflow:hidden;
+	margin:0px;
+	padding:15px 0px;
+	
+}
+.col-1 {
+	width:21%;
+	float:left;
+	
+	
+}
+.col-2 {
+	
+	float:right;
+	width:77%;
+	
+}
+
+/*---------- Block Set ------*/
+.block {
+	margin:0 0 10px 0;
+}
+.block-title {
+	padding:2px 10px;
+	
+}
+.block-title h2 {
+	color:#0099FF;
+	font:bold 16px/24px Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+}
+.block-content {
+	padding:2px 10px;
+	background:#FFFFFF;
+}
+.block-content p {
+	color:#222222;
+	font-family:Arial, Helvetica, sans-serif;
+}
+

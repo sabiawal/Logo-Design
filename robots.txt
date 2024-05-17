@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: 
+Disallow: /admin_panel/
+Disallow: /application/
+Disallow: /new_highrise2/
+Disallow: /system/
+Disallow: /.ftpquota
+Disallow: /cgi-bin/
+Allow: /sitemap.htm
+Sitemap: http://www.logodesignguarantee.co.uk/sitemap.xml

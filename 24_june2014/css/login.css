@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background-color: #E5E5E5;
+text-align: center;
+}
+.login {
+padding: 25px 28px;
+background: white;
+text-align: left;
+width: 410px;
+margin: 125px auto 10px ;
+font-family: lucida grande,verdana;
+font-size: 12px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+-o-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow: 0 0 6px #999;
+-webkit-box-shadow: 0 0 6px #999;
+-0-box-shadow: 0 0 6px #999;
+box-shadow: 0 0 6px #999;
+border: 1px solid #AAA;
+}
+h1{
+color: black;
+font-size: 16px;
+margin: 0 0 20px 0;
+padding: 0;
+font-family: "Lucida Grande",arial,sans-serif;
+border-bottom: 0;
+font-weight: bold;
+display: block;
+}
+h2 {
+color: black;
+font-size: 14px;
+margin: 0 0 2px 0;
+padding: 0;
+font-family: "Lucida Grande",arial,sans-serif;
+display: block;
+font-weight: bold;
+}
+input[type="password"], input[type="text"]{
+width: 275px;
+font-size: 14px;
+padding: 3px;
+margin:3px 0px 15px 0px;
+background-color:#fff;
+border:1px solid #999999;
+cursor: auto;
+}
+label input {
+margin-bottom:12px;
+}
+.error{color: #f00;}
