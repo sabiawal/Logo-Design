@@ -7,13 +7,196 @@
 		object-fit: cover !important;
 	}
 </style>
-<section id="inner-cont-banner">
+
+<style>
+	/* General styles for the banner */
+	.banner {
+		background-color: #FEDC45;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.banner-text {
+		color: black;
+		font-weight: 600;
+		font-size: 1.6rem;
+	}
+
+	/* Styles for mobile view */
+	@media (max-width: 700px) {
+		.banner {
+			padding: 3px;
+		}
+
+		.banner-text {
+			font-size: 1.36rem;
+		}
+	}
+
+	/* Styles for desktop view */
+	@media (min-width: 600px) {
+		.banner {
+			padding: 3px;
+		}
+
+		.banner-text {
+			font-size: 1.6rem;
+		}
+	}
+</style>
+
+<style>
+	/* General styles */
+	.information {
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	.head-list {
+		padding-left: 0;
+	}
+
+	.info-item {
+		color: #222;
+		font-size: 1.4rem;
+		font-weight: 600;
+		margin-top: 25px;
+	}
+
+	.info-item a img {
+		margin-left: 5px;
+	}
+
+	/* Remove margin-top for second info-item */
+	.info-item + .info-item {
+		margin-top: 0;
+	}
+
+	/* Tooltip custom styles */
+	.tooltip {
+		left: 35px !important; /* Adjusts the tooltip slightly to the left */
+	}
+
+	/* Styles for mobile view */
+	@media (max-width: 767px) {
+		.info-item {
+			font-size: 1.2rem;
+			margin-top: 20px;
+		}
+
+		.info-item + .info-item {
+			margin-top: 0;
+		}
+
+		.info-item a img {
+			width: 16px;
+			height: 16px;
+		}
+	}
+
+	/* Styles for desktop view */
+	@media (min-width: 768px) {
+		.info-item {
+			font-size: 1.4rem;
+			margin-top: 25px;
+		}
+
+		.info-item + .info-item {
+			margin-top: 0;
+		}
+
+		.info-item a img {
+			width: 20px;
+			height: 20px;
+		}
+	}
+</style>
+
+<style>
+	/* Default styles for desktop */
+	.center-text {
+		text-align: left; /* Default text alignment */
+		display: block; /* Ensure display is block on desktop */
+		justify-content: flex-start; /* Align items to the start by default */
+		align-items: flex-start; /* Align items to the start by default */
+	}
+
+	/* Media query for mobile devices */
+	@media (max-width: 767px) {
+		.center-text {
+			display: flex; /* Use flexbox for centering */
+			justify-content: center; /* Center horizontally */
+			align-items: center; /* Center vertically */
+			text-align: center; /* Center the text itself */
+		}
+	}
+</style>
+
+<style>
+	/* Hide the mobile version by default */
+	.mobile-only {
+		display: none;
+	}
+
+	/* Show the desktop version by default */
+	.desktop-only {
+		display: block;
+	}
+
+	/* Media query for mobile devices */
+	@media (max-width: 767px) {
+		/* Hide the desktop version on mobile */
+		.desktop-only {
+			display: none;
+		}
+
+		/* Show the mobile version on mobile */
+		.mobile-only {
+			display: block;
+		}
+	}
+</style>
+
+<section>
+	<div class="container" style="padding:0px;">
+		<div class="information">
+			<div class="col-sm-12 clearfix">
+				<ul class="list-unstyled head-list">
+					<li class="info-item">UK Hand-Drawn Logos = Higher Quality 
+						<a class="test1" data-toggle="tooltip" data-placement="bottom" data-html="true" data-max-width="550px" title="" data-original-title="<span class='tt-head'>Logo Design Guarantee™</span><br/>
+						<span class='tt-inner'>All our designers are based in the UK.<br/><br/>
+						<ul class='ldg-tooltip'><li class='ldg-bp'>&#10004; All our designers hold graphic design degrees.</li>
+						<li class='ldg-bp'>&#10004; We do <u>not</u> outsource any works.</li>
+						<li class='ldg-bp'>&#10004; All our logos are hand-drawn, which greatly increases the sophistication of our logos.</li>
+						<li class='ldg-bp'>&#10004; We have 16+ yrs experience.</li>
+						<li class='ldg-bp'>&#10004; We have served 285,000+ clients.</li></ul><br/>
+						<span class='tt-head'>Our competitors:</span><br/><ul class='ldg-tooltip'><li class='ldg-bp2'>&#10004; They often outsource to India, but use London PO 
+						Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art software, which makes their logos look cheap.</li></ul>"><img src="assets/images/added/silver-info.jpg"> </a>
+					</li>
+					<li class="info-item">365-Day, 100% Money Back Guarantee
+						<a class="test" data-toggle="tooltip" data-placement="bottom" data-html="true" title="" 
+						data-max-width="550px" data-original-title="No questions, no interrogations, no fuss – just a whole lot of trust. We guarantee your money back if for any reason you are dissatisfied with our services."><img src="assets/images/added/silver-info.jpg"> </a>
+					</li>
+				</ul>
+				<hr>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="inner-cont-banner" style="position:relative;">
+	<section>
+        <div class="banner">
+            <h5 class="text-center banner-text">Half-Price Sale Ends Midnight, Friday 10 February ’24</h5>
+        </div>
+    </section>
+
 	<div id="mycarousel" class="carousel video_carousel_fade animate_text" data-ride="carousel" data-interval="8000">
 
-		<!--======= Wrapper For Slides =======-->
-		<div class="carousel-inner" role="listbox">
+				<!--======= Wrapper For Slides =======-->
+				<div class="carousel-inner" role="listbox">
 
-			<!--========= First Slide =========-->
+					<!--========= First Slide =========-->
 
 
 			<div class="item active " data-interval="8000" data-pause="false">
@@ -26,15 +209,13 @@
 									<div class="banner-caption white-bg-main text-left">
 										<div class="banner-caption-head">
 											<h2>
-												Over <span>10 Years</span> of
-												Experience </h2>
+												Over<span> 10 Years</span> of Experience 
+											</h2>
 										</div>
 										<div class="banner-desc ">
 											<ul>
-												<li> Our recruitment is highly selective
-												</li>
-												<li>Each one of our designers have over <br>
-													10 years of experience</li>
+												<li> Our recruitment is highly selective</li>
+												<li>Each one of our designers have over 10 years of experience</li>
 												<li>We can prove it!</li>
 											</ul>
 										</div>
@@ -66,11 +247,8 @@
 										</div>
 										<div class="banner-desc ">
 											<ul>
-												<li> Personal support 9am-9pm by phone and<br>
-													live chat
-												</li>
-												<li>Dedicated project manager <br>
-													10 years of experience</li>
+												<li>Personal support 9am-9pm by phone and live chat</li>
+												<li>Dedicated project manager 10 years of experience</li>
 												<li>6-Hour Logo Design Service!</li>
 											</ul>
 										</div>
@@ -97,18 +275,14 @@
 									<div class="banner-caption white-bg-main text-left">
 										<div class="banner-caption-head">
 											<h2>
-												<span>In-House</span> UK Design
-												Team
+												<span>In-House</span> UK Design	Team
 											</h2>
 										</div>
 										<div class="banner-desc ">
 											<ul>
-												<li> We do not outsource
-												</li>
-												<li>All of our designers hold degrees <br>
-													from leading institutions</li>
-												<li>Multiple expert designers work on <br>
-													your logo</li>
+												<li> We do not outsource</li>
+												<li>All of our designers hold degrees from leading institutions</li>
+												<li>Multiple expert designers work on your logo</li>
 											</ul>
 										</div>
 										<br>
@@ -214,25 +388,31 @@
 			</span>
 			<span class="sr-only">Next</span>
 		</a>
-
 	</div>
-
-
-
 </section>
+
 <section class="content clearfix">
 	<div id="banner-bottom-slogan">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6">
-					<h3>We will <a href="<?php echo base_url('compare'); ?>"><span class="theme-green-style"></span></a> any competitor's price.
-						<br>
-						Guaranteed.
-					</h3>
+				<div class="col-sm-6 alpha center-text" style="padding:15px;">
+					<h3 style="margin-top:20px;">We will <a href="<?php echo base_url(); ?>compare" class="theme-green-style"> beat </a> any competitor's price.<br />
+						Guaranteed.</h3>
 				</div>
+
 				<div class="col-sm-6">
-					<div class="trapzoid-box about-box">
-						<h3 class="text-center-desktop"><a href="<?php echo site_url('portfolio'); ?>">See Our Portfolio </a></h3>
+					<!-- Desktop Version -->
+					<div class="trapzoid-box about-box desktop-only">
+						<h3 class="text-center-desktop">
+							<a href="<?php echo site_url('portfolio'); ?>">See Our Portfolio</a>
+						</h3>
+					</div>
+
+					<!-- Mobile Version -->
+					<div class="simple-box clearfix mobile-only">
+						<a class="orange-btn" href="<?php echo site_url('portfolio'); ?>">
+							<span class="recent-work" data-hover="See Our Portfolio">See Our Portfolio</span>
+						</a>
 					</div>
 				</div>
 			</div>

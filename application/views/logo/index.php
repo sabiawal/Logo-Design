@@ -243,9 +243,7 @@ if ($this->uri->segment(1) != 'sixhourdetail') {
                             </ul>
                             <div class="btn-wrap clearfix">
                                 <a class="green-button" href="http://www.logodesignguarantee.co.uk/packages#package-pg-body"><span data-hover="More info">More info</span></a>
-                                <a class="orange-button" style="
-    border-bottom: 3px solid #c05700;
-" href="http://www.logodesignguarantee.co.uk/orders/index/1"><span data-hover="Order now">Order now</span></a>
+                                <a class="orange-button" style="border-bottom: 3px solid #c05700;" href="http://www.logodesignguarantee.co.uk/orders/index/1"><span data-hover="Order now">Order now</span></a>
                             </div>
                         </div>
                     </div>
@@ -268,9 +266,7 @@ if ($this->uri->segment(1) != 'sixhourdetail') {
                             </ul>
                             <div class="btn-wrap clearfix">
                                 <a class="green-button" href="http://www.logodesignguarantee.co.uk/packages#package-pg-body"><span data-hover="More info">More info</span></a>
-                                <a class="orange-button" style="
-    border-bottom: 3px solid #c05700;
-" href="http://www.logodesignguarantee.co.uk/orders/index/4"><span data-hover="Order now">Order now</span></a>
+                                <a class="orange-button" style="border-bottom: 3px solid #c05700;" href="http://www.logodesignguarantee.co.uk/orders/index/4"><span data-hover="Order now">Order now</span></a>
                             </div>
                         </div>
                     </div>
@@ -294,12 +290,9 @@ if ($this->uri->segment(1) != 'sixhourdetail') {
                             </ul>
                             <div class="btn-wrap clearfix">
                             <a class="green-button" href="http://www.logodesignguarantee.co.uk/packages#package-pg-body"><span>More info</span></a>
-                            <a class="orange-button" style="
-    border-bottom: 3px solid #c05700;
-" href="http://www.logodesignguarantee.co.uk/orders/index/7"><span>Order now</span></a>
+                            <a class="orange-button" style="border-bottom: 3px solid #c05700;" href="http://www.logodesignguarantee.co.uk/orders/index/7"><span>Order now</span></a>
                         </div>
-
-                        </div>
+                    </div>
                     </div>
                     <div class="col-md-3 devoted-support">
                         <div class="pic">
@@ -317,11 +310,8 @@ if ($this->uri->segment(1) != 'sixhourdetail') {
                 
                 <div class="package-info-box"></div>
                 </div>
-
-
-
-</div>
-</div>
+            </div>
+        </div>
 </div>
 </div>
 </section>

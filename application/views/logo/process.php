@@ -303,7 +303,7 @@
 					<div class="col-sm-6">
 						<p>You can ask for this an unlimited time. Now this is totally unique to our competitors just offering "unlimited revisions" as they only revise a "previously" designed logo.</p>
 						<p>If you wanted fresh logo concepts with a competitor you would have to pay for another order. You are also unlikely to get your money back on the first order too.</p>
-						<p>This underlines a massive difference between us and other logo firms. You control the design process with total flexibility</p>
+						<p>This underlines a massive difference between us and other logo firms. You control the design process with total flexibility.</p>
 					</div>
 				</div>
 			</div>
