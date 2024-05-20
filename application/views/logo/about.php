@@ -157,6 +157,37 @@
 	}
 </style>
 
+<style>
+	/* Adjustments for smaller screens */
+	@media (max-width: 768px) {
+		.carousel-inner .item {
+			min-height: 300px; /* Adjust as needed for smaller screens */
+		}
+
+		.banner-caption {
+			padding: 10px;
+			font-size: 14px;
+		}
+
+		.banner-caption-head h2 {
+			font-size: 18px;
+		}
+
+		.banner-desc ul li {
+			font-size: 14px;
+		}
+
+		.button {
+			font-size: 14px;
+			padding: 10px 20px;
+			position: absolute;
+			bottom: 20px; /* Adjust as needed */
+			left: 20px; /* Adjust as needed */
+			z-index: 1;
+		}
+	}
+</style>
+
 <section>
 	<div class="container" style="padding:0px;">
 		<div class="information">
@@ -214,9 +245,9 @@
 										</div>
 										<div class="banner-desc ">
 											<ul>
-												<li> Our recruitment is highly selective</li>
-												<li>Each one of our designers have over 10 years of experience</li>
-												<li>We can prove it!</li>
+											<li>We have served 285,000+ clients</li>
+											<li>Our recruitment is highly selective</li>
+											<li>Each one of our designers have over 10 years of experience</li>
 											</ul>
 										</div>
 										<br>
@@ -228,8 +259,6 @@
 							</div>
 						</div>
 					</div>
-
-
 				</div>
 			</div>
 
@@ -247,9 +276,9 @@
 										</div>
 										<div class="banner-desc ">
 											<ul>
-												<li>Personal support 9am-9pm by phone and live chat</li>
-												<li>Dedicated project manager 10 years of experience</li>
-												<li>6-Hour Logo Design Service!</li>
+												<li>Personal UK support 24x7x365 by phone and live chat (competitors are 9am - 5pm)</li>
+												<li>Speak to your actual UK designers by phone or live chat for support (industry beating)</li>
+												<li>Dedicated project manager</li>
 											</ul>
 										</div>
 										<br>
@@ -261,8 +290,6 @@
 							</div>
 						</div>
 					</div>
-
-
 				</div>
 			</div>
 			<div class="item" data-interval="8000" data-pause="false">
@@ -281,7 +308,7 @@
 										<div class="banner-desc ">
 											<ul>
 												<li> We do not outsource</li>
-												<li>All of our designers hold degrees from leading institutions</li>
+												<li>All of our designers hold graphic design degrees from leading UK institutions</li>
 												<li>Multiple expert designers work on your logo</li>
 											</ul>
 										</div>
@@ -294,11 +321,10 @@
 							</div>
 						</div>
 					</div>
-
-
 				</div>
 			</div>
-			<div class="item" data-interval="8000" data-pause="false">
+
+			<!-- <div class="item" data-interval="8000" data-pause="false">
 				<img src="assets/images/newslider/office.jpg">
 				<div class="carousel-caption video_carousel_caption">
 					<div class="video_carousel_caption_text">
@@ -327,10 +353,9 @@
 							</div>
 						</div>
 					</div>
-
-
 				</div>
-			</div>
+			</div> -->
+			
 			<div class="item" data-interval="8000" data-pause="false">
 				<img src="assets/images/newslider/office3.jpg">
 				<div class="carousel-caption video_carousel_caption">
@@ -359,19 +384,16 @@
 								</div>
 							</div>
 						</div>
-					</div>
-
-
+					</div>					
 				</div>
 			</div>
-
 		</div>
+
 		<ol class="carousel-indicators">
 			<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#mycarousel" data-slide-to="1"></li>
 			<li data-target="#mycarousel" data-slide-to="2"></li>
 			<li data-target="#mycarousel" data-slide-to="3"></li>
-			<li data-target="#mycarousel" data-slide-to="4"></li>
 		</ol>
 		<!--======= Navigation Buttons =========-->
 
