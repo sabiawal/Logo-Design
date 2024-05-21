@@ -192,10 +192,10 @@
 			<h5 class="text-center banner-text">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
 		</div>
 	</section>
-	<div id="mycarousel" class="carousel slide video_carousel_fade animate_text" data-ride="carousel" data-interval="8000">
+	<div id="mycarousel" class="carousel slide carousel_fade animate_text" data-ride="carousel" data-interval="8000">
 
 		<!--======= Wrapper For Slides =======-->
-		<div class="carousel-inner" role="listbox">
+		<div class="carousel-inner" style="width: 100%; height: 490px; overflow: hidden;" role="listbox">
 
 			<!--========= First Slide =========-->
 
