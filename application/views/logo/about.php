@@ -1,5 +1,7 @@
 <?php $this->load->view('includes/header-common'); ?>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 <style>
 	#inner-cont-banner img {
 		width: 100%;
@@ -157,37 +159,6 @@
 	}
 </style>
 
-<style>
-	/* Adjustments for smaller screens */
-	@media (max-width: 768px) {
-		.carousel-inner .item {
-			min-height: 300px; /* Adjust as needed for smaller screens */
-		}
-
-		.banner-caption {
-			padding: 10px;
-			font-size: 14px;
-		}
-
-		.banner-caption-head h2 {
-			font-size: 18px;
-		}
-
-		.banner-desc ul li {
-			font-size: 14px;
-		}
-
-		.button {
-			font-size: 14px;
-			padding: 10px 20px;
-			position: absolute;
-			bottom: 20px; /* Adjust as needed */
-			left: 20px; /* Adjust as needed */
-			z-index: 1;
-		}
-	}
-</style>
-
 <section>
 	<div class="container" style="padding:0px;">
 		<div class="information">
@@ -217,27 +188,25 @@
 
 <section id="inner-cont-banner" style="position:relative;">
 	<section>
-        <div class="banner">
-            <h5 class="text-center banner-text">Half-Price Sale Ends Midnight, Friday 10 February ’24</h5>
-        </div>
-    </section>
-
+		<div class="banner">
+			<h5 class="text-center banner-text">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
+		</div>
+	</section>
 	<div id="mycarousel" class="carousel video_carousel_fade animate_text" data-ride="carousel" data-interval="8000">
 
-				<!--======= Wrapper For Slides =======-->
-				<div class="carousel-inner" role="listbox">
+		<!--======= Wrapper For Slides =======-->
+		<div class="carousel-inner" role="listbox">
 
-					<!--========= First Slide =========-->
+			<!--========= First Slide =========-->
 
-
-			<div class="item active " data-interval="8000" data-pause="false">
+			<div class="item active" data-interval="8000" data-pause="false">
 				<img src="assets/images/newslider/office.jpg">
 				<div class="carousel-caption video_carousel_caption">
 					<div class="video_carousel_caption_text">
 						<div class="container" style="padding-right:0px;">
 							<div class="row">
 								<div class="col-md-7">
-									<div class="banner-caption white-bg-main text-left">
+									<div class="banner-caption text-left white-bg-main">
 										<div class="banner-caption-head">
 											<h2>
 												Over<span> 10 Years</span> of Experience 
@@ -245,9 +214,9 @@
 										</div>
 										<div class="banner-desc ">
 											<ul>
-											<li>We have served 285,000+ clients</li>
-											<li>Our recruitment is highly selective</li>
-											<li>Each one of our designers have over 10 years of experience</li>
+												<li>We have served 285,000+ clients</li>
+												<li>Our recruitment is highly selective</li>
+												<li>Each one of our designers have over 10 years of experience</li>
 											</ul>
 										</div>
 										<br>
@@ -255,6 +224,7 @@
 									</div>
 								</div>
 								<div class="col-md-5" style="padding-left:0px;">
+									<!-- <img style="margin-top: 40px;" id="#banner-img" src="assets/images/slide1.jpeg" alt=""> -->
 								</div>
 							</div>
 						</div>
@@ -263,6 +233,39 @@
 			</div>
 
 			<div class="item" data-interval="8000" data-pause="false">
+				<img src="assets/images/newslider/office2.jpg">
+				<div class="carousel-caption video_carousel_caption">
+					<div class="video_carousel_caption_text">
+						<div class="container" style="padding-right:0px;">
+							<div class="row">
+								<div class="col-md-7">
+									<div class="banner-caption text-left white-bg-main">
+										<div class="banner-caption-head">
+											<h2>
+												<span>In-House</span> UK Design	Team
+											</h2>
+										</div>
+										<div class="banner-desc ">
+											<ul>
+												<li> We do not outsource</li>
+												<li>All of our designers hold graphic design degrees from leading UK institutions</li>
+												<li>Multiple expert designers work on your logo</li>
+											</ul>
+										</div>
+										<br>
+										<a class="button pull-left" href="http://www.logodesignguarantee.co.uk/packages.php">Get Started</a>
+									</div>
+								</div>
+								<div class="col-md-5" style="padding-left:0px;">
+									<!-- <img style="margin-top: 40px;" id="#banner-img" src="assets/images/slide2.jpg" alt=""> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="item" data-interval="8000" data-pause="false">
 				<img src="assets/images/newslider/office1.jpg">
 				<div class="carousel-caption video_carousel_caption">
 					<div class="video_carousel_caption_text">
@@ -291,76 +294,13 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="item" data-interval="8000" data-pause="false">
-				<img src="assets/images/newslider/office2.jpg">
-				<div class="carousel-caption video_carousel_caption">
-					<div class="video_carousel_caption_text">
-						<div class="container" style="padding-right:0px;">
-							<div class="row">
-								<div class="col-md-7">
-									<div class="banner-caption white-bg-main text-left">
-										<div class="banner-caption-head">
-											<h2>
-												<span>In-House</span> UK Design	Team
-											</h2>
-										</div>
-										<div class="banner-desc ">
-											<ul>
-												<li> We do not outsource</li>
-												<li>All of our designers hold graphic design degrees from leading UK institutions</li>
-												<li>Multiple expert designers work on your logo</li>
-											</ul>
-										</div>
-										<br>
-										<a class="button pull-left" href="http://www.logodesignguarantee.co.uk/packages.php">Get Started</a>
-									</div>
-								</div>
-								<div class="col-md-5" style="padding-left:0px;">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- <div class="item" data-interval="8000" data-pause="false">
-				<img src="assets/images/newslider/office.jpg">
-				<div class="carousel-caption video_carousel_caption">
-					<div class="video_carousel_caption_text">
-						<div class="container" style="padding-right:0px;">
-							<div class="row">
-								<div class="col-md-7">
-									<div class="banner-caption white-bg-main text-left">
-										<div class="banner-caption-head">
-											<h2>
-												Over <span>50 design services</span> available
-											</h2>
-										</div>
-										<div class="banner-desc ">
-											<ul>
-												<li>We design everything you will ever need </li>
-												<li>100% original and custom-made works</li>
-												<li>Customer-centric team</li>
-											</ul>
-										</div>
-										<br>
-										<a class="button pull-left" href="http://www.logodesignguarantee.co.uk/packages.php">Get Started</a>
-									</div>
-								</div>
-								<div class="col-md-5" style="padding-left:0px;">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div> -->
-			
+
 			<div class="item" data-interval="8000" data-pause="false">
 				<img src="assets/images/newslider/office3.jpg">
 				<div class="carousel-caption video_carousel_caption">
 					<div class="video_carousel_caption_text">
-					<div class="container" style="padding-right:0px;">
+						<div class="container" style="padding-right:0px;">
 							<div class="row">
 								<div class="col-md-7">
 									<div class="banner-caption white-bg-main text-left">
@@ -381,14 +321,15 @@
 									</div>
 								</div>
 								<div class="col-md-5" style="padding-left:0px;">
+									<!-- <img style="margin-top: 40px;" id="#banner-img" src="assets/images/slide3.jpeg" alt=""> -->
 								</div>
 							</div>
 						</div>
-					</div>					
+					</div>
 				</div>
 			</div>
 		</div>
-
+		
 		<ol class="carousel-indicators">
 			<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#mycarousel" data-slide-to="1"></li>
@@ -397,17 +338,13 @@
 		</ol>
 		<!--======= Navigation Buttons =========-->
 
-		<!--======= Left Button =========-->
-		<a class="left carousel-control video_carousel_control_right" href="#mycarousel" role="button" data-slide="prev">
-			<span class="fa fa-arrow-circle-left video_carousel_control_icons" aria-hidden="true">
-			</span>
+		<a class="left carousel-control video_carousel_control_left" href="#mycarousel" role="button" data-slide="prev">
+			<span class="fas fa-arrow-circle-left video_carousel_control_icons" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
 		</a>
 
-		<!--======= Right Button =========-->
-		<a class="right carousel-control video_carousel_control_left" href="#mycarousel" role="button" data-slide="next">
-			<span class="fa fa-arrow-circle-right video_carousel_control_icons" aria-hidden="true">
-			</span>
+		<a class="right carousel-control video_carousel_control_right" href="#mycarousel" role="button" data-slide="next">
+			<span class="fas fa-arrow-circle-right video_carousel_control_icons" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
@@ -443,7 +380,7 @@
 
 	<section class="slogan">
 		<div class="container">
-			<h1 class="text-center-desktop">Hello, there. Let us introduce ourselves in style..</h1>
+			<h1 class="text-center-desktop">Hello, there. Let us introduce ourselves in style...</h1>
 		</div>
 	</section>
 
@@ -452,7 +389,8 @@
 			<div class="row">
 				<div class="clearfix">
 					<div class="col-sm-6">
-						<p>At Logo Design Guarantee we believe logo designs can be given at great prices with quality to match. Further, all our logos are created in-house, which is essential in ensuring modern design standards are met. Few competitors offer 9am-9pm phone support or unlimited redraws. We have invested in superior customer support services to improve the design process for you.</p>
+						<p>At Logo Design Guarantee we believe logo designs can be given at great prices with quality to match. Further, all our logos are created in-house, which is essential in ensuring modern design standards are met. 
+							Few competitors offer 24x7x365 phone support or unlimited redraws. We have invested in superior customer support services to improve the design process for you.</p>
 						<p>Our team of designers believe we can offer the best priced logos on the web. If you think you can find something cheaper, then send us the quote and we will try to beat it.</p>
 						<p>We have a team of 35 in-house designers which allows quality reassurance checks on each logo design as ideas can be shared among various talented designers.</p>
 					</div>
@@ -481,7 +419,7 @@
 						<img class="img-responsive" src="assets/images/newslider/missionour.jpg" alt="our mission" />
 					</div>
 					<div class="col-sm-5 col-sm-offset-1 lineH26">
-						<p>We endeavor to offer quality custom made logos at the most affordable price in the world. We have satisfied over 1000 customers since becoming established in 2002. Currently, only approximately 1 in 50 customers ask for their money back.</p>
+						<p>We endeavor to offer quality custom made logos at the most affordable price in the world. We have satisfied 285,000+ customers since becoming established in 2008. Currently, only approximately 1 in 50 customers ask for their money back.</p>
 						<p>We intend to be the number one destination when anyone needs a quality logo. In addition, we provide the opportunity for you to speak to your actual designers before and during the design process.</p>
 					</div>
 				</div>
@@ -656,135 +594,27 @@
 			</section> -->
 
 </section>
+
 <style type="text/css">
 	@media (max-width:415px) {
-
-
-
 		.res-desc p:nth-child(2) {
 			display: none !important;
 
 		}
 
-
 		.res-desc p:nth-child(4) {
 			display: none !important;
 
 		}
-
 		.res-desc p:nth-child(5) {
 			display: none !important;
 
 		}
-
 		.res-desc p:nth-child(6) {
 			display: none !important;
 
 		}
-
-
 	}
 </style>
-<script type="text/javascript">
-	var tag = document.createElement('script');
 
-	tag.src = 'https://www.youtube.com/iframe_api';
-	var firstScriptTag = document.getElementsByTagName('script')[0];
-	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-	var player;
-	var playersecond;
-
-	function onYouTubeIframeAPIReady() {
-		player = new YT.Player('newplayer', {
-			// playerVars: { 'autoplay': 0, 'controls': 0 }
-			events: {
-				'onReady': onPlayerReady,
-				'onStateChange': onPlayerStateChange
-			}
-		});
-
-
-
-
-	}
-
-
-	function onPlayerReady(event) {
-
-
-		// event.target.playVideo();
-		// $("#video_carousel").carousel('pause');
-		//   console.log('working');
-
-	}
-
-	function onPlayerStateChange(event) {
-		// alert(event);
-		// console.log(event);
-		// console.log(YT.PlayerState.PLAYING);
-		if (event.data == YT.PlayerState.PLAYING) {
-			$("#video_carousel").carousel('pause');
-			console.log('YT.PlayerState.PLAYING = pause carousel');
-		} // Stop the carousel, if video is playing
-
-		// else {
-		//   $("#video_carousel").carousel('cycle');
-		// console.log('play carousel'); // Otherwise, start it
-		// }
-		else if (event.data == YT.PlayerState.ENDED) {
-			// player.playVideo(); 
-			$("#video_carousel").carousel('next');
-
-			// $(".video_carousel_control_right").trigger('click');
-			console.log('play after video ended');
-		} // Stop the carousel, if video is playing
-
-
-
-
-
-	}
-
-
-
-	$('#video_carousel').on('slide.bs.carousel', function() {
-		console.log("player.stopVideo");
-		player.stopVideo();
-
-
-	});
-
-	$('#video_carousel').on('slid.bs.carousel', function() {
-		console.log("player.playVideo");
-		player.playVideo();
-
-	});
-
-
-
-	// ('#video_carousel').on('slid.bs.carousel', function () {
-	//            console.log("next started");
-
-	//          });player.stopVideo();
-</script>
-<script type="text/javascript">
-	var t;
-	var start = $('#video_carousel').find('.active').attr('data-interval');
-	t = setTimeout("$('#video_carousel').carousel({interval: 1000});", start - 1000);
-
-
-	t = setTimeout(function() {
-		$('#video_carousel').carousel('next')
-	}, start);
-
-
-	$('.carousel-control.right').on('click', function() {
-		clearTimeout(t);
-	});
-
-	$('.carousel-control.left').on('click', function() {
-		clearTimeout(t);
-	});
-</script>
 <?php $this->load->view('includes/footer-common'); ?>
