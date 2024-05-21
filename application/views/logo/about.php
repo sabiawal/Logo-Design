@@ -192,7 +192,7 @@
 			<h5 class="text-center banner-text">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
 		</div>
 	</section>
-	<div id="mycarousel" class="carousel video_carousel_fade animate_text" data-ride="carousel" data-interval="8000">
+	<div id="mycarousel" class="carousel slide video_carousel_fade animate_text" data-ride="carousel" data-interval="8000">
 
 		<!--======= Wrapper For Slides =======-->
 		<div class="carousel-inner" role="listbox">
@@ -265,7 +265,7 @@
 				</div>
 			</div>
 
-			<!-- <div class="item" data-interval="8000" data-pause="false">
+			<div class="item" data-interval="8000" data-pause="false">
 				<img src="assets/images/newslider/office1.jpg">
 				<div class="carousel-caption video_carousel_caption">
 					<div class="video_carousel_caption_text">
@@ -294,7 +294,7 @@
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 
 			<div class="item" data-interval="8000" data-pause="false">
 				<img src="assets/images/newslider/office3.jpg">
@@ -377,6 +377,7 @@
 			</div>
 		</div>
 	</div>
+</section>
 
 	<section class="slogan">
 		<div class="container">
@@ -592,8 +593,6 @@
 					</ul>
 				</div>
 			</section> -->
-
-</section>
 
 <style type="text/css">
 	@media (max-width:415px) {
