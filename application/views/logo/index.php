@@ -60,7 +60,7 @@ if ($this->uri->segment(1) != 'sixhourdetail') {
         <div class="lag1">
             <div class="container" style="padding:0px;">
                 <div class="col-sm-6 super-winter-sale clearfix">
-                    <h3 class="text-center" style="font-size:1.7rem;">Super Summer Sale</h3>
+                    <h3 class="text-center" style="font-size:1.7rem;">Super Spring Sale</h3>
                     <ul class="text-left" style="margin-top:3px;">
                         <li>• Half-Price on All Packages</li>
                         <li>• <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £25</li>
@@ -92,7 +92,7 @@ if ($this->uri->segment(1) != 'sixhourdetail') {
                         Guaranteed.</h3>
                 </div>
                 <div class="col-sm-6 super-winter-sale clearfix">
-                    <h3 class="text-center" style="font-size:1.7rem;">Super Summer Sale</h3>
+                    <h3 class="text-center" style="font-size:1.7rem;">Super Spring Sale</h3>
                     <ul style="margin-top:3px;">
                         <li>• Half-Price on All Packages</li>
                         <li>• <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £25</li>

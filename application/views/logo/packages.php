@@ -59,6 +59,7 @@ $this->load->view('includes/header-common');
 //for($aaa=1; $aaa<10; $aaa++){if(isset($_SESSION['options'.$aaa])){echo $_SESSION['options'.$aaa];}}
 //echo"<pre>"; print_r($_SESSION);die;
 ?>
+
 <section class="content">
     <div id="banner-bottom-slogan">
         <div class="container">
@@ -325,7 +326,7 @@ $this->load->view('includes/header-common');
                         </a>
                         <div class="pack-list">
                             <ul>
-                                <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">SURGE PACKAGE PLUS</span></strong></li>
+                                <li> <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">SURGE PACKAGE PLUS</span></strong></li>
                                 <li> <strong>3</strong> Business Card Designs</li>
                                 <li><strong>Unlimited </strong>Redraws</li>
                                 <li><strong>Unlimited</strong> Revisions</li>

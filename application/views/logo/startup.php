@@ -257,6 +257,25 @@ position: relative;}
         font-weight: 700 !important;
     }
 
+    .three-pack ul {
+    padding-left: 14.5px; /* Adjust padding as needed */
+}
+
+    .three-pack ul li {
+        padding-left: 0; /* Remove any existing left padding */
+        margin-left: -10px; /* Move items to the left */
+        border-bottom: 1px solid #e0e0e0 !important;
+        font-family: Arial,"Helvetica Neue",Helvetica,sans-serif !important;
+        font-size: 16px !important;
+        text-transform: lowercase;
+        text-align: left !important;
+        border-top: none !important;
+        min-height: 0 !important;
+        line-height: 1.42857143 !important;
+        padding: 5px 0 !important;
+        margin-bottom: 10px;
+    }
+
     .three-pack h5 {
         color: #000;
 
@@ -578,11 +597,11 @@ position: relative;}
                                         <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . START_LP_P_R ?></span> SAVE 50%</p>
                                     <?php endif; ?>
 
-                                    <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                    <!-- <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>
+                                    </div> -->
                                     <div style="position:relative">
 
                                         <a id="order1" class="order-pack" href="<?php echo base_url() ?>orders/index/1/" >Order now</a>
@@ -590,19 +609,19 @@ position: relative;}
 
                                     <div class="hori">
                                         <ul>
-                                            <li> <strong>6</strong> Custom Made Logos  <a data-toggle="tooltip" title="You will have 6 logo designs to choose from, which are guaranteed to be original and custom-made for you.
+                                            <li><strong>6</strong> Custom Made Logos  <a data-toggle="tooltip" title="You will have 6 logo designs to choose from, which are guaranteed to be original and custom-made for you.
                                                                                           "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a>   </li>
                                             <li><strong>Unlimited</strong> Revisions
                                                 <a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the logo of your choosing.
                                                    "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a>  
                                             </li>
                                             <li><strong>Unlimited</strong> Logo Concepts<a data-toggle="tooltip" title="Changed your mind on the whole concept of your logo? No worries. You can always request for new logo concepts to be made just for you, for as many times as you may need, at no additional cost.
-                                                                                           "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                                                                           "  data-placement='top' ><img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Unlimited</strong> Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of logo samples. You will have the privilege of requesting for a completely new set of samples, free of charge.
                                                                                      "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>3</strong> Designers<a data-toggle="tooltip" title="Your project will have not one but 3 designers, who will all contribute to provide you with the perfect designs based on your specifications.
                                                                                "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
                                             <li><strong>Free</strong> Design Research<a data-toggle="tooltip" title="We will do all the research for you. We make sure that your designs are unique and authentic, and will match perfectly to your specifications.
                                                                                         "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Dedicated</strong> Project Manager<a data-toggle="tooltip" title="Aside from your designers, we will assign a Manager to your project, with the experience and expertise to oversee the designers and their works, and make sure that everything is done with high quality and standards.
@@ -611,7 +630,7 @@ position: relative;}
                                             <li><strong>Free</strong> Additional Files<a data-toggle="tooltip" title="We provide you with all types of file formats. You need only ask."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Free</strong> Complete Ownership to All the Logo Design Samples<a data-toggle="tooltip" title="ALL samples sent to you will automatically be your property, whether you chose it as your final design or not."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Free</strong> Assistance with Print Companies<a data-toggle="tooltip" title="If your printing company requires a specific file format, we can send it to you for free."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
-                                            <li><strong>Free</strong> File Designs that allow Resizing with No Distortion (suitable for professional print)<a data-toggle="tooltip" title="All file formats we send you are suitable for printing in any size. Guaranteed no distortions and/or blurring when adjusted."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
+                                            <li><strong>Free</strong> File Designs that allow Resizing with No Distortion (suitable for professional <br> print)<a data-toggle="tooltip" title="All file formats we send you are suitable for printing in any size. Guaranteed no distortions and/or blurring when adjusted."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
                                             <li><strong>3 minute simple</strong> online order form!</li>
                                             <li><strong>We Start Your Designs Today!</strong><br>100% Satisfaction Guaranteed</li>
                                             <li><strong>Free After-Sales Support <br>(For Life!)</strong></li>
@@ -627,11 +646,11 @@ position: relative;}
                                     <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack4'])) ? SURGE_LP_P + $_SESSION['poptions_price4'] : SURGE_LP_P; ?></span></h4>
 
                                     <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . SURGE_LP_P_R ?></span> SAVE 50%</p>
-                                    <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                    <!-- <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>                                   
+                                    </div>                                    -->
                                     <div style="position:relative">
                                         <a id="order4" class="order-pack" href="<?php echo base_url() ?>orders/index/4/" >Order now</a>
                                     </div>
@@ -643,14 +662,14 @@ position: relative;}
                                             <li><strong>Unlimited</strong> Logo Concepts<a data-toggle="tooltip" title="Changed your mind on the whole concept of your logo? No worries. You can always request for new logo concepts to be made just for you, for as many times as you may need, at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Unlimited</strong> Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of logo samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>6</strong> Designers<a data-toggle="tooltip" title="Your project will have not one, not even 3, but 6 designers, all contributing to provide you with the perfect designs based on your specifications."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title=" Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title=" Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
                                             <li><strong>Free</strong> Design Research<a data-toggle="tooltip" title=" We will do all the research for you. We make sure that your designs are unique and authentic, and will match perfectly to your specifications."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Dedicated</strong> Project Manager<a data-toggle="tooltip" title="Aside from your designers, we will assign a Manager to your project, with the experience and expertise to oversee the designers and their works, and make sure that everything is done with high quality and standards."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Free</strong> Final Logo Files Sent via Email (includes formats for all print and web use)<a data-toggle="tooltip" title="Once your logo has been finalized, we will send you the file via email, including all formats that you can use for printing and the web."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Free</strong> Additional Files<a data-toggle="tooltip" title="We provide you with all types of file formats. You need only ask."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Free</strong> Complete Ownership to All the Logo Design Samples<a data-toggle="tooltip" title="ALL samples sent to you will automatically be your property, whether you chose it as your final design or not."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Free</strong> Assistance with Print Companies<a data-toggle="tooltip" title="If your printing company requires a specific file format, we can send it to you for free."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
-                                            <li><strong>Free</strong> File Designs that allow Resizing with No Distortion (suitable for professional print)<a data-toggle="tooltip" title="All file formats we send you are suitable for printing in any size. Guaranteed no distortions and/or blurring when adjusted."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
+                                            <li><strong>Free</strong> File Designs that allow Resizing with No Distortion (suitable for professional <br> print)<a data-toggle="tooltip" title="All file formats we send you are suitable for printing in any size. Guaranteed no distortions and/or blurring when adjusted."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
                                             <li><strong>3 minute simple</strong> online order form!</li>
                                             <li><strong>We Start Your Designs Today!</strong><br>100% Satisfaction Guaranteed</li>
                                             <li><strong>Free After-Sales Support <br>(For Life!)</strong></li>
@@ -669,11 +688,11 @@ position: relative;}
                                     <?php if (SHOW_REGULAR_PRICE): ?>
                                         <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . EXCEL_LP_P_R ?></span> SAVE 50%</p>
                                     <?php endif; ?>
-                                    <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                    <!-- <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>
+                                    </div> -->
                                     <div style="position:relative">
                                         <a id="order7" class="order-pack" href="<?php echo base_url(); ?>orders/index/7/" >Order now</a>
                                     </div>
@@ -682,12 +701,12 @@ position: relative;}
 
                                     <div class="pack-list">
                                         <ul>
-                                            <li  >  <span class="surge-pac-plus-left" ></span><strong><span class="surge-pac-plus1">SURGE PACKAGE PLUS</span></strong><a data-toggle="tooltip" title="All the features of our Surge Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li><span class="surge-pac-plus-left" ></span><strong><span class="surge-pac-plus1">SURGE PACKAGE PLUS</span></strong><a data-toggle="tooltip" title="All the features of our Surge Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>3</strong> Business Card Designs<a data-toggle="tooltip" title="The perfect way to look professional while advertising your business. We will provide you with 3 custom-made designs to choose from."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>3</strong> Letterhead Designs<a data-toggle="tooltip" title="Make sure your business letters clearly identify you and your business. Plus, you also get to advertise your brand for free. With this package, you will get 3 additional custom-made letterhead designs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>3</strong>  Compliment Slip Designs<a data-toggle="tooltip" title="Compliment Slips also help with branding and advertising. It also puts your business information out there. With this package, you will get 3 custom Compliment Slip designs."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
-                                            <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
 
                                         </ul>
@@ -702,15 +721,15 @@ position: relative;}
                                 </div>
                                 <div class="three-pack excelh">
                                     <h5><?php echo ucwords(strtolower(str_replace(array('LOGO PACKAGE'), array(''), ADVANCED_LP))); ?><span style="vertical-align: super;font-size: 18px;  font-family: 'PT Sans',sans-serif,Arial,Verdana !important;
-                    font-weight: 700 !important;">&trade;</span></h5>
+                                        font-weight: 700 !important;">&trade;</span></h5>
                                     <p>No compromises</p>
                                     <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo ADVANCED_LP_P; ?></span></h4>
                                     <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . ADVANCED_LP_P_R; ?></span> SAVE 50%</p>
-                                    <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>
+                                    <!-- <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>
                                     
-                                    <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
-                                    "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>
-                                </div>
+                                        <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
+                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>
+                                    </div> -->
                                 <div style="position:relative">
                                     <a id="order7" class="order-pack" href="<?php echo base_url()?>orders/index/22/" >Order now</a>
                                 </div>
@@ -726,9 +745,9 @@ position: relative;}
                                                 <li><strong>3</strong> Letterhead Designs<a data-toggle="tooltip" title="Make sure your business letters clearly identify you and your business. Plus, you also get to advertise your brand for free. With this package, you will get 3 additional custom-made letterhead designs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                                 <li><strong>3</strong>  Compliment Slip Designs<a data-toggle="tooltip" title="Compliment Slips also help with branding and advertising. It also puts your business information out there. With this package, you will get 3 custom Compliment Slip designs."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                                <li><span style="color:#ff8a00;">New </span>  Email Signature Design<a data-toggle="tooltip" title="" data-placement="top" data-original-title="Displays at the bottom of your business emails featuring your logo, name and contact info. This makes your emails look far more professional and trust-worthy.
-"> <img src="assets/images/added/silver-info.jpg"> </a></li>
-												<li> Fax Cover Sheet Design<a data-toggle="tooltip" title="" data-placement="top" data-original-title="Ensure your faxes are not lost, and look professional at the same time.  
-"> <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                                    "> <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                                            <li> Fax Cover Sheet Design<a data-toggle="tooltip" title="" data-placement="top" data-original-title="Ensure your faxes are not lost, and look professional at the same time.  
+                                                    "> <img src="assets/images/added/silver-info.jpg"> </a></li>
                                                 <li><strong>Unlimited</strong> Revisions
                                                     <a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the logo of your choosing.
                                                     "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a>
@@ -739,7 +758,7 @@ position: relative;}
                                                 "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                                 <li><strong>6</strong> Designers<a data-toggle="tooltip" title="Your project will have not one but 6 designers, who will all contribute to provide you with the perfect designs based on your specifications.
                                                 "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                                <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
                                                 <li><strong>Free</strong> Design Research<a data-toggle="tooltip" title="We will do all the research for you. We make sure that your designs are unique and authentic, and will match perfectly to your specifications.
                                                 "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                                 <li><strong>Dedicated</strong> Project Manager<a data-toggle="tooltip" title="Aside from your designers, we will assign a Manager to your project, with the experience and expertise to oversee the designers and their works, and make sure that everything is done with high quality and standards.
@@ -748,7 +767,7 @@ position: relative;}
                                                 <li><strong>Free</strong> Additional Files<a data-toggle="tooltip" title="We provide you with all types of file formats. You need only ask."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                                 <li><strong>Free</strong> Complete Ownership to All the Logo Design Samples<a data-toggle="tooltip" title="ALL samples sent to you will automatically be your property, whether you chose it as your final design or not."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                                 <li><strong>Free</strong> Assistance with Print Companies<a data-toggle="tooltip" title="If your printing company requires a specific file format, we can send it to you for free."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
-                                                <li><strong>Free</strong> File Designs that allow Resizing with No Distortion (suitable for professional print)<a data-toggle="tooltip" title="All file formats we send you are suitable for printing in any size. Guaranteed no distortions and/or blurring when adjusted."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
+                                                <li><strong>Free</strong> File Designs that allow Resizing with No Distortion (suitable for professional <br> print)<a data-toggle="tooltip" title="All file formats we send you are suitable for printing in any size. Guaranteed no distortions and/or blurring when adjusted."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
                                                 <li><strong>3 minute simple</strong> online order form!</li>
                                                 <li><strong>We Start Your Designs Today!</strong><br>100% Satisfaction Guaranteed</li>
                                                 <li><strong>Free After-Sales Support <br>(For Life!)</strong></li>
@@ -777,11 +796,11 @@ position: relative;}
                                 <p>Ideal for personal related logos</p>
                                 <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack2'])) ? START_PLUS_LP_P + $_SESSION['poptions_price2'] : START_PLUS_LP_P; ?></span></h4>
                                 <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . START_PLUS_LP_P_R ?></span> SAVE 50%</p>
-                                <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                     <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div> 
+                                </div>  -->
 
                                 <div style="position:relative">
                                     <a id="order2" class="order-pack" href="<?php echo base_url() ?>orders/index/2/" >Order now</a>
@@ -794,7 +813,7 @@ position: relative;}
                                         <li><strong>Unlimited </strong>Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of design samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>Unlimited</strong> Revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the design of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
-                                        <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -813,23 +832,23 @@ position: relative;}
                                 <?php if (SHOW_REGULAR_PRICE): ?>
                                     <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . SURGE_PLUS_LP_P_R ?>   </span> SAVE 50%</p>
                                 <?php endif; ?>
-                                <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                     <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div> 
+                                </div>  -->
 
                                 <div style="position:relative">
                                     <a id="order5" class="order-pack" href="<?php echo base_url() ?>orders/index/5/" >Order now</a>                            
                                 </div>
                                 <div class="pack-list">
                                     <ul>
-                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">SURGE PACKAGE PLUS</span></strong><a data-toggle="tooltip" title="All the features of our Surge Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <li><span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">SURGE PACKAGE PLUS</span></strong><a data-toggle="tooltip" title="All the features of our Surge Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li> <strong>3</strong> Business Card Designs<a data-toggle="tooltip" title="The perfect way to look professional while advertising your business. We will provide you with 3 custom-made designs to choose from."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>Unlimited </strong>Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of design samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>Unlimited</strong> Revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the design of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
-                                        <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -842,11 +861,11 @@ position: relative;}
                                 <p>Ideal for personal related logos</p>
                                 <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack3'])) ? SUPER_START_PLUS_LP_P + $_SESSION['poptions_price3'] : SUPER_START_PLUS_LP_P; ?></span></h4>
                                 <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . SUPER_START_PLUS_LP_P_R ?></span> SAVE 50%</p>
-                                <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                     <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div>
+                                </div> -->
 
                                 <div style="position:relative">
                                     <a id="order3" class="order-pack" href="<?php echo base_url() ?>orders/index/3/" >Order now</a>                            
@@ -860,7 +879,7 @@ position: relative;}
                                         <li><strong>Unlimited </strong>Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of design samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>Unlimited</strong> Revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the design of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
-                                        <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -896,11 +915,11 @@ position: relative;}
 
                                     <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack8'])) ? START_UP_LP_P + $_SESSION['poptions_price8'] : START_UP_LP_P; ?></span></h4>
                                     <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . START_UP_LP_P_R ?></span> SAVE 50%</p>
-                                    <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                    <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>
+                                    </div> -->
                                     <div style="position:relative">
                                         <a id="order8" class="order-pack" href="<?php echo base_url() ?>orders/index/8" >Order now</a>
                                     </div>
@@ -917,7 +936,7 @@ position: relative;}
                                             <li>                                    <strong>250</strong> business card prints<a data-toggle="tooltip" title="You already have your business card design. Now print it out! This package comes with free 250 print outs for the business card of your choice."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a>
                                             </li>       
 
-                                            <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -928,11 +947,11 @@ position: relative;}
 
                                     <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo START_UP_ST_LP_P; ?></span></h4>
                                     <p class="save-pack"> <span class="save-cross">$<?php echo START_UP_ST_LP_P_R; ?></span> SAVE 50%</p>
-                                    <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                    <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>                                
+                                    </div>                                 -->
                                     <div style="position:relative">
                                         <a id="order9" class="order-pack" href="<?php echo base_url() ?>orders/index/9" >Order now</a>
                                     </div>
@@ -944,7 +963,7 @@ position: relative;}
 
                                             <li><strong>3</strong> Letterhead Designs<a data-toggle="tooltip" title="Make sure your business letters clearly identify you and your business. Plus, you also get to advertise your brand for free. With this package, you will get 3 additional custom-made letterhead designs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>3</strong>  Compliment Slip Designs<a data-toggle="tooltip" title="Compliment Slips also help with branding and advertising. It also puts your business information out there. With this package, you will get 3 custom Compliment Slip designs."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
                                             <!--  <li>-</li>
                                              <li>-</li> <li>-</li> -->
@@ -962,11 +981,11 @@ position: relative;}
 
                                     <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo COMPLETE_LP_P; ?></span></h4>
                                     <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . COMPLETE_LP_P_R ?></span> SAVE 50%</p>
-                                    <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                    <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>
+                                    </div> -->
                                     <div style="position:relative">
                                         <a id="order10" class="order-pack" href="<?php echo base_url() ?>orders/index/10/" >Order now</a>
                                     </div>
@@ -977,7 +996,7 @@ position: relative;}
                                             <li  >  <span class="surge-pac-plus-left" ></span><strong><span class="surge-pac-plus1">START-UP WITH STATIONERY PACKAGE</span></strong><a data-toggle="tooltip" title="All the features of our Start-up with Stationery Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li> <strong>250</strong> letterhead prints<a data-toggle="tooltip" title="In this package, you don’t just get to choose which design you want for your letterhead, but you will also get 250 print outs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>250</strong>  Compliment Slip Prints<a data-toggle="tooltip" title="Why stop with Business Cards and Letterheads? Print out your Compliment Slips as well. You will have 250 free."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
                                             <!--  <li>-</li>
                                              <li>-</li> <li>-</li> -->
 
@@ -999,11 +1018,11 @@ position: relative;}
 
                                 <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo START_UP_LP_P_WITH_1_PAGE + BUDGET_WP_P; ?></span></h4>
                                 <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . START_UP_LP_P_R_WITH_1_PAGE; ?></span> SAVE 50%</p>
-                                <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                     <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div>
+                                </div> -->
                                 <div style="position:relative">
                                     <a id="order11" class="order-pack" href="<?php echo base_url() ?>orders/index/11" >Order now</a>
                                 </div>
@@ -1017,7 +1036,7 @@ position: relative;}
                                         <li>Free hosting<a data-toggle="tooltip" title=" Let us worry about maintaining your website and making it accessible to everyone. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free Content Management<a data-toggle="tooltip" title=" Want to make some changes on your website? Just tell us and we will do the work for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free Search Engine Optimization<a data-toggle="tooltip" title="We’ll make sure that your website can easily be found on the internet. This way, you have one less thing to worry about when it comes to your business’s visibility and accessibility."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
 
 
@@ -1031,11 +1050,11 @@ position: relative;}
 
                                 <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo START_UP_LP_P_WITH_6_PAGE + GOLD_WP_P; ?> </span></h4>
                                 <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . START_UP_LP_P_R_WITH_6_PAGE; ?></span> SAVE 50%</p>
-                                <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                     <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div>
+                                </div> -->
                                 <div style="position:relative">
                                     <a id="order12" class="order-pack" href="<?php echo base_url() ?>orders/index/12" >Order now</a>
                                 </div>
@@ -1049,7 +1068,7 @@ position: relative;}
                                         <li>Free hosting<a data-toggle="tooltip" title="Let us worry about maintaining your website and making it accessible to everyone. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free Content Management<a data-toggle="tooltip" title="Want to make some changes on your website? Just tell us and we will do the work for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free Search Engine Optimization<a data-toggle="tooltip" title="We’ll make sure that your website can easily be found on the internet. This way, you have one less thing to worry about when it comes to your business’s visibility and accessibility."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
 
                                     </ul>
@@ -1064,11 +1083,11 @@ position: relative;}
 
                                 <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo START_UP_LP_P_WITH_12_PAGE + ELITE_WP_P; ?> </span></h4>
                                 <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . START_UP_LP_P_R_WITH_12_PAGE; ?></span> SAVE 50%</p>
-                                <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                     <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div>
+                                </div> -->
                                 <div style="position:relative">
                                     <a id="order13" class="order-pack" href="<?php echo base_url() ?>orders/index/13" >Order now</a>
                                 </div>
@@ -1083,7 +1102,7 @@ position: relative;}
                                         <li>Free Content Management<a data-toggle="tooltip" title="Want to make some changes on your website? Just tell us and we will do the work for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free Search Engine Optimization<a data-toggle="tooltip" title="We’ll make sure that your website can easily be found on the internet. This way, you have one less thing to worry about when it comes to your business’s visibility and accessibility."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
-                                        <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
                                     </ul>
                                 </div>
@@ -1102,11 +1121,11 @@ position: relative;}
 
                                 <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo COMPLETE_LP_P_WITH_12_PAGE + ELITE_WP_P; ?></span></h4>
                                 <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . COMPLETE_LP_P_R_WITH_12_PAGE; ?></span> SAVE 50%</p>
-                                <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                     <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div>
+                                </div> -->
                                 <div style="position:relative">
                                     <a id="order14" class="order-pack" href="<?php echo base_url() ?>orders/index/14" >Order now</a>
                                 </div>
@@ -1122,7 +1141,7 @@ position: relative;}
                                         <li>Free hosting<a data-toggle="tooltip" title="Let us worry about maintaining your website and making it accessible to everyone. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free Content Management<a data-toggle="tooltip" title=" Want to make some changes on your website? Just tell us and we will do the work for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free Search Engine Optimization<a data-toggle="tooltip" title=" We’ll make sure that your website can easily be found on the internet. This way, you have one less thing to worry about when it comes to your business’s visibility and accessibility."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
                                     </ul>
                                 </div>
@@ -1134,11 +1153,11 @@ position: relative;}
 
                                 <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo COMPLETE_STAT_AND_6_PAGE_P + GOLD_WP_P; ?></span></h4>
                                 <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . COMPLETE_STAT_AND_6_PAGE_P_R; ?></span> SAVE 50%</p>
-                                <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                     <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div>
+                                </div> -->
                                 <div style="position:relative">
                                     <a id="order15" class="order-pack" href="<?php echo base_url() ?>orders/index/15" >Order now</a>
                                 </div>
@@ -1153,7 +1172,7 @@ position: relative;}
                                         <li>Free Content Management<a data-toggle="tooltip" title=" Want to make some changes on your website? Just tell us and we will do the work for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free Search Engine Optimization<a data-toggle="tooltip" title=" We’ll make sure that your website can easily be found on the internet. This way, you have one less thing to worry about when it comes to your business’s visibility and accessibility."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
-                                        <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
 
                                     </ul>
@@ -1201,11 +1220,11 @@ position: relative;}
 
                                     <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo bronze_P + BUDGET_WP_P; ?></span></h4>
                                     <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . bronze_P_R; ?></span> SAVE 50%</p>
-                                    <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                    <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>
+                                    </div> -->
                                     <div style="position:relative">
                                         <a id="order16" class="order-pack" href="<?php echo base_url() ?>orders/index/16" >Order now</a>
                                     </div>
@@ -1226,7 +1245,7 @@ position: relative;}
                                             <li>Free Content Management<a data-toggle="tooltip" title="Want to make some changes on your website? Just tell us and we will do the work for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li>Free Search Engine Optimization<a data-toggle="tooltip" title="We’ll make sure that your website can easily be found on the internet. This way, you have one less thing to worry about when it comes to your business’s visibility and accessibility."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
-                                            <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
                                         </ul>
                                     </div>
@@ -1238,11 +1257,11 @@ position: relative;}
 
                                     <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo silver_P + GOLD_WP_P; ?></span></h4>
                                     <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . silver_P_R; ?></span> SAVE 50%</p>
-                                    <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                    <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>                                
+                                    </div>                                 -->
                                     <div style="position:relative">
                                         <a id="order17" class="order-pack" href="<?php echo base_url() ?>orders/index/17" >Order now</a>
                                     </div>
@@ -1262,7 +1281,7 @@ position: relative;}
                                             <li>Free Content Management<a data-toggle="tooltip" title="Want to make some changes on your website? Just tell us and we will do the work for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li>Free Search Engine Optimization<a data-toggle="tooltip" title="We’ll make sure that your website can easily be found on the internet. This way, you have one less thing to worry about when it comes to your business’s visibility and accessibility."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
-                                            <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
                                         </ul>
                                     </div>
@@ -1276,11 +1295,11 @@ position: relative;}
 
                                     <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo gold_P + ELITE_WP_P; ?></span></h4>
                                     <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . gold_P_R; ?></span> SAVE 50%</p>
-                                    <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
+                                    <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>
+                                    </div> -->
                                     <div style="position:relative">
                                         <a id="order18" class="order-pack" href="<?php echo base_url() ?>orders/index/18/" >Order now</a>
                                     </div>
@@ -1300,7 +1319,7 @@ position: relative;}
                                             <li>Free hosting<a data-toggle="tooltip" title="Let us worry about maintaining your website and making it accessible to everyone. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li>Free Content Management<a data-toggle="tooltip" title="Want to make some changes on your website? Just tell us and we will do the work for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li>Free Search Engine Optimization<a data-toggle="tooltip" title="We’ll make sure that your website can easily be found on the internet. This way, you have one less thing to worry about when it comes to your business’s visibility and accessibility."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
 
                                         </ul>
@@ -1436,7 +1455,7 @@ position: relative;}
                                         <li class="old-pack"><a> <span class="pack1">24 hour delivery</span><span class="pack2"><?php echo CURRENCY . EXPRESS_DELIVERY_P ?> <?php if (SHOW_REGULAR_PRICE): ?><span class="old-d"><?php echo CURRENCY . EXPRESS_DELIVERY_P_R ?></span><?php endif; ?>  </span><span class="pack3">  ON SALE  <?php if (SHOW_REGULAR_PRICE): ?><br>SAVE 50% <?php endif; ?> </span></a></li>
                                         <div class="add1">
                                             <li id="21"> 
-<a  class="add3 <?php echo isset($_SESSION['poptions_pack21']) ? "removecolor" : 'addcolor' ?>" href="javascript:void(0)" ><?php echo (isset($_SESSION['poptions_pack21'])) ? "Remove" : "Add"; ?></a></li>
+                                        <a  class="add3 <?php echo isset($_SESSION['poptions_pack21']) ? "removecolor" : 'addcolor' ?>" href="javascript:void(0)" ><?php echo (isset($_SESSION['poptions_pack21'])) ? "Remove" : "Add"; ?></a></li>
                                         </div>  
                                     </ul>
                                          <a data-toggle="tooltip" title="The 24 hour delivery only applies to 
@@ -1456,7 +1475,8 @@ position: relative;}
                                             <li><strong>Unlimited</strong>  Logo Concepts<a data-toggle="tooltip" title="Changed your mind on the whole concept of your logo? No worries. You can always request for new logo concepts to be made just for you, for as many times as you may need, at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Unlimited</strong> Revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the logo of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Unlimited</strong> Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of logo samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li>Animated flash logo version<a data-toggle="tooltip" title="With this package, you get more than just a logo. You also get an animated flash logo that moves and is much more attractive to your potential customers."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>    <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li>Animated flash logo version<a data-toggle="tooltip" title="With this package, you get more than just a logo. You also get an animated flash logo that moves and is much more attractive to your potential customers."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>   
+                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
 
                                         </ul>
                                     </div>
@@ -1564,9 +1584,9 @@ position: relative;}
                     <img class="img-responsive" width="260" height="131" src="assets/images/time--watch.png" alt="time watch" />
                 </div>
                 <div class="col-sm-8">
-                    <h2>9am - 9pm x 365 Free Support</h2>
+                    <h2>24x7x365 Free Support</h2>
                     <ul class="width-half tick">
-                        <li>We Offer Support<span> 9am - 9pm, x365</span></li>
+                        <li>We Offer Support<span> 24x7x365</span></li>
                         <li>We Give You a <span> Dedicated Project Manager</span></li>
                         <li>Your Revisions Will Be Completed in Just <span> 24 Hours</span></li>
                     </ul>
@@ -1601,7 +1621,7 @@ position: relative;}
             </div> -->
         </div>
     </section>
-    <section id="hand-drawn" class="servicehour">
+    <!-- <section id="hand-drawn" class="servicehour">
         <div class="container">
             <div class="row">
 
@@ -1609,26 +1629,26 @@ position: relative;}
                     <img class="img-responsive" src="assets/images/6hour.png" alt="6 Hour Logo Service" />
                 </div>
                 <div class="col-sm-8">
-                    <!--    <h3 class="title30">All logos given within 6 hours, FREE.</h3> -->
+                       <h3 class="title30">All logos given within 6 hours, FREE.</h3>
                     <h3 class="title30" id="hourlogo"> 6-HOUR Logo Service</h3> 
 
                     <ul class="dot-bullet">
                         <li>No matter what time you order (24/7), all your logos will be <br>delivered within 6 hours.</li>
                         <li>We provide the fastest logo service worldwide (by far!).</li>
-                        <li>This service applies to ALL logo packages. <!-- text changed sunil --></li>
+                        <li>This service applies to ALL logo packages.</li>
                         <li>No hidden/additional charges. We promise.</li>
                     </ul>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <script type="text/javascript">
         $(document).ready(function () {
             $(".add3").on("click", function () {
-//alert('ok');
+            //alert('ok');
                 var pack_id = $(this).parent().attr('id');
-//condlose.log(pack_id);
+            //condlose.log(pack_id);
                 var check_val = $(this).html();
 
                 var val = 1;
@@ -1641,11 +1661,11 @@ position: relative;}
                 $('#order' + pack_id).addClass('oderdisable');
                 $('#loader' + pack_id).show();
 
-//alert(112);
+               //alert(112);
 
-//var price = $(this).parent().parent().parent().parent().parent().children('h4').find('.main_price');
+                //var price = $(this).parent().parent().parent().parent().parent().children('h4').find('.main_price');
                 var price = $(this).closest('.three-pack').find('.main_price');
-//console.log($(this).closest('.three-pack').find('.main_price'));
+                //console.log($(this).closest('.three-pack').find('.main_price'));
                 $.post("<?php echo site_url('orders/save_options') ?>", {'pack_id': pack_id, 'options': val}, function (data) {
 
                     if (check_val == "Remove") {

@@ -320,19 +320,15 @@
 
 
 												<!-- <video class="video_carousel_video" autoplay controls="true" loop="true"  id="playerss">
-                            <source src="http://websamplenow.com/30/ldgnew/boy.mp4" type="video/mp4">
-                            Your browser does not support HTML5 video.
-                        </video> -->
+													<source src="http://websamplenow.com/30/ldgnew/boy.mp4" type="video/mp4">
+													Your browser does not support HTML5 video.
+												</video> -->
 												<!-- <div class="codegena"><iframe width='500' height='294' src="https://www.youtube.com/embed/aKkH3_vTwXc?&theme=dark&autoplay=1&loop=1&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0"frameborder="0"></iframe></div> -->
 												<iframe width='500' height='294' src="https://www.youtube.com/embed/t35t-92RE-4?enablejsapi=1&theme=dark&autohide=1&autoplay=1&loop=0&modestbranding=1&fs=0&playlist=t35t-92RE-4&showinfo=0&rel=0" frameborder="0" id="newplayer"></iframe>
 											</div>
 										</div>
 									</div>
 									<!--========= Second Slide =========-->
-
-
-
-
 								</div>
 								<ol class="carousel-indicators">
 									<li data-target="#video_carousel" data-slide-to="0" class="active"></li>
@@ -355,10 +351,8 @@
 									</span>
 									<span class="sr-only">Next</span>
 								</a>
-
 							</div>
 						</section>
-
 
 
 						<script>
