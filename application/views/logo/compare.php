@@ -1,19 +1,129 @@
 <?php $this->load->view('includes/header-common'); ?>
 <style>
+	<style>
+	#inner-cont-banner img {
+		width: 100%;
+		height: 600px;
+		object-fit: cover !important;
+	}
+</style>
+
+<style>
+	/* General styles for the banner */
+	.banner {
+		background-color: #FEDC45;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.banner-text {
+		color: black;
+		font-weight: 600;
+		font-size: 1.6rem;
+	}
+
+	/* Styles for mobile view */
+	@media (max-width: 700px) {
+		.banner {
+			padding: 3px;
+		}
+
+		.banner-text {
+			font-size: 1.36rem;
+		}
+	}
+
+	/* Styles for desktop view */
+	@media (min-width: 600px) {
+		.banner {
+			padding: 3px;
+		}
+
+		.banner-text {
+			font-size: 1.6rem;
+		}
+	}
+</style>
+
+<style>
+	/* General styles */
+	.information {
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	.head-list {
+		padding-left: 0;
+	}
+
+	.info-item {
+		color: #222;
+		font-size: 1.4rem;
+		font-weight: 600;
+		margin-top: 25px;
+	}
+
+	.info-item a img {
+		margin-left: 5px;
+	}
+
+	/* Remove margin-top for second info-item */
+	.info-item + .info-item {
+		margin-top: 0;
+	}
+
+	/* Tooltip custom styles */
+	.tooltip {
+		left: 35px !important; /* Adjusts the tooltip slightly to the left */
+	}
+
+	/* Styles for mobile view */
+	@media (max-width: 767px) {
+		.info-item {
+			font-size: 1.2rem;
+			margin-top: 20px;
+		}
+
+		.info-item + .info-item {
+			margin-top: 0;
+		}
+
+		.info-item a img {
+			width: 16px;
+			height: 16px;
+		}
+	}
+
+	/* Styles for desktop view */
+	@media (min-width: 768px) {
+		.info-item {
+			font-size: 1.4rem;
+			margin-top: 25px;
+		}
+
+		.info-item + .info-item {
+			margin-top: 0;
+		}
+
+		.info-item a img {
+			width: 20px;
+			height: 20px;
+		}
+	}
 </style>
 
 <div class="information">
 	<aside class="clearfix" id="right-section">
 		<ul class="list-unstyled head-list">
 			<li style="color:#222; font-size: 1.4rem;font-weight:600; margin-top: 25px;">UK Hand-Drawn Logos = Higher Quality <a class="test1" data-toggle="tooltip" data-placement="bottom" data-html="true" data-max-width="550px" title="" data-original-title="<span class='tt-head'>Logo Design Guarantee™</span><br/>
-<span class='tt-inner'>All our designers are based in the UK.<br/><br/>
-<ul class='ldg-tooltip'><li class='ldg-bp'>&#10004; All our designers hold graphic design degrees.</li>
-<li class='ldg-bp'>&#10004; We do <u>not</u> outsource any works.</li>
-<li class='ldg-bp'>&#10004; All our logos are hand-drawn, which greatly increases the sophistication of our logos.</li>
-<li class='ldg-bp'>&#10004; We have 16+ yrs experience.</li>
-<li class='ldg-bp'>&#10004; We have served 285,000+ clients.</li></ul><br/>
-<span class='tt-head'>Our competitors:</span><br/><ul class='ldg-tooltip'><li class='ldg-bp2'>&#10004; They often outsource to India, but use London PO 
-Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art software, which makes their logos look cheap.</li></ul>"><img src="assets/images/added/silver-info.jpg"> </a></li>
+				<span class='tt-inner'>All our designers are based in the UK.<br/><br/>
+				<ul class='ldg-tooltip'><li class='ldg-bp'>&#10004; All our designers hold graphic design degrees.</li>
+				<li class='ldg-bp'>&#10004; We do <u>not</u> outsource any works.</li>
+				<li class='ldg-bp'>&#10004; All our logos are hand-drawn, which greatly increases the sophistication of our logos.</li>
+				<li class='ldg-bp'>&#10004; We have 16+ yrs experience.</li>
+				<li class='ldg-bp'>&#10004; We have served 285,000+ clients.</li></ul><br/>
+				<span class='tt-head'>Our competitors:</span><br/><ul class='ldg-tooltip'><li class='ldg-bp2'>&#10004; They often outsource to India, but use London PO 
+				Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art software, which makes their logos look cheap.</li></ul>"><img src="assets/images/added/silver-info.jpg"> </a></li>
 			<li style="color:#222; font-size: 1.4rem;font-weight:600;">365-Day, 100% Money Back Guarantee
 				<a class="test" data-toggle="tooltip" data-placement="bottom" data-html="true" title="" data-original-title="No questions, no interrogations, no fuss – just a whole lot of trust. We guarantee your money back if for any reason you are dissatisfied with our services."><img src="assets/images/added/silver-info.jpg"> </a>
 			</li>
@@ -25,9 +135,8 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
 <section id="inner-cont-banner" style="position:relative;">
 	<section>
 		<div class="banner">
-			<h5 class="text-center" style="color:white; font-weight:600; font-size:1.35rem;">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
+			<h5 class="text-center banner-text">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
 		</div>
-
 	</section>
 	<div id="mycarousel" class="carousel video_carousel_fade animate_text video_carousel_wrapper" data-ride="carousel" data-interval="8000">
 		<!--======= Wrapper For Slides =======-->
@@ -54,8 +163,7 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
 										<div class="banner-desc ">
 											<ul>
 												<li>We always go the extra mile for you</li>
-												<li>No logo company offers you all our features<br>
-													at such a low price</li>
+												<li>No logo company offers you all our features at such a low price</li>
 												<li>We can prove it!</li>
 											</ul>
 										</div>
@@ -176,7 +284,7 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
 						<ul>
 							<li>3 <?php echo COUNTRY; ?> designers (minimum)</li>
 							<?php /*?><li><?php echo GUARANTEE_DAYS; ?> day, 100% money back guarantee</li><?php */ ?>
-							<li>phone contact to your designers</li>
+							<li>Phone contact to your designers</li>
 							<li>Free unlimited redraws &amp; revisions</li>
 						</ul>
 						<ul>
@@ -188,7 +296,7 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
 
 				</div>
 				<div class="col-sm-4 for-desktop">
-					<div class="trapzoid-box guarantee-box">
+					<div class="trapzoid-box about-box">
 						<h3 class="text-center"><a href="<?php echo site_url('packages'); ?>">See Our Packages</a></h3>
 					</div>
 				</div>
@@ -225,13 +333,11 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
 					<ul>
 						<li>
 							We will beat any competitor's price.
-							<br />
+							<br/>
 							Guaranteed.
 						</li>
 						<li>
-							We keep our prices low because every
-							<br />
-							business deserves an excellent logo, not just the big guys.
+							We keep our prices low because every business deserves an excellent logo, not just the big guys.
 						</li>
 						<li>
 							See how we compare <img src="assets/images/green-arrow1.png" alt="compare" />
