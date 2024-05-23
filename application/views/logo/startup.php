@@ -510,7 +510,7 @@ $this->load->view('includes/header-common');
 <style>
 	/* General styles for the banner */
 	.banner {
-		background-color: #FEDC45;
+		background-color: #fedc45;
 		padding: 10px;
 		text-align: center;
 	}
@@ -611,7 +611,132 @@ $this->load->view('includes/header-common');
 	}
 </style>
 
+<style>
+    .percent-off {
+        background: #FF0000;
+        border-bottom: 2px solid #e67c00;
+        display: inline-block;
+        width: 80%;
+        padding: 2px 4px;
+        color: #fff;
+        text-transform: uppercase;
+        /* text-shadow: 0 1px 1px rgba(0,0,0,.5); */
+        font-family: 'Helvetica Neue', sans-serif;
+        border-radius: 5px;
+        /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+        margin-top: 10px;
+        display: flex; /* Use flexbox for alignment */
+        align-items: center;
+    }
+    .main-text {
+        font-size: 50px; /* Large font size for "50" */
+        font-weight: bold;
+        margin-right: 10px; /* Space between "50" and "% off" */
+    }
+    .sub-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sub-text .percent {
+        font-size: 20px; /* Smaller font size for "%" */
+    }
+    .sub-text .off {
+        font-size: 30px; /* Smaller font size for "off" */
+        margin-top: -5px; /* Adjust the spacing between "%" and "off" */
+    }
+</style>
 
+<style>
+	/* General styles for the small-banner */
+	.small-banner {
+		background-color: #fedc45;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.small-banner-text {
+		color: black;
+		font-weight: 600;
+		font-size: 1rem;
+	}
+
+	/* Styles for mobile view */
+	@media (max-width: 700px) {
+		.small-banner {
+			padding: 1px;
+		}
+
+		.small-banner-text {
+			font-size: 1.2rem;
+		}
+	}
+
+	/* Styles for desktop view */
+	@media (min-width: 600px) {
+		.small-banner {
+			padding: 0px;
+		}
+
+		.small-banner-text {
+			font-size: 1.027rem;
+		}
+	}
+
+    .small-banner {
+            margin-top: 10px; /* Add a gap between the first div and the small banner */
+        }
+</style>
+
+<style>
+    .price-container {
+        display: flex;
+        align-items: baseline; /* Align currency and price text correctly */
+        font-family: 'Helvetica Neue', sans-serif;
+        color: #333; /* Adjust text color */
+    }
+
+    .price-container h4 {
+        font-size: 2rem; /* Adjust the size of the h4 element */
+        margin: 0;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .price-container .currency {
+        font-size: 2.5rem; /* Smaller font size for the currency */
+        align-self: flex-start; /* Align currency to the top */
+        margin-right: 2px;
+        margin-top: 2.5px;
+    }
+
+    .price-container .main_price {
+        font-size: 4rem; /* Make the price larger */
+        font-weight: bold; /* Make the price bold */
+    }
+
+    .save-pack1 {
+        font-size: 1.5rem; /* Smaller font size for "WAS" and the regular price */
+        margin-left: 10px; /* Add left margin for gap */
+        color: #ff8a00;
+    }
+
+    .save-pack1 span {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-left: 5px; /* Space between "Was" and regular price */
+        color: #ff8a00;
+    }
+
+    .save-pack1 .save-cross1 {
+        text-decoration: line-through; /* Strikethrough for the regular price */
+        margin-right: 1px;
+    }
+
+    .price-container {
+            margin-top: 10px; /* Add a gap between the first div and the small banner */
+        }
+</style>
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -756,7 +881,7 @@ $this->load->view('includes/header-common');
 										</div>
 										<div class="banner-desc ">
 											<ul>
-												<li>24x7x365 phone and live chat support</li>
+												<li>24x7x365 UK phone and UK live chat support</li>
 												<li>Dedicated project manager</li>
 												<li>24 Hour revisions turnaround</li>
 											</ul>
@@ -815,7 +940,7 @@ $this->load->view('includes/header-common');
     <div id="banner-bottom-slogan">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 clearfix we-care">
+                <div class="col-sm-9 clearfix we-care">
                     <h3>All Packages Include</h3>
                     <div class="we-care-about-you">
                         <ul>
@@ -825,13 +950,13 @@ $this->load->view('includes/header-common');
                             <li>Personal account manager</li>
                         </ul>
                         <ul>
-                            <li>6-Hour Logo Service!</li>
+                            <li>24x7 UK phone/UK live chat support</li>
                             <li>Hand-drawn logos</li>
                             
                         </ul>
                     </div> 
                 </div>
-                <div class="col-sm-4 clearfix">
+                <div class="col-sm-3 clearfix">
                     <div class="trapzoid-box about-box">
                         <h3 class="text-center">
                             <a href="<?php echo base_url() ?>compare.php">Learn More About <br /> Our Advantages</a>
@@ -882,10 +1007,30 @@ $this->load->view('includes/header-common');
                                 <div class="three-pack ">
                                     <h5><?php echo ucwords(strtolower(str_replace('LOGO PACKAGE', '', START_LP))); ?> </h5>
                                     <p>Ideal for personal related logos</p>
-                                    <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack1'])) ? START_LP_P + $_SESSION['poptions_price1'] : START_LP_P; ?></span></h4>
-                                    <?php if (SHOW_REGULAR_PRICE): ?>
-                                        <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . START_LP_P_R ?></span> SAVE 50%</p>
-                                    <?php endif; ?>
+                                    <div style="position:relative">
+                                        <a id="percent-off" class="percent-off">
+                                        <span class="main-text">50%</span>
+                                        <span class="sub-text">
+                                            <span class="percent"></span>
+                                            <span class="off">off</span>
+                                        </span>
+                                        </a>
+                                    </div>
+                                    <div class="small-banner">
+                                        <span class="text-center small-banner-text">Half-Price Ends Midnight, Friday 10 February ’24</span>
+                                    </div>
+
+                                    <div class="price-container">
+                                        <h4>
+                                            <span class="currency"><?php echo CURRENCY; ?></span>
+                                            <span class="main_price"><?php echo (isset($_SESSION['poptions_pack1'])) ? START_LP_P + $_SESSION['poptions_price1'] : START_LP_P; ?></span>
+                                        </h4>
+                                        <?php if (SHOW_REGULAR_PRICE): ?>
+                                            <p class="save-pack1">
+                                                <span>Was:</span><span class="save-cross1"><?php echo CURRENCY . START_LP_P_R; ?></span>
+                                            </p>
+                                        <?php endif; ?>
+                                    </div>
 
                                     <!-- <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
@@ -894,7 +1039,7 @@ $this->load->view('includes/header-common');
                                     </div> -->
                                     <div style="position:relative">
 
-                                        <a id="order1" class="order-pack" href="<?php echo base_url() ?>orders/index/1/" >Order now</a>
+                                        <a id="order1" class="order-pack" href="<?php echo base_url() ?>orders/index/1/" >Buy Now</a>
                                     </div>
 
                                     <div class="hori">
@@ -942,7 +1087,7 @@ $this->load->view('includes/header-common');
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                     </div>                                    -->
                                     <div style="position:relative">
-                                        <a id="order4" class="order-pack" href="<?php echo base_url() ?>orders/index/4/" >Order now</a>
+                                        <a id="order4" class="order-pack" href="<?php echo base_url() ?>orders/index/4/" >Buy Now</a>
                                     </div>
 
                                     <div class="hori">
@@ -984,7 +1129,7 @@ $this->load->view('includes/header-common');
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                     </div> -->
                                     <div style="position:relative">
-                                        <a id="order7" class="order-pack" href="<?php echo base_url(); ?>orders/index/7/" >Order now</a>
+                                        <a id="order7" class="order-pack" href="<?php echo base_url(); ?>orders/index/7/" >Buy Now</a>
                                     </div>
 
 
@@ -1021,7 +1166,7 @@ $this->load->view('includes/header-common');
                                         "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>
                                     </div> -->
                                 <div style="position:relative">
-                                    <a id="order7" class="order-pack" href="<?php echo base_url()?>orders/index/22/" >Order now</a>
+                                    <a id="order7" class="order-pack" href="<?php echo base_url()?>orders/index/22/" >Buy Now</a>
                                 </div>
                                 
                                 <div class="pack-list">
@@ -1071,112 +1216,6 @@ $this->load->view('includes/header-common');
                     </div>
                 </section>
             </section>
-            <section class="even-more-pack">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6  ">
-                            <div class="pack-top-img">
-                                <img alt="shadow fade" src="assets/images/gray-shadow1.png" width="263" height="24" class="img-responsive shadow">
-                            </div>
-                            <div class="purple-box">
-                                <h3>Save Even More!</h3>
-                            </div>
-                            <div class="three-pack smt">
-                                <h5><?php echo ucwords(strtolower(str_replace(array('LOGO PACKAGE', 'PLUS'), array('', '+'), START_PLUS_LP))); ?></h5>
-                                <p>Ideal for personal related logos</p>
-                                <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack2'])) ? START_PLUS_LP_P + $_SESSION['poptions_price2'] : START_PLUS_LP_P; ?></span></h4>
-                                <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . START_PLUS_LP_P_R ?></span> SAVE 50%</p>
-                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
-
-                                    <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
-                                       "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div>  -->
-
-                                <div style="position:relative">
-                                    <a id="order2" class="order-pack" href="<?php echo base_url() ?>orders/index/2/" >Order now</a>
-
-                                </div>
-                                <div class="pack-list">
-                                    <ul>
-                                        <li><span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">START PACKAGE PLUS</span></strong><a data-toggle="tooltip" title="All the features of our Start Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>3</strong> Business Card Designs<a data-toggle="tooltip" title="The perfect way to look professional while advertising your business. We will provide you with 3 custom-made designs to choose from."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>Unlimited </strong>Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of design samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>Unlimited</strong> Revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the design of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-
-                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6  ">
-                            <div class="pack-top-img">
-                                <img alt="shadow fade" src="assets/images/gray-shadow1.png" width="263" height="24" class="img-responsive shadow">
-                            </div>
-                            <div class="purple-box">
-                                <h3>Save Even More!</h3>
-                            </div>
-                            <div class="three-pack smt">
-                                <h5><?php echo ucwords(strtolower(str_replace(array('LOGO PACKAGE', 'PLUS'), array('', '+'), SURGE_PLUS_LP))); ?></h5>
-                                <p>Great for small businesses</p>
-                                <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack5'])) ? SURGE_PLUS_LP_P + $_SESSION['poptions_price5'] : SURGE_PLUS_LP_P; ?></span></h4>
-                                <?php if (SHOW_REGULAR_PRICE): ?>
-                                    <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . SURGE_PLUS_LP_P_R ?>   </span> SAVE 50%</p>
-                                <?php endif; ?>
-                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
-
-                                    <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
-                                       "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div>  -->
-
-                                <div style="position:relative">
-                                    <a id="order5" class="order-pack" href="<?php echo base_url() ?>orders/index/5/" >Order now</a>                            
-                                </div>
-                                <div class="pack-list">
-                                    <ul>
-                                        <li><span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">SURGE PACKAGE PLUS</span></strong><a data-toggle="tooltip" title="All the features of our Surge Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li> <strong>3</strong> Business Card Designs<a data-toggle="tooltip" title="The perfect way to look professional while advertising your business. We will provide you with 3 custom-made designs to choose from."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>Unlimited </strong>Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of design samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>Unlimited</strong> Revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the design of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-
-                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6  ">
-                            <div class="three-pack smt mtp1">
-                                <h5><?php echo ucwords(strtolower(str_replace(array('LOGO PACKAGE', 'PLUS'), array('', '+'), SUPER_START_PLUS_LP))); ?></h5>
-                                <p>Ideal for personal related logos</p>
-                                <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack3'])) ? SUPER_START_PLUS_LP_P + $_SESSION['poptions_price3'] : SUPER_START_PLUS_LP_P; ?></span></h4>
-                                <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . SUPER_START_PLUS_LP_P_R ?></span> SAVE 50%</p>
-                                <!-- <div class="delivery dropdown freeser">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
-
-                                    <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
-                                       "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                </div> -->
-
-                                <div style="position:relative">
-                                    <a id="order3" class="order-pack" href="<?php echo base_url() ?>orders/index/3/" >Order now</a>                            
-                                </div>
-                                <div class="pack-list">
-                                    <ul>
-                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">START PACKAGE PLUS</span></strong><a data-toggle="tooltip" title="All the features of our Start Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>3</strong> Business Card Designs<a data-toggle="tooltip" title="The perfect way to look professional while advertising your business. We will provide you with 3 custom-made designs to choose from."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>3</strong> Letterhead Designs<a data-toggle="tooltip" title="Make sure your business letters clearly identify you and your business. Plus, you also get to advertise your brand for free. With this package, you will get 3 additional custom-made letterhead designs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>3</strong>  Compliment Slip Designs<a data-toggle="tooltip" title="Compliment Slips also help with branding and advertising. It also puts your business information out there. With this package, you will get 3 custom Compliment Slip designs."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>Unlimited </strong>Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of design samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                        <li><strong>Unlimited</strong> Revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the design of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-
-                                        <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </section>
 
         <!-- start up ends-->
@@ -1211,7 +1250,7 @@ $this->load->view('includes/header-common');
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                     </div> -->
                                     <div style="position:relative">
-                                        <a id="order8" class="order-pack" href="<?php echo base_url() ?>orders/index/8" >Order now</a>
+                                        <a id="order8" class="order-pack" href="<?php echo base_url() ?>orders/index/8" >Buy Now</a>
                                     </div>
 
 
@@ -1243,7 +1282,7 @@ $this->load->view('includes/header-common');
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                     </div>                                 -->
                                     <div style="position:relative">
-                                        <a id="order9" class="order-pack" href="<?php echo base_url() ?>orders/index/9" >Order now</a>
+                                        <a id="order9" class="order-pack" href="<?php echo base_url() ?>orders/index/9" >Buy Now</a>
                                     </div>
 
                                     <div class="pack-list">
@@ -1277,7 +1316,7 @@ $this->load->view('includes/header-common');
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                     </div> -->
                                     <div style="position:relative">
-                                        <a id="order10" class="order-pack" href="<?php echo base_url() ?>orders/index/10/" >Order now</a>
+                                        <a id="order10" class="order-pack" href="<?php echo base_url() ?>orders/index/10/" >Buy Now</a>
                                     </div>
 
 
@@ -1314,7 +1353,7 @@ $this->load->view('includes/header-common');
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                 </div> -->
                                 <div style="position:relative">
-                                    <a id="order11" class="order-pack" href="<?php echo base_url() ?>orders/index/11" >Order now</a>
+                                    <a id="order11" class="order-pack" href="<?php echo base_url() ?>orders/index/11" >Buy Now</a>
                                 </div>
 
 
@@ -1346,7 +1385,7 @@ $this->load->view('includes/header-common');
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                 </div> -->
                                 <div style="position:relative">
-                                    <a id="order12" class="order-pack" href="<?php echo base_url() ?>orders/index/12" >Order now</a>
+                                    <a id="order12" class="order-pack" href="<?php echo base_url() ?>orders/index/12" >Buy Now</a>
                                 </div>
 
 
@@ -1379,7 +1418,7 @@ $this->load->view('includes/header-common');
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                 </div> -->
                                 <div style="position:relative">
-                                    <a id="order13" class="order-pack" href="<?php echo base_url() ?>orders/index/13" >Order now</a>
+                                    <a id="order13" class="order-pack" href="<?php echo base_url() ?>orders/index/13" >Buy Now</a>
                                 </div>
 
 
@@ -1417,7 +1456,7 @@ $this->load->view('includes/header-common');
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                 </div> -->
                                 <div style="position:relative">
-                                    <a id="order14" class="order-pack" href="<?php echo base_url() ?>orders/index/14" >Order now</a>
+                                    <a id="order14" class="order-pack" href="<?php echo base_url() ?>orders/index/14" >Buy Now</a>
                                 </div>
 
 
@@ -1449,7 +1488,7 @@ $this->load->view('includes/header-common');
                                        "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                 </div> -->
                                 <div style="position:relative">
-                                    <a id="order15" class="order-pack" href="<?php echo base_url() ?>orders/index/15" >Order now</a>
+                                    <a id="order15" class="order-pack" href="<?php echo base_url() ?>orders/index/15" >Buy Now</a>
                                 </div>
 
 
@@ -1516,7 +1555,7 @@ $this->load->view('includes/header-common');
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                     </div> -->
                                     <div style="position:relative">
-                                        <a id="order16" class="order-pack" href="<?php echo base_url() ?>orders/index/16" >Order now</a>
+                                        <a id="order16" class="order-pack" href="<?php echo base_url() ?>orders/index/16" >Buy Now</a>
                                     </div>
 
 
@@ -1553,7 +1592,7 @@ $this->load->view('includes/header-common');
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                     </div>                                 -->
                                     <div style="position:relative">
-                                        <a id="order17" class="order-pack" href="<?php echo base_url() ?>orders/index/17" >Order now</a>
+                                        <a id="order17" class="order-pack" href="<?php echo base_url() ?>orders/index/17" >Buy Now</a>
                                     </div>
 
                                     <div class="pack-list">
@@ -1591,7 +1630,7 @@ $this->load->view('includes/header-common');
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                     </div> -->
                                     <div style="position:relative">
-                                        <a id="order18" class="order-pack" href="<?php echo base_url() ?>orders/index/18/" >Order now</a>
+                                        <a id="order18" class="order-pack" href="<?php echo base_url() ?>orders/index/18/" >Buy Now</a>
                                     </div>
 
 
@@ -1674,7 +1713,7 @@ $this->load->view('includes/header-common');
                                                   "  data-placement='left' class="info1"> <!--<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> <img src="assets/images/added/questionmark.png"></a>                     
                                     </div>-->
                                     <div style="position:relative">
-                                        <a id="order19" class="order-pack" href="<?php echo base_url() ?>orders/index/19" >Order now</a>
+                                        <a id="order19" class="order-pack" href="<?php echo base_url() ?>orders/index/19" >Buy Now</a>
                                     </div>
 
 
@@ -1717,7 +1756,7 @@ $this->load->view('includes/header-common');
                                                    "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>      
                                     </div>-->                                
                                     <div style="position:relative">
-                                        <a id="order20" class="order-pack" href="<?php echo base_url() ?>orders/index/20" >Order now</a>
+                                        <a id="order20" class="order-pack" href="<?php echo base_url() ?>orders/index/20" >Buy Now</a>
                                     </div>
 
                                     <div class="pack-list">
@@ -1754,7 +1793,7 @@ $this->load->view('includes/header-common');
                                                    "  data-placement='left' class="info1"><img src="assets/images/added/questionmark.png"></a>      
                                     </div>-->
                                     <div style="position:relative">
-                                        <a id="order21" class="order-pack" href="<?php echo base_url() ?>orders/index/21/" >Order now</a>
+                                        <a id="order21" class="order-pack" href="<?php echo base_url() ?>orders/index/21/" >Buy Now</a>
                                     </div>
 
 
@@ -1849,9 +1888,9 @@ $this->load->view('includes/header-common');
         <div class="container">
             <div class="row">
                 <div class="col-sm-8">
-                    <h2>Perfectly Hand Crafted Logos</h2>
+                    <h2>Perfectly Hand-Crafted Logos</h2>
                     <ul class="width-half tick">
-                        <li>100% <span> Hand Drawn </span> &amp; Custom Made</li>
+                        <li>100% <span> Hand-Drawn </span> &amp; Custom Made</li>
                         <li><span>Unlimited </span> Revisions with All Packages</li>
                         <li><span>Unlimited </span> Redraws</li>
                     </ul>
