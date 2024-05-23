@@ -548,7 +548,7 @@ $this->load->view('includes/header-common');
 	/* General styles */
 	.information {
 		margin: 0 auto;
-		padding: 10px;
+		padding: 5px;
 	}
 
 	.head-list {
@@ -626,6 +626,33 @@ $this->load->view('includes/header-common');
   </style>
 <![endif]-->
 
+<section>
+	<div class="container" style="padding:0px;">
+		<div class="information">
+			<div class="col-sm-12 clearfix">
+				<ul class="list-unstyled head-list">
+					<li class="info-item">UK Hand-Drawn Logos = Higher Quality 
+						<a class="test1" data-toggle="tooltip" data-placement="bottom" data-html="true" data-max-width="550px" title="" data-original-title="<span class='tt-head'>Logo Design Guarantee™</span><br/>
+						<span class='tt-inner'>All our designers are based in the UK.<br/><br/>
+						<ul class='ldg-tooltip'><li class='ldg-bp'>&#10004; All our designers hold graphic design degrees.</li>
+						<li class='ldg-bp'>&#10004; We do <u>not</u> outsource any works.</li>
+						<li class='ldg-bp'>&#10004; All our logos are hand-drawn, which greatly increases the sophistication of our logos.</li>
+						<li class='ldg-bp'>&#10004; We have 16+ yrs experience.</li>
+						<li class='ldg-bp'>&#10004; We have served 285,000+ clients.</li></ul><br/>
+						<span class='tt-head'>Our competitors:</span><br/><ul class='ldg-tooltip'><li class='ldg-bp2'>&#10004; They often outsource to India, but use London PO 
+						Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art software, which makes their logos look cheap.</li></ul>"><img src="assets/images/added/silver-info.jpg"> </a>
+					</li>
+					<li class="info-item">365-Day, 100% Money Back Guarantee
+						<a class="test" data-toggle="tooltip" data-placement="bottom" data-html="true" title="" 
+						data-max-width="550px" data-original-title="No questions, no interrogations, no fuss – just a whole lot of trust. We guarantee your money back if for any reason you are dissatisfied with our services."><img src="assets/images/added/silver-info.jpg"> </a>
+					</li>
+				</ul>
+				<hr>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section id="inner-cont-banner" style="position:relative;">
 	<section>
 		<div class="banner">
@@ -645,31 +672,32 @@ $this->load->view('includes/header-common');
                 <div class="carousel-caption video_carousel_caption">
                     <div class="video_carousel_caption_text">
 
-                        <div class="container" style="position: relative;">
-                            <div class="banner-caption white-bg-main">
-                                <div class="banner-caption-head">
-                                    <h2 style="margin-top: 30px;">
-                                        <span style="font-size: 47px;">Get a Minimum </span>
-                                        <br />
-                                        of 6 Samples...
-                                    </h2>
-                                </div>
-                                <div class="banner-desc white-bg-banner-desc">
-                                    <p>
-                                        We offer the most logo samples for the <br>
-                                        lowest price
-                                    </p>
-                                    <p>
-                                        3 In-House expert designers work on <br>
-                                        your logo (minimum)
-                                    </p>
-                                    <p>
-                                        Get 6 samples for just <del>£50</del> £25!
-                                    </p>
-                                </div>
-                                <br>
-                                <!-- <a class="button" href="http://www.logodesignguarantee.co.uk/packages.php">Get Started</a> -->
-                            </div>
+                        <div class="container" style="padding-right:0px;">
+
+                            <div class="row">
+								<div class="col-md-7">
+									<div class="banner-caption text-left white-bg-main">
+										<div class="banner-caption-head">
+											<h2>
+                                                Get a Minimum of 6 Samples...
+											</h2>
+										</div>
+										<div class="banner-desc ">
+											<ul>
+												<li>We offer the most logo samples for the lowest price</li>
+												<li> 3 In-House expert designers work on your logo (minimum)</li>
+												<li>Get 6 samples for just <del>£50</del> £25!</li>
+											</ul>
+										</div>
+										<br>
+										<!-- <a class="button pull-left" href="http://www.logodesignguarantee.co.uk/packages.php">Get Started</a> -->
+									</div>
+								</div>
+								<div class="col-md-5" style="padding-left:0px;">
+									<!-- <img style="margin-top: 40px;" id="#banner-img" src="assets/images/slide1.jpeg" alt=""> -->
+								</div>
+							</div>
+
                         </div>
                     </div>
                 </div>
@@ -680,66 +708,70 @@ $this->load->view('includes/header-common');
                 <div class="carousel-caption video_carousel_caption">
                     <div class="video_carousel_caption_text">
 
-                        <div class="container" style="position: relative;">
-                            <div class="banner-caption white-bg-main">
-                                <div class="banner-caption-head">
-                                    <h2 style="margin-top: 20px;">
-                                        100% Satisfaction <br />Guaranteed...
-
-
-                                    </h2>
+                        <div class="container" style="padding-right:0px;">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="banner-caption text-left white-bg-main">
+                                        <div class="banner-caption-head">
+                                            <h2>
+                                                100% Satisfaction <br />Guaranteed...
+                                            </h2>
+                                        </div>
+                                        <div class="banner-desc ">
+                                            <ul>
+                                                <li>Free unlimited redraws and revisions</li>
+                                                <li>We design in detail for you</li>
+                                                <li>You own all design rights</li>
+                                            </ul>
+                                        </div>
+                                        <br>
+                                        <!-- <a class="button pull-left" href="http://www.logodesignguarantee.co.uk/packages.php">Get Started</a> -->
+                                    </div>
                                 </div>
-                                <div class="banner-desc white-bg-banner-desc">
-                                    <p>
-                                        Free unlimited redraws and revisions
-                                    </p>
-                                    <p>
-                                        We design in detail for you
-                                    </p>
-                                    <p>
-                                        You own all design rights
-                                    </p>
-
+                                <div class="col-md-5" style="padding-left:0px;">
+                                    <!-- <img style="margin-top: 40px;" id="#banner-img" src="assets/images/slide1.jpeg" alt=""> -->
                                 </div>
-                                <!--       <br> -->
-                                <!-- <a href="http://www.logodesignguarantee.co.uk/portfolio.php" class="button">See Portfolio</a> -->
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
 
 			<!--    <div class="item " data-interval="16000"  data-pause="hover"> -->
             <div class="item " data-interval="16000">
-                <!-- <img src="assets/images/newslider/simple.jpg/carousel_video_img.png" alt="carousel video img" / -->
+                <img src="assets/images/newslider/office3.jpg">
                 <div class="carousel-caption video_carousel_caption">
                     <div class="video_carousel_caption_text">
 
-                        <div class="container" style="position: relative;">
-                            <div class="banner-caption white-bg-main">
-                                <div class="banner-caption-head">
-                                    <h2 style="margin-top: 30px;">
-                                        <span style="font-size: 47px;">24x7x365 </span>We've Got Your Back...
+                        <div class="container" style="padding-right:0px;">
 
+                            <div class="row">
+								<div class="col-md-7">
+									<div class="banner-caption text-left white-bg-main">
+										<div class="banner-caption-head">
+											<h2>
+                                                24x7x365 </span>We've Got Your Back...
+											</h2>
+										</div>
+										<div class="banner-desc ">
+											<ul>
+												<li>24x7x365 phone and live chat support</li>
+												<li>Dedicated project manager</li>
+												<li>24 Hour revisions turnaround</li>
+											</ul>
+										</div>
+										<br>
+										<!-- <a class="button pull-left" href="http://www.logodesignguarantee.co.uk/packages.php">Get Started</a> -->
+									</div>
+								</div>
+								<div class="col-md-5" style="padding-left:0px;">
+									<!-- <img style="margin-top: 40px;" id="#banner-img" src="assets/images/slide1.jpeg" alt=""> -->
+								</div>
+							</div>
 
-                                    </h2>
-                                </div>
-                                <div class="banner-desc white-bg-banner-desc">
-                                    <p>
-                                        24x7x365 phone and live chat support
-                                    </p>
-                                    <p>
-                                        Dedicated project manager
-                                    </p>
-                                    <p>
-                                        24 Hour revisions turnaround
-                                    </p>
-
-                                </div>
-                                <br>
-
-                            </div>
                         </div>
+  
                     </div>
 
                     <div class="embed-responsive  embed-responsive-16by9 embed-packages">
@@ -750,7 +782,7 @@ $this->load->view('includes/header-common');
                             Your browser does not support HTML5 video.
                         </video> -->
                         <!-- <div class="codegena"><iframe width='500' height='294' src="https://www.youtube.com/embed/aKkH3_vTwXc?&theme=dark&autoplay=1&loop=1&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0"frameborder="0"></iframe></div> -->
-                        <iframe width='500' height='294' src="https://www.youtube.com/embed/t35t-92RE-4?enablejsapi=1&theme=dark&autohide=1&autoplay=1&loop=0&modestbranding=1&fs=0&playlist=t35t-92RE-4&showinfo=0&rel=0" frameborder="0" id="newplayer"></iframe>
+                        <!-- <iframe width='500' height='294' src="https://www.youtube.com/embed/t35t-92RE-4?enablejsapi=1&theme=dark&autohide=1&autoplay=1&loop=0&modestbranding=1&fs=0&playlist=t35t-92RE-4&showinfo=0&rel=0" frameborder="0" id="newplayer"></iframe> -->
                     </div>
                 </div>
             </div>
