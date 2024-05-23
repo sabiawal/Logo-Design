@@ -28,111 +28,111 @@ $this->load->view('includes/header-common');
 </style>
 <!-- new css for pacakages -->
 <style type="text/css">
-@media(min-width:769px )
-{.mrtbnew .col-md-3
-{padding-left:0px !important;
-padding-right: 5px !important;}
-.mrtbnew .three-pack
-{padding: 26px !important;}
-.newpk a {
-font-size: 16px !important;
-}
-}
-.circle1{
+    @media(min-width:769px )
+    {.mrtbnew .col-md-3
+    {padding-left:0px !important;
+    padding-right: 5px !important;}
+    .mrtbnew .three-pack
+    {padding: 26px !important;}
+    .newpk a {
+    font-size: 16px !important;
+    }
+    }
+    .circle1{
 
-background: #fedc45 ;
-width: 58px;
-height: 40px;
-position: absolute;
-top: -1em;
-left: 0px;
-line-height: 36px;
-text-align: center;
-color: #000000;
-font-weight: 700;
-/*text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);*/
-}
-.circle span{
-color: #000000;
-font-size: 9px;
-}
-i.fa.fa-star
-{color:#ff8a00;}
-.pack-list ul li {
-border-bottom: 1px solid #e0e0e0 !important;
-}
-.excelh {
-min-height: 1535px;
-}
-@media (min-width: 1200px) and (max-width:1400px ){
-.new-container {
-width: 96%;
-padding-right: 0px;
-padding-left:0px;
-margin-right: auto;
-margin-left: auto;
-}
-.mrtbnew .col-md-3
-{padding-left:0px !important;
-padding-right: 12px !important;
-}
-.mrtbnew .three-pack {
+    background: #fedc45 ;
+    width: 58px;
+    height: 40px;
+    position: absolute;
+    top: -1em;
+    left: 0px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    /*text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);*/
+    }
+    .circle span{
+    color: #000000;
+    font-size: 9px;
+    }
+    i.fa.fa-star
+    {color:#ff8a00;}
+    .pack-list ul li {
+    border-bottom: 1px solid #e0e0e0 !important;
+    }
+    .excelh {
+    min-height: 1535px;
+    }
+    @media (min-width: 1200px) and (max-width:1400px ){
+    .new-container {
+    width: 96%;
+    padding-right: 0px;
+    padding-left:0px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .mrtbnew .col-md-3
+    {padding-left:0px !important;
+    padding-right: 12px !important;
+    }
+    .mrtbnew .three-pack {
 
-min-height: 1525px;
-}
-.best-value
-{right: 12px;}}
-@media(min-width: 1401px) and (max-width: 2040px)
-{.new-container {
-width: 75%;
-padding-right: 0px;
-padding-left: 0px;
-margin-right: auto;
-margin-left: auto;
-}
-.best-value
-{right: 9px;}
-.mrtbnew .three-pack {
+    min-height: 1525px;
+    }
+    .best-value
+    {right: 12px;}}
+    @media(min-width: 1401px) and (max-width: 2040px)
+    {.new-container {
+    width: 75%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .best-value
+    {right: 9px;}
+    .mrtbnew .three-pack {
 
-min-height: 1453px;
-}
-.mrtbnew .col-md-3
-{padding-left:0px !important;
-padding-right: 9px !important;
-}}
-.hori ul li {
-/*border-bottom: 1px solid #e0e0e0;
-min-height: 40px;
-font-family: Arial,"Helvetica Neue",Helvetica,sans-serif !important;
-font-size: 16px !important;
-text-transform: capitalize;
-text-align: left !important;
-border-top: none!important;
-line-height: 2 !important;
-padding: 5px 0px !important;*/
-}
-.pack-list ul li {
-/* font-family: "PT Sans",sans-serif,Arial,Verdana !important; */
-/*font-family: Arial,"Helvetica Neue",Helvetica,sans-serif !important;
-font-size: 16px !important;
-text-transform: capitalize;
-text-align: left !important;
-border-top: none!important;
-min-height: 0 !important;
-line-height: 2 !important;
-padding: 5px 0px !important;*/
-}
-@media (max-width: 768px)
-{.new-container {
-width: 100%;
-padding-right: 15px;
-padding-left: 15px;
-position: relative;}
-.circle1
-{left: 15px;}
-}
-#package-pg-body
-{padding-bottom: 2px;}
+    min-height: 1453px;
+    }
+    .mrtbnew .col-md-3
+    {padding-left:0px !important;
+    padding-right: 9px !important;
+    }}
+    .hori ul li {
+    /*border-bottom: 1px solid #e0e0e0;
+    min-height: 40px;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif !important;
+    font-size: 16px !important;
+    text-transform: capitalize;
+    text-align: left !important;
+    border-top: none!important;
+    line-height: 2 !important;
+    padding: 5px 0px !important;*/
+    }
+    .pack-list ul li {
+    /* font-family: "PT Sans",sans-serif,Arial,Verdana !important; */
+    /*font-family: Arial,"Helvetica Neue",Helvetica,sans-serif !important;
+    font-size: 16px !important;
+    text-transform: capitalize;
+    text-align: left !important;
+    border-top: none!important;
+    min-height: 0 !important;
+    line-height: 2 !important;
+    padding: 5px 0px !important;*/
+    }
+    @media (max-width: 768px)
+    {.new-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;}
+    .circle1
+    {left: 15px;}
+    }
+    #package-pg-body
+    {padding-bottom: 2px;}
 </style>
 
 
@@ -466,16 +466,12 @@ position: relative;}
         pointer-events: none;
     }
 
-.pack-list ul li:first-letter
- {text-transform: uppercase;}
+    .pack-list ul li:first-letter
+    {text-transform: uppercase;}
 
- .hori ul li:first-letter 
-{text-transform: uppercase;}
-    .hori ul li {
-
-
-
-
+    .hori ul li:first-letter 
+    {text-transform: uppercase;}
+        .hori ul li {
         border-bottom: 1px solid #e0e0e0;
         min-height: 40px;
         margin-bottom: 10px;
@@ -492,15 +488,127 @@ position: relative;}
     }
 
 
-@media(max-width:480px)
- {
-  
-  .hidden-xsmob{display: none !important;}
+    @media(max-width:480px){
+        
+        .hidden-xsmob{display: none !important;}
 
-  .excelh {
-  min-height: 400px !important;
-}
-}
+        .excelh {
+        min-height: 400px !important;
+        }
+    }
+</style>
+
+<style>
+	<style>
+	#inner-cont-banner img {
+		width: 100%;
+		height: 600px;
+		object-fit: cover !important;
+	}
+</style>
+
+<style>
+	/* General styles for the banner */
+	.banner {
+		background-color: #FEDC45;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.banner-text {
+		color: black;
+		font-weight: 600;
+		font-size: 1.6rem;
+	}
+
+	/* Styles for mobile view */
+	@media (max-width: 700px) {
+		.banner {
+			padding: 3px;
+		}
+
+		.banner-text {
+			font-size: 1.36rem;
+		}
+	}
+
+	/* Styles for desktop view */
+	@media (min-width: 600px) {
+		.banner {
+			padding: 3px;
+		}
+
+		.banner-text {
+			font-size: 1.6rem;
+		}
+	}
+</style>
+
+<style>
+	/* General styles */
+	.information {
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	.head-list {
+		padding-left: 0;
+	}
+
+	.info-item {
+		color: #222;
+		font-size: 1.4rem;
+		font-weight: 600;
+		margin-top: 25px;
+	}
+
+	.info-item a img {
+		margin-left: 5px;
+	}
+
+	/* Remove margin-top for second info-item */
+	.info-item + .info-item {
+		margin-top: 0;
+	}
+
+	/* Tooltip custom styles */
+	.tooltip {
+		left: 35px !important; /* Adjusts the tooltip slightly to the left */
+	}
+
+	/* Styles for mobile view */
+	@media (max-width: 767px) {
+		.info-item {
+			font-size: 1.2rem;
+			margin-top: 20px;
+		}
+
+		.info-item + .info-item {
+			margin-top: 0;
+		}
+
+		.info-item a img {
+			width: 16px;
+			height: 16px;
+		}
+	}
+
+	/* Styles for desktop view */
+	@media (min-width: 768px) {
+		.info-item {
+			font-size: 1.4rem;
+			margin-top: 25px;
+		}
+
+		.info-item + .info-item {
+			margin-top: 0;
+		}
+
+		.info-item a img {
+			width: 20px;
+			height: 20px;
+		}
+	}
 </style>
 
 
@@ -518,7 +626,157 @@ position: relative;}
   </style>
 <![endif]-->
 
+<section id="inner-cont-banner" style="position:relative;">
+	<section>
+		<div class="banner">
+			<h5 class="text-center banner-text">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
+		</div>
+	</section>
+	<div id="mycarousel" class="carousel slide carousel_fade animate_text video_carousel_wrapper" data-ride="carousel" data-interval="8000">
+		<!--======= Wrapper For Slides =======-->
+		<div class="carousel-inner" role="listbox">
 
+			<!--========= First Slide =========-->
+
+
+			<div class="item active " data-interval="7000" data-pause="false">
+                <img src="assets/images/newslider/logos.jpg">
+
+                <div class="carousel-caption video_carousel_caption">
+                    <div class="video_carousel_caption_text">
+
+                        <div class="container" style="position: relative;">
+                            <div class="banner-caption white-bg-main">
+                                <div class="banner-caption-head">
+                                    <h2 style="margin-top: 30px;">
+                                        <span style="font-size: 47px;">Get a Minimum </span>
+                                        <br />
+                                        of 6 Samples...
+                                    </h2>
+                                </div>
+                                <div class="banner-desc white-bg-banner-desc">
+                                    <p>
+                                        We offer the most logo samples for the <br>
+                                        lowest price
+                                    </p>
+                                    <p>
+                                        3 In-House expert designers work on <br>
+                                        your logo (minimum)
+                                    </p>
+                                    <p>
+                                        Get 6 samples for just <del>£50</del> £25!
+                                    </p>
+                                </div>
+                                <br>
+                                <!-- <a class="button" href="http://www.logodesignguarantee.co.uk/packages.php">Get Started</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<div class="item" data-interval="7000" data-pause="false">
+                <img src="assets/images/newslider/image2.jpg">
+                <div class="carousel-caption video_carousel_caption">
+                    <div class="video_carousel_caption_text">
+
+                        <div class="container" style="position: relative;">
+                            <div class="banner-caption white-bg-main">
+                                <div class="banner-caption-head">
+                                    <h2 style="margin-top: 20px;">
+                                        100% Satisfaction <br />Guaranteed...
+
+
+                                    </h2>
+                                </div>
+                                <div class="banner-desc white-bg-banner-desc">
+                                    <p>
+                                        Free unlimited redraws and revisions
+                                    </p>
+                                    <p>
+                                        We design in detail for you
+                                    </p>
+                                    <p>
+                                        You own all design rights
+                                    </p>
+
+                                </div>
+                                <!--       <br> -->
+                                <!-- <a href="http://www.logodesignguarantee.co.uk/portfolio.php" class="button">See Portfolio</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<!--    <div class="item " data-interval="16000"  data-pause="hover"> -->
+            <div class="item " data-interval="16000">
+                <!-- <img src="assets/images/newslider/simple.jpg/carousel_video_img.png" alt="carousel video img" / -->
+                <div class="carousel-caption video_carousel_caption">
+                    <div class="video_carousel_caption_text">
+
+                        <div class="container" style="position: relative;">
+                            <div class="banner-caption white-bg-main">
+                                <div class="banner-caption-head">
+                                    <h2 style="margin-top: 30px;">
+                                        <span style="font-size: 47px;">24x7x365 </span>We've Got Your Back...
+
+
+                                    </h2>
+                                </div>
+                                <div class="banner-desc white-bg-banner-desc">
+                                    <p>
+                                        24x7x365 phone and live chat support
+                                    </p>
+                                    <p>
+                                        Dedicated project manager
+                                    </p>
+                                    <p>
+                                        24 Hour revisions turnaround
+                                    </p>
+
+                                </div>
+                                <br>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="embed-responsive  embed-responsive-16by9 embed-packages">
+
+
+                        <!-- <video class="video_carousel_video" autoplay controls="true" loop="true"  id="playerss">
+                            <source src="http://websamplenow.com/30/ldgnew/boy.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video> -->
+                        <!-- <div class="codegena"><iframe width='500' height='294' src="https://www.youtube.com/embed/aKkH3_vTwXc?&theme=dark&autoplay=1&loop=1&autohide=1&modestbranding=1&fs=0&showinfo=0&rel=0"frameborder="0"></iframe></div> -->
+                        <iframe width='500' height='294' src="https://www.youtube.com/embed/t35t-92RE-4?enablejsapi=1&theme=dark&autohide=1&autoplay=1&loop=0&modestbranding=1&fs=0&playlist=t35t-92RE-4&showinfo=0&rel=0" frameborder="0" id="newplayer"></iframe>
+                    </div>
+                </div>
+            </div>
+
+		</div>
+
+		<ol class="carousel-indicators">
+			<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#mycarousel" data-slide-to="1"></li>
+			<li data-target="#mycarousel" data-slide-to="2"></li>
+
+		</ol>
+		<!--======= Navigation Buttons =========-->
+
+		<a class="left carousel-control video_carousel_control_left" href="#mycarousel" role="button" data-slide="prev">
+			<span class="fas fa-arrow-circle-left video_carousel_control_icons" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+
+		<a class="right carousel-control video_carousel_control_right" href="#mycarousel" role="button" data-slide="next">
+			<span class="fas fa-arrow-circle-right video_carousel_control_icons" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+
+	</div>
+</section>
 
 
 <section class="content">
@@ -542,8 +800,8 @@ position: relative;}
                     </div> 
                 </div>
                 <div class="col-sm-4 clearfix">
-                    <div class="trapzoid-box guarantee-box">
-                        <h3 style="padding: 46px 0;" class="text-center">
+                    <div class="trapzoid-box about-box">
+                        <h3 class="text-center">
                             <a href="<?php echo base_url() ?>compare.php">Learn More About <br /> Our Advantages</a>
                         </h3>
                     </div>
