@@ -23,7 +23,7 @@
 
 				<ul style="margin-top:3px;">
 					<li>• Half-Price on All Packages</li>
-					<li>• <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £25</li>
+					<li>• <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £50</li>
 					<li>• <strong style="color:#e0ff35;">FREE</strong> Lifetime Alteration to Your Logo worth £50</li>
 					<h4 style="margin-top:5px; color:#fff; font-size:1.8rem;">Ends Midnight, Friday 10 February ’24 </h4>
 				</ul>

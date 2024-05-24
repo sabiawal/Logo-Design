@@ -572,9 +572,16 @@ $this->load->view('includes/header-common');
 	}
 
 	/* Tooltip custom styles */
-	.tooltip {
-		left: 35px !important; /* Adjusts the tooltip slightly to the left */
-	}
+    .tooltip {
+        left: 10px !important; /* Adjusts the tooltip slightly to the left for desktop */
+    }
+
+    @media (max-width: 768px) {
+        /* Adjust the tooltip position for mobile devices */
+        .tooltip {
+            left: 100px !important; /* Adjusts the tooltip to the default or desired position for mobile */
+        }
+    }
 
 	/* Styles for mobile view */
 	@media (max-width: 767px) {
@@ -612,6 +619,7 @@ $this->load->view('includes/header-common');
 </style>
 
 <style>
+    /* General styles for .percent-off */
     .percent-off {
         background: #FF0000;
         border-bottom: 2px solid #e67c00;
@@ -620,30 +628,39 @@ $this->load->view('includes/header-common');
         padding: 2px 4px;
         color: #fff;
         text-transform: uppercase;
-        /* text-shadow: 0 1px 1px rgba(0,0,0,.5); */
         font-family: 'Helvetica Neue', sans-serif;
         border-radius: 5px;
-        /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
         margin-top: 10px;
-        display: flex; /* Use flexbox for alignment */
+        display: flex;
         align-items: center;
     }
+
     .main-text {
         font-size: 50px; /* Large font size for "50" */
         font-weight: bold;
         margin-right: 10px; /* Space between "50" and "% off" */
     }
+
     .sub-text {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
+
     .sub-text .percent {
         font-size: 20px; /* Smaller font size for "%" */
     }
+
     .sub-text .off {
         font-size: 30px; /* Smaller font size for "off" */
         margin-top: -5px; /* Adjust the spacing between "%" and "off" */
+    }
+
+    /* Media query for mobile devices */
+    @media (max-width: 768px) {
+        .percent-off {
+            width: 60%; /* Change the width to 100% for mobile devices */
+        }
     }
 </style>
 
@@ -737,6 +754,13 @@ $this->load->view('includes/header-common');
             margin-top: 10px; /* Add a gap between the first div and the small banner */
         }
 </style>
+
+<style>
+    .move-right {
+    margin-left: 100px; /* Adjust the value as needed */
+}
+</style>
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -937,7 +961,7 @@ $this->load->view('includes/header-common');
 
 
 <section class="content">
-    <div id="banner-bottom-slogan">
+    <!-- <div id="banner-bottom-slogan">
         <div class="container">
             <div class="row">
                 <div class="col-sm-9 clearfix we-care">
@@ -945,7 +969,7 @@ $this->load->view('includes/header-common');
                     <div class="we-care-about-you">
                         <ul>
                             <li>3 UK designers (minimum)</li>
-                           <!--  <li>365 day, 100% money back guarantee</li> -->
+                            <li>365 day, 100% money back guarantee</li>
                             <li>Free unlimited redraws &amp; revisions</li>
                             <li>Personal account manager</li>
                         </ul>
@@ -965,7 +989,7 @@ $this->load->view('includes/header-common');
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <section class="tab-new" id="fixnavi">
@@ -1910,20 +1934,22 @@ $this->load->view('includes/header-common');
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <img class="img-responsive" width="260" height="131" src="assets/images/time--watch.png" alt="time watch" />
+                    <img class="img-responsive move-right" width="125" height="125" src="assets/images/time--watch1.png" alt="time watch" />
                 </div>
                 <div class="col-sm-8">
                     <h2>24x7x365 Free Support</h2>
-                    <ul class="width-half tick">
-                        <li>We Offer Support<span> 24x7x365</span></li>
-                        <li>We Give You a <span> Dedicated Project Manager</span></li>
-                        <li>Your Revisions Will Be Completed in Just <span> 24 Hours</span></li>
-                    </ul>
-                    <ul class="width-half thin-arrow">
-                        <li>Others Usually Offer Support Weekday 9-5</li>
-                        <li>Others Do Not Offer This</li>
-                        <li>Others Take Several Days or Weeks</li>
-                    </ul>
+                    <div class="list-container">
+                        <ul class="width-half tick">
+                            <li>We Offer Support<span> 24x7x365</span></li>
+                            <li>We Give You a <span> Dedicated Project Manager</span></li>
+                            <li>Your Revisions Will Be Completed in Just <span> 24 Hours</span></li>
+                        </ul>
+                        <ul class="width-half thin-arrow">
+                            <li>Others Usually Offer Support Weekday 9-5</li>
+                            <li>Others Do Not Offer This</li>
+                            <li>Others Take Several Days or Weeks</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

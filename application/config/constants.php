@@ -59,7 +59,7 @@ define('PHONE_RESELLER_SUPPORT','0 (800) 756 9646'); # UK - 0 (800) 756 9646 USA
 
 define('GUARANTEE_DAYS',365);
 //define('OFFER_NAME','Super Winter Sale ');
-define('OFFER_NAME','Super Spring Sale');
+define('OFFER_NAME','Super Summer Sale');
 //define('OFFER_NAME','Super Autumn Sale');
 //define('OFFER_NAME','New Year Big Sale');
 //define('OFFER_NAME','2016 Super Sale');

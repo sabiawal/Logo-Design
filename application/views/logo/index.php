@@ -60,10 +60,10 @@ if ($this->uri->segment(1) != 'sixhourdetail') {
         <div class="lag1">
             <div class="container" style="padding:0px;">
                 <div class="col-sm-6 super-winter-sale clearfix">
-                    <h3 class="text-center" style="font-size:1.7rem;">Super Spring Sale</h3>
+                    <h3 class="text-center" style="font-size:1.7rem;">Super Summer Sale</h3>
                     <ul class="text-left" style="margin-top:3px;">
                         <li>• Half-Price on All Packages</li>
-                        <li>• <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £25</li>
+                        <li>• <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £50</li>
                         <li>• <strong style="color:#e0ff35;">FREE</strong> Lifetime Alteration to Your Logo worth £50</span></li>
                     </ul>
                     <h4 style="margin-top:4px; color:#fff; font-size:1.8rem;" class="text-center">Ends Midnight, Friday 10 February ’24 </h4>
@@ -92,10 +92,10 @@ if ($this->uri->segment(1) != 'sixhourdetail') {
                         Guaranteed.</h3>
                 </div>
                 <div class="col-sm-6 super-winter-sale clearfix">
-                    <h3 class="text-center" style="font-size:1.7rem;">Super Spring Sale</h3>
+                    <h3 class="text-center" style="font-size:1.7rem;">Super Summer Sale</h3>
                     <ul style="margin-top:3px;">
                         <li>• Half-Price on All Packages</li>
-                        <li>• <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £25</li>
+                        <li>• <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £50</li>
                         <li>• <strong style="color:#e0ff35;">FREE</strong> Lifetime Alteration to Your Logo worth £50</li>
                     </ul>
                     <h4 style="margin-top:3px; color:#fff; font-size:1.8rem;">Ends Midnight, Friday 10 February ’24 </h4>

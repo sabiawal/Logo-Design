@@ -57,7 +57,7 @@ define('PHONE_RESELLER_SUPPORT','(866) 674-3335'); # UK - 0 (800) 756 9646 USA -
 
 define('GUARANTEE_DAYS',365);
 //define('OFFER_NAME','Super Winter Sale ');
-define('OFFER_NAME','Super Spring Sale');
+define('OFFER_NAME','Super Summer Sale');
 define('SHOW_OFFER_DATE',true);                          # to show/hide old price
 define('SHOW_REGULAR_PRICE',true);                          # to show/hide old price
 
