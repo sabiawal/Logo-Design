@@ -11,12 +11,12 @@
         height:auto !important;
         margin-top: 75px !important;
     }
-    }
+	}
 
 
     #inner-cont-banner img{
         height: auto !important;
-    }
+	}
 
     #inner-cont-banner img{
         opacity:1 !important;
@@ -404,11 +404,7 @@
     }
 
     .logo-slide1 {
-
-
         clear: both;
-
-
     }
 
     .tab-content {
@@ -442,7 +438,6 @@
 
     .logo-stage {
         margin-top: 15px;
-
 
     }
 
@@ -492,16 +487,48 @@
 
 <link href="<?php echo base_url() ?>assets/css/fotorama.css" rel="stylesheet">
 <script src="<?php echo base_url() ?>assets/js/fotorama.js"></script>
-<section id="inner-cont-banner" style="position:relative;">
-    <section>
-        <div style=" background-color: #950b0b; padding:2px; position:absolute; top: 40px; z-index:100; width: 100%;" class="banner">
-            <h5 class="text-center" style="color:white; font-weight:600; font-size:1.35rem;">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
+
+<section>
+    <div class="for-mobile">
+        <div style=" background-color: #fedc45; padding:1px; position:absolute; top: 90px; z-index:90; width: 100%;" class="banner">
+            <h5 class="text-center" style="color:black; font-weight:600; font-size:1.36rem;">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
         </div>
-    </section>
+    </div>
+</section>
+
+<section>
+	<div class="container" style="padding:0px;">
+		<div class="information" style="top: 126px; z-index:90;">
+			<div class="col-sm-12 clearfix">
+				<ul class="list-unstyled head-list">
+					<li class="info-item" style="color:black; font-weight:600; font-size:1.2rem;">UK Hand-Drawn Logos = Higher Quality 
+						<a class="test1" data-toggle="tooltip" data-placement="bottom" data-html="true" data-max-width="550px" title="" data-original-title="<span class='tt-head'>Logo Design Guarantee™</span><br/>
+						<span class='tt-inner'>All our designers are based in the UK.<br/><br/>
+						<ul class='ldg-tooltip'><li class='ldg-bp'>&#10004; All our designers hold graphic design degrees.</li>
+						<li class='ldg-bp'>&#10004; We do <u>not</u> outsource any works.</li>
+						<li class='ldg-bp'>&#10004; All our logos are hand-drawn, which greatly increases the sophistication of our logos.</li>
+						<li class='ldg-bp'>&#10004; We have 16+ yrs experience.</li>
+						<li class='ldg-bp'>&#10004; We have served 285,000+ clients.</li></ul><br/>
+						<span class='tt-head'>Our competitors:</span><br/><ul class='ldg-tooltip'><li class='ldg-bp2'>&#10004; They often outsource to India, but use London PO 
+						Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art software, which makes their logos look cheap.</li></ul>"><img src="assets/images/added/silver-info.jpg"> </a>
+					</li>
+					<li class="info-item" style="color:black; font-weight:600; font-size:1.2rem;">365-Day, 100% Money Back Guarantee
+						<a class="test" data-toggle="tooltip" data-placement="bottom" data-html="true" title="" 
+						data-max-width="550px" data-original-title="No questions, no interrogations, no fuss – just a whole lot of trust. We guarantee your money back if for any reason you are dissatisfied with our services."><img src="assets/images/added/silver-info.jpg"> </a>
+					</li>
+				</ul>
+				<hr>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="inner-cont-banner" style="position:relative;">
+
     <div id="video_carousel" class="carousel video_carousel_fade animate_text video_carousel_wrapper" data-ride="carousel">
         <section>
-            <div style=" background-color: #950b0b; padding:2px; position:absolute; top: 40px; z-index:100; width: 100%;" class="banner">
-                <h5 class="text-center" style="color:white; font-weight:600; font-size:1.35rem;">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
+            <div style=" background-color: #fedc45; padding:2px; position:absolute; top: 40px; z-index:100; width: 100%;" class="banner">
+                <h5 class="text-center" style="color:black; font-weight:600; font-size:1.6rem;">Half-Price Sale Ends Midnight, Friday 10 February ’24 </h5>
             </div>
         </section>
         <!--======= Wrapper For Slides =======-->
@@ -520,15 +547,11 @@
 
             <!--========= Second Slide =========-->
 
-
-
-
         </div>
 
     </div>
 </section>
 
-</div>
 <section class="content">
     <div class="container">
         <div class="row">
@@ -594,241 +617,250 @@
                                     </div>
                                 </div>
                             </section>
-                            <!-- <section id="bc" class="tab-pane  fade in">
-                				<div class="logo-slide1">
-                                
-                                <div class="gallery">
-                               <div class="row">
-            <div class="image-boxes owl-demo "> <div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div> 
-                <div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc1.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc1.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc2.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc2.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                
-             
-<div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc4.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc4.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc5.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc5.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc6.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc6.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-
-              <div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc7.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc7.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3  ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc8.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc8.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3  ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc9.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc9.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3  ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc10.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc10.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc11.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc11.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc12.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc12.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3  ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc13.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc13.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3  ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc14.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc14.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3  ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc15.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc15.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc16.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc16.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc18.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc18.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div><div class="col-md-3  ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc19.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc19.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc20.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc20.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc21.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc21.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-<div class="col-md-3 ">
-                    <div class="image-box">
-                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc22.jpg " alt="" class="img-responsive">
-                            <div class="overlay">
-                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc22.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
-                                </div> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-              
 
 
-                </div>
-                </div>
-                </div>
-								</div>
-                                </section> -->
+                            <section id="bc" class="tab-pane  fade in">
+                				<div class="logo-slide1">                                
+                                    <div class="gallery">
+                                        <div class="row">
+                                            <div class="image-boxes owl-demo ">
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div> 
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc1.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc1.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc2.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc2.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>                                        
+                                                    </div>
+                                                </div>                
+                            
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc4.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc4.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc5.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc5.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc6.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc6.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc7.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc7.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3  ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc8.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc8.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3  ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc9.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc9.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3  ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc10.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc10.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc11.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc11.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc12.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc12.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3  ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc13.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc13.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3  ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc14.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc14.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3  ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc15.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc15.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc16.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc16.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc18.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc18.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3  ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc19.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc19.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc20.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc20.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc21.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc21.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 ">
+                                                    <div class="image-box">
+                                                        <div class="overlay-container"> <img src="<?php echo base_url() ?>assets/images/bc22.jpg " alt="" class="img-responsive">
+                                                            <div class="overlay">
+                                                                <div class="overlay-links"> <a href="<?php echo base_url() ?>assets/images/bc22.jpg" class="popup-img"><i class="fa fa-search-plus"></i></a>
+                                                                </div> 
+                                                            </div>
+                                                        </div>                                                        
+                                                    </div>
+                                                </div>                                      
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
 
                             <section id="bc" class="tab-pane  fade in">
                                 <div class="logo-slide1">
@@ -1101,19 +1133,13 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-
                                                     </div>
                                                 </div>
-
-
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </section>
-
-
-
 
 
                             <section id="cs" class="tab-pane  fade in">
@@ -1152,7 +1178,6 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                                 <div class="col-md-3 ">
@@ -1163,7 +1188,6 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                                 <div class="col-md-3 ">
@@ -1174,7 +1198,6 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-
                                                     </div>
                                                 </div>
 
@@ -1222,7 +1245,6 @@
                                     </div>
                                 </div>
                             </section>
-
 
 
                             <section id="ev" class="tab-pane  fade in">
@@ -1333,8 +1355,6 @@
                             </section>
 
 
-
-
                             <section id="bro" class="tab-pane  fade in">
                                 <div class="logo-slide1">
 
@@ -1442,7 +1462,6 @@
                             </section>
 
 
-
                             <section id="dise" class="tab-pane  fade in">
                                 <div class="logo-slide1">
 
@@ -1533,75 +1552,75 @@
                 </section>
                 <?php $this->load->view('includes/portfolio_category'); ?>
                 <!-- <section class="port-gray-border-round-box clearfix">
-	<div class="col-lg-8">
-		<div class="logos-by-industry">
-			<h4>See Logos By Industry!</h4>
-			<div class="category-list clearfix">
-				<ul>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_accounting.php">Accounting</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_attorney_legal.php">Attorney and Legal</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_automotive.php">Automotive</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_bio_techno.php">Biotechnology and Pharmaceutical</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_church_religious.php">Church and Religious</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_construction.php">Construction</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_consulting.php">Consulting</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_dental.php">Dental</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_education.php">Education</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_entertainment.php">Entertainment</a></li>
-				</ul>
-				<ul>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_event.php">Event</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_financial_service.php">Financial Services</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_golf_courses.php">Golf Courses</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_high_tech.php">High_Tech</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_illustrative.php">Illustrative</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_international.php">International</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_internet.php">Internet</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_landscaping.php">Landscaping</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_medical.php">Medical</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_networking.php">Networking</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_poolspa.php">Pool and Spa</a></li>
-				</ul>
-				<ul>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_real_estate.php">Real Estate Development</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_realtor.php">Realtor</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_restaurant.php">Restaurant</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_retail.php">Retail</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_salon_dayspa.php">Salon/Day Spa</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_service_industry.php">Service Industries</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_travel.php">Travel</a></li>
-					<li><a href="<?php echo base_url() ?>industry/logo_portfolio_offthewall.php">Off The Wall</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+                    <div class="col-lg-8">
+                        <div class="logos-by-industry">
+                            <h4>See Logos By Industry!</h4>
+                            <div class="category-list clearfix">
+                                <ul>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_accounting.php">Accounting</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_attorney_legal.php">Attorney and Legal</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_automotive.php">Automotive</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_bio_techno.php">Biotechnology and Pharmaceutical</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_church_religious.php">Church and Religious</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_construction.php">Construction</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_consulting.php">Consulting</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_dental.php">Dental</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_education.php">Education</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_entertainment.php">Entertainment</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_event.php">Event</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_financial_service.php">Financial Services</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_golf_courses.php">Golf Courses</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_high_tech.php">High_Tech</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_illustrative.php">Illustrative</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_international.php">International</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_internet.php">Internet</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_landscaping.php">Landscaping</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_medical.php">Medical</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_networking.php">Networking</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_poolspa.php">Pool and Spa</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_real_estate.php">Real Estate Development</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_realtor.php">Realtor</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_restaurant.php">Restaurant</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_retail.php">Retail</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_salon_dayspa.php">Salon/Day Spa</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_service_industry.php">Service Industries</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_travel.php">Travel</a></li>
+                                    <li><a href="<?php echo base_url() ?>industry/logo_portfolio_offthewall.php">Off The Wall</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-	<div class="col-lg-4">
-		<div class="unique-devoted-box">
-			<h4 style="border-bottom: 1px solid #919191;">Unique, <span> Devoted Support&trade;</span></h4>
-			<ul>
-				<li><span>Hand-crafted </span>logo process from the very beginning!</li>
-				<li><span>LogoTalk&trade; - Talk to your designer </span> anytime you want!</li>
-				<li><span>Award-winning USA designers! </span> All in-house! Work with the best!</li>
-				<li><span>365  - Day, </span> Money Back Guarantee. By far the biggest in the industry!</li>
-				<li>We have the<span> most USA phone staff </span> in the logo sector!</li>
-				<li><span>Best Price Guarantee! </span> - We'll beat any like-to-like service by 10%</li>
-				<li><span>LogoVote&trade;</span> - Use our patented system to let your friends vote on their favourite logo sample! Get Feedback!</li>
-			</ul>
-			<h4><span>Fantastic Pricing</span></h4>
-			
-			<div class="concept-bar silver">
-				<p>START  <span class="old-price">$99</span> $49 | 6 Concepts</p>
-			</div>
-			<div class="concept-bar elite">
-				<p>SURGE  <span class="old-price">$138</span> $69 | 12 Concepts</p>
-			</div>
-			<div class="text-center">
-				<a class="green-btn" href="<?php echo base_url() ?>packages"><span data-hover="See Our Packages!">See Our Packages!</span></a>
-			</div>
-		</div>
-	</div>
-</section>-->
+                    <div class="col-lg-4">
+                        <div class="unique-devoted-box">
+                            <h4 style="border-bottom: 1px solid #919191;">Unique, <span> Devoted Support&trade;</span></h4>
+                            <ul>
+                                <li><span>Hand-crafted </span>logo process from the very beginning!</li>
+                                <li><span>LogoTalk&trade; - Talk to your designer </span> anytime you want!</li>
+                                <li><span>Award-winning USA designers! </span> All in-house! Work with the best!</li>
+                                <li><span>365  - Day, </span> Money Back Guarantee. By far the biggest in the industry!</li>
+                                <li>We have the<span> most USA phone staff </span> in the logo sector!</li>
+                                <li><span>Best Price Guarantee! </span> - We'll beat any like-to-like service by 10%</li>
+                                <li><span>LogoVote&trade;</span> - Use our patented system to let your friends vote on their favourite logo sample! Get Feedback!</li>
+                            </ul>
+                            <h4><span>Fantastic Pricing</span></h4>
+                            
+                            <div class="concept-bar silver">
+                                <p>START  <span class="old-price">$99</span> $49 | 6 Concepts</p>
+                            </div>
+                            <div class="concept-bar elite">
+                                <p>SURGE  <span class="old-price">$138</span> $69 | 12 Concepts</p>
+                            </div>
+                            <div class="text-center">
+                                <a class="green-btn" href="<?php echo base_url() ?>packages"><span data-hover="See Our Packages!">See Our Packages!</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>-->
 
             </div>
         </div>
