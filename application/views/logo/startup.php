@@ -23,9 +23,8 @@ $this->load->view('includes/header-common');
     .delivery a {
         border: none !important;
     } 
-
-
 </style>
+
 <!-- new css for pacakages -->
 <style type="text/css">
     @media(min-width:769px )
@@ -100,6 +99,49 @@ $this->load->view('includes/header-common');
     {padding-left:0px !important;
     padding-right: 9px !important;
     }}
+
+    /* Tooltip custom styles specifically for .hori class */
+    .hori .tooltip {
+        left: 97px !important; /* Adjusts the tooltip slightly to the left */
+        max-width: 300px; /* Sets a maximum width for the tooltip */
+        white-space: normal; /* Allows the tooltip to wrap text */
+        /* background-color: #fff; */
+        color: #333;
+        /* border: 1px solid #ccc; */
+        padding: 10px;
+        border-radius: 4px;
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    }
+    .three-pack .tooltip {
+        left: 97px !important; /* Adjusts the tooltip slightly to the left */
+        max-width: 300px; /* Sets a maximum width for the tooltip */
+        white-space: normal; /* Allows the tooltip to wrap text */
+        /* background-color: #fff; */
+        color: #333;
+        /* border: 1px solid #ccc; */
+        padding: 10px;
+        border-radius: 4px;
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    }
+
+    .hori ul {
+        list-style: none; /* Remove default list styling */
+        padding: 0;
+        margin: 0;
+    }
+
+    .hori li {
+        /* display: flex; */
+        padding: 5px 0;
+        margin: 5px 0;
+    }
+
+    .hori li a img {
+        margin-left: 2px; /* Space between text and the image */
+        vertical-align: middle; /* Align image vertically center */
+    }
+
+
     .hori ul li {
     /*border-bottom: 1px solid #e0e0e0;
     min-height: 40px;
@@ -131,13 +173,37 @@ $this->load->view('includes/header-common');
     .circle1
     {left: 15px;}
     }
+
     #package-pg-body
     {padding-bottom: 2px;}
+
+
+    /* CSS to increase the height of the boxes within the specified section */
+    /* #package-pg-body .pack-list {
+        min-height: 450px; /* Adjust as needed */
+    } */
+
+        /* Targeting the first class */
+    #package-pg-body .three-pack.mtp {
+        /* CSS styles for the first class */
+        min-height: 1553px; /* Adjust as needed */
+    }
+
+    /* Targeting the third class */
+    #package-pg-body .three-pack.excelh {
+        /* CSS styles for the third class */
+        min-height: 1553px; /* Adjust as needed */
+    }
+
+    /* Targeting the third class */
+    #package-pg-body .three-pack.three-pack1{
+        /* CSS styles for the third class */
+        min-height: 1553px; /* Adjust as needed */
+    }
+    
 </style>
 
-
 <style>
-    .tooltip-inner{font-size: 16px !important;  text-transform:none !important;  }
     .tab-new
     {  /*background: #CDCDCD;
       background: -webkit-linear-gradient(#cdcdcd 0%, #e2e2e2 80%, #cdcdcd 100%);
@@ -151,19 +217,17 @@ $this->load->view('includes/header-common');
         margin-top: 20px;
         padding: 0 !important;
 
-
-
     }
 
-    .tab-new a
-    {padding:10px 30px;
-     display:inline-block;
-     color:#fff;
-     background: #ff8a00 none repeat scroll 0 0;
+    .tab-new a {
+        padding:10px 30px;
+        display:inline-block;
+        color:#000;
+        /* background: #ff8a00 none repeat scroll 0 0; */
 
-     text-transform:capitalize;
-     font-size:20px;
-     font-weight:700;
+        text-transform:capitalize;
+        font-size:20px;
+        font-weight:700;
     }
 
     @font-face {
@@ -177,15 +241,15 @@ $this->load->view('includes/header-common');
     .new1
     {
 
-        background-color: #70ac00 !important;
+        background-color: #fff !important;
     }
 
     .new2
-    {background-color:#01b0f1 !important;
+    {background-color:#fff !important;
     }
 
     .new3
-    {background-color:#7030A0 !important}
+    {background-color:#fff !important}
 
     .package-bg {
 
@@ -346,24 +410,39 @@ $this->load->view('includes/header-common');
         height: 10px;
     }
 
-    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-        -moz-border-bottom-colors: none;
-        -moz-border-left-colors: none;
-        -moz-border-right-colors: none;
-        -moz-border-top-colors: none;
+    /* Active tab and hovered active tab */
+    .nav-tabs > li.active > a, 
+    .nav-tabs > li.active > a:hover, 
+    .nav-tabs > li.active > a:focus {
         background-color: #fff;
-        border-color: transparent;
-        border-image: none;
         border-style: solid;
-        border-width: 1px;
-        color: #fff;
+        border-width: 3px;
+        border-color: #000; /* Black color */
+        color: #000;
         cursor: default;
     }
+
+    /* Default state for inactive tabs */
     .nav-tabs > li > a {
-        margin-right: 0px !important; 
+        border: 2px solid #6c757d; /* Dark grey color */
+        border-radius: 4px; /* Optional: Adds rounded corners */
+        background-color: #fff; /* White color */
+        color: #000; /* Black text color */
+        transition: border-color 0.3s ease, border-width 0.3s ease; /* Smooth transition for border color and size change */
+        margin-right: 2px !important;
     }
+
+    /* Change border color and size on hover */
+    .nav-tabs > li > a:hover {
+        border-color: #000; /* Black color */
+        border-width: 3px; /* Increase border width on hover */
+        text-decoration: none; /* Remove underline */
+    }
+
     .new0
-    {background:#ff8a00 !important }
+    {background:#fff !important
+     
+    }
 
     .orange-down
     {height: 10px;
@@ -393,13 +472,14 @@ $this->load->view('includes/header-common');
     {text-transform:inherit !important;
     }
 
-    .order-pack
-    {font-size: 24px !important;
-     line-height: 2.2 !important;
-     font-family: "Walsheim-Bold" !important;
-     font-style: normal;
-     font-weight: 400;
-    }
+    .order-pack {
+        font-size: 24px !important;
+        line-height: 2.2 !important;
+        font-family: "Walsheim-Bold" !important;
+        font-style: normal;
+        font-weight: 400;
+        }
+            
     .surge-pac-plus-left {
         background: url("assets/images/added/arrow.jpg") no-repeat top center;
         display: inline-block;
@@ -413,7 +493,10 @@ $this->load->view('includes/header-common');
     }
 
     .excelh{min-height: 1342px;}
+
+  
 </style>
+
 <style>
     .add1 {
         border: 1px solid #d4d4d4;
@@ -455,13 +538,13 @@ $this->load->view('includes/header-common');
     .hourd span {
         color: #fff;
     } 
-    .three-pack:hover{
+    /* .three-pack:hover{
         box-shadow: inset 1px 1px 10px 3px #ABABAB;
         -webkit-box-shadow: inset 1px 1px 10px 3px #ABABAB;
         -moz-box-shadow: inset 1px 1px 10px 3px #ABABAB;
         -o-box-shadow: inset 1px 1px 10px 3px #ABABAB;
 
-    } 
+    }  */
     .oderdisable{
         pointer-events: none;
     }
@@ -548,7 +631,7 @@ $this->load->view('includes/header-common');
 	/* General styles */
 	.information {
 		margin: 0 auto;
-		padding: 5px;
+		padding: 10px;
 	}
 
 	.head-list {
@@ -572,16 +655,9 @@ $this->load->view('includes/header-common');
 	}
 
 	/* Tooltip custom styles */
-    .tooltip {
-        left: 10px !important; /* Adjusts the tooltip slightly to the left for desktop */
-    }
-
-    @media (max-width: 768px) {
-        /* Adjust the tooltip position for mobile devices */
-        .tooltip {
-            left: 100px !important; /* Adjusts the tooltip to the default or desired position for mobile */
-        }
-    }
+	.information .tooltip-inner {
+		left: -116px !important; /* Adjusts the tooltip slightly to the left */
+	}
 
 	/* Styles for mobile view */
 	@media (max-width: 767px) {
@@ -617,6 +693,7 @@ $this->load->view('includes/header-common');
 		}
 	}
 </style>
+
 
 <style>
     /* General styles for .percent-off */
@@ -757,8 +834,14 @@ $this->load->view('includes/header-common');
 
 <style>
     .move-right {
-    margin-left: 100px; /* Adjust the value as needed */
-}
+        margin-left: 100px; /* Adjust the value as needed */
+    }
+</style>
+
+<style>
+    .move-right1 {
+        margin-left: 125px; /* Adjust the value as needed */
+    }
 </style>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -959,6 +1042,31 @@ $this->load->view('includes/header-common');
 	</div>
 </section>
 
+<section id="logo-section">
+    <div class="for-mobile">
+        <div class="lag1">
+            <div class="container" style="padding:0px;">
+                <div class="col-sm-6 super-winter-sale clearfix">
+                    <h3 class="text-center" style="font-size:1.7rem;">Super Summer Sale</h3>
+                    <ul class="text-left" style="margin-top:3px;">
+                        <li>• Half-Price on All Packages</li>
+                        <li>• <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £50</li>
+                        <li>• <strong style="color:#e0ff35;">FREE</strong> Lifetime Alteration to Your Logo worth £50</span></li>
+                    </ul>
+                    <h4 style="margin-top:4px; color:#fff; font-size:1.8rem;" class="text-center">Ends Midnight, Friday 10 February ’24 </h4>
+
+                    <!--<hgroup>-->
+                    <!-- <h4><strong>Free </strong>Copyright Certificate worth <?php echo CURRENCY . LOGO_COPYRIGHT_P; ?></h4>	
+							<h4><strong>Free </strong>Lifetime Alteration to Your Logo worth <?php echo CURRENCY . LOGO_ALTERNATION_P; ?></h4>	
+							<?php if (SHOW_OFFER_DATE) : ?>
+                            <h4><span>Ends: <?php echo $today; ?></span></h4>
+                            <?php endif; ?> -->
+                    <!--</hgroup>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="content">
     <!-- <div id="banner-bottom-slogan">
@@ -1006,12 +1114,12 @@ $this->load->view('includes/header-common');
 
                         <li> <a href="#otherp"   data-toggle="tab" class="new3" >Other  Packages</a> </li>
                     </ul>
-
                 </div>
             </div>
         </div>
-
     </section>
+
+
     <div id="my-tab-content" class="tab-content">
 
         <section id="logos1" class="tab-pane active fade in">
@@ -1028,14 +1136,14 @@ $this->load->view('includes/header-common');
                         </div>
                         <div class="row mrtb mrtbnew">
                             <div class="col-md-3 col-sm-6  ">
-                                <div class="three-pack ">
+                                <div class="three-pack three-pack1">
                                     <h5><?php echo ucwords(strtolower(str_replace('LOGO PACKAGE', '', START_LP))); ?> </h5>
                                     <p>Ideal for personal related logos</p>
                                     <div style="position:relative">
                                         <a id="percent-off" class="percent-off">
                                         <span class="main-text">50%</span>
                                         <span class="sub-text">
-                                            <span class="percent"></span>
+                                            <!-- <span class="percent"></span> -->
                                             <span class="off">off</span>
                                         </span>
                                         </a>
@@ -1084,7 +1192,7 @@ $this->load->view('includes/header-common');
                                             <li><strong>Free</strong> Design Research<a data-toggle="tooltip" title="We will do all the research for you. We make sure that your designs are unique and authentic, and will match perfectly to your specifications.
                                                                                         "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Dedicated</strong> Project Manager<a data-toggle="tooltip" title="Aside from your designers, we will assign a Manager to your project, with the experience and expertise to oversee the designers and their works, and make sure that everything is done with high quality and standards.
-                                                                                             "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                                                                             "  data-placement='top' ><img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Free</strong> Final Logo Files Sent via Email (includes formats for all print and web use)<a data-toggle="tooltip" title="Once your logo has been finalized, we will send you the file via email, including all formats that you can use for printing and the web."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Free</strong> Additional Files<a data-toggle="tooltip" title="We provide you with all types of file formats. You need only ask."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>Free</strong> Complete Ownership to All the Logo Design Samples<a data-toggle="tooltip" title="ALL samples sent to you will automatically be your property, whether you chose it as your final design or not."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
@@ -1099,17 +1207,44 @@ $this->load->view('includes/header-common');
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6  ">
-                                <div class="three-pack mtp ">
+                                <div class="three-pack three-pack1 mtp ">
                                     <h5><?php echo ucwords(strtolower(str_replace('LOGO PACKAGE', '', SURGE_LP))); ?> </h5>
                                     <p>Good for small businesses</p>
-                                    <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack4'])) ? SURGE_LP_P + $_SESSION['poptions_price4'] : SURGE_LP_P; ?></span></h4>
 
-                                    <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . SURGE_LP_P_R ?></span> SAVE 50%</p>
+                                    <!-- <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack4'])) ? SURGE_LP_P + $_SESSION['poptions_price4'] : SURGE_LP_P; ?></span></h4>
+
+                                    <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . SURGE_LP_P_R ?></span> SAVE 50%</p> -->
                                     <!-- <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
-                                    </div>                                    -->
+                                    </div>-->
+
+                                    <div style="position:relative">
+                                        <a id="percent-off" class="percent-off">
+                                        <span class="main-text">50%</span>
+                                        <span class="sub-text">
+                                            <!-- <span class="percent"></span> -->
+                                            <span class="off">off</span>
+                                        </span>
+                                        </a>
+                                    </div>
+                                    <div class="small-banner">
+                                        <span class="text-center small-banner-text">Half-Price Ends Midnight, Friday 10 February ’24</span>
+                                    </div>
+
+                                    <div class="price-container">
+                                        <h4>
+                                            <span class="currency"><?php echo CURRENCY; ?></span>
+                                            <span class="main_price"><?php echo (isset($_SESSION['poptions_pack4'])) ? SURGE_LP_P + $_SESSION['poptions_price4'] : SURGE_LP_P; ?></span>
+                                        </h4>
+                                        <?php if (SHOW_REGULAR_PRICE): ?>
+                                            <p class="save-pack1">
+                                                <span>Was:</span><span class="save-cross1"><?php echo CURRENCY . SURGE_LP_P_R ?></span>
+                                            </p>
+                                        <?php endif; ?>
+                                    </div>
+                                    
                                     <div style="position:relative">
                                         <a id="order4" class="order-pack" href="<?php echo base_url() ?>orders/index/4/" >Buy Now</a>
                                     </div>
@@ -1143,15 +1278,42 @@ $this->load->view('includes/header-common');
                                 <div class="three-pack excelh">
                                     <h5><?php echo ucwords(strtolower(str_replace(array('LOGO PACKAGE'), array(''), EXCEL_LP))); ?> </h5>
                                     <p>Great for any small business</p>
-                                    <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack7'])) ? EXCEL_LP_P + $_SESSION['poptions_price7'] : EXCEL_LP_P; ?></span></h4>
+
+                                    <!-- <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo (isset($_SESSION['poptions_pack7'])) ? EXCEL_LP_P + $_SESSION['poptions_price7'] : EXCEL_LP_P; ?></span></h4>
                                     <?php if (SHOW_REGULAR_PRICE): ?>
                                         <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . EXCEL_LP_P_R ?></span> SAVE 50%</p>
-                                    <?php endif; ?>
+                                    <?php endif; ?> -->
                                     <!-- <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>                     
 
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                            "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>             
                                     </div> -->
+
+                                    <div style="position:relative">
+                                        <a id="percent-off" class="percent-off">
+                                        <span class="main-text">50%</span>
+                                        <span class="sub-text">
+                                            <!-- <span class="percent"></span> -->
+                                            <span class="off">off</span>
+                                        </span>
+                                        </a>
+                                    </div>
+                                    <div class="small-banner">
+                                        <span class="text-center small-banner-text">Half-Price Ends Midnight, Friday 10 February ’24</span>
+                                    </div>
+
+                                    <div class="price-container">
+                                        <h4>
+                                            <span class="currency"><?php echo CURRENCY; ?></span>
+                                            <span class="main_price"><?php echo (isset($_SESSION['poptions_pack7'])) ? EXCEL_LP_P + $_SESSION['poptions_price7'] : EXCEL_LP_P; ?></span>
+                                        </h4>
+                                        <?php if (SHOW_REGULAR_PRICE): ?>
+                                            <p class="save-pack1">
+                                                <span>Was:</span><span class="save-cross1"><?php echo CURRENCY . EXCEL_LP_P_R ?></span>
+                                            </p>
+                                        <?php endif; ?>
+                                    </div>
+
                                     <div style="position:relative">
                                         <a id="order7" class="order-pack" href="<?php echo base_url(); ?>orders/index/7/" >Buy Now</a>
                                     </div>
@@ -1182,59 +1344,84 @@ $this->load->view('includes/header-common');
                                     <h5><?php echo ucwords(strtolower(str_replace(array('LOGO PACKAGE'), array(''), ADVANCED_LP))); ?><span style="vertical-align: super;font-size: 18px;  font-family: 'PT Sans',sans-serif,Arial,Verdana !important;
                                         font-weight: 700 !important;">&trade;</span></h5>
                                     <p>No compromises</p>
-                                    <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo ADVANCED_LP_P; ?></span></h4>
-                                    <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . ADVANCED_LP_P_R; ?></span> SAVE 50%</p>
+
+                                    <!-- <h4><?php echo CURRENCY; ?><span class="main_price"><?php echo ADVANCED_LP_P; ?></span></h4>
+                                    <p class="save-pack"> <span class="save-cross"><?php echo CURRENCY . ADVANCED_LP_P_R; ?></span> SAVE 50%</p> -->
                                     <!-- <div class="delivery dropdown freeser newpk">   <a> 6-hour service included, 24/7  <span class="gfree">(FREE)</span></a>
                                     
                                         <a data-toggle="tooltip" title="We have well-trained in-house designers to ensure design quality is not compromised. This service is available anytime (24/7), and we guarantee all your logos will be given within 6 hours.
                                         "  data-placement='left' class="info1"> <img src="assets/images/added/questionmark.png"></a>
                                     </div> -->
+
+                                    <div style="position:relative">
+                                        <a id="percent-off" class="percent-off">
+                                        <span class="main-text">50%</span>
+                                        <span class="sub-text">
+                                            <!-- <span class="percent"></span> -->
+                                            <span class="off">off</span>
+                                        </span>
+                                        </a>
+                                    </div>
+                                    <div class="small-banner">
+                                        <span class="text-center small-banner-text">Half-Price Ends Midnight, Friday 10 February ’24</span>
+                                    </div>
+
+                                    <div class="price-container">
+                                        <h4>
+                                            <span class="currency"><?php echo CURRENCY; ?></span>
+                                            <span class="main_price"><?php echo ADVANCED_LP_P; ?></span>
+                                        </h4>
+                                        <?php if (SHOW_REGULAR_PRICE): ?>
+                                            <p class="save-pack1">
+                                                <span>Was:</span></span><span class="save-cross1"><?php echo CURRENCY . ADVANCED_LP_P_R; ?></span></span>
+                                            </p>
+                                        <?php endif; ?>
+                                    </div>
+
                                 <div style="position:relative">
                                     <a id="order7" class="order-pack" href="<?php echo base_url()?>orders/index/22/" >Buy Now</a>
                                 </div>
                                 
-                                <div class="pack-list">
+                                <div class="pack-list">  
+                                    <ul>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i> <strong>24</strong> Custom Made Logos  <a data-toggle="tooltip" title="You will have 24 logo designs to choose from, which are guaranteed to be original and custom-made for you.
+                                        "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a>
+                                    </li>
+                                    <li><strong>3</strong> Business Card Designs<a data-toggle="tooltip" title="The perfect way to look professional while advertising your business. We will provide you with 3 custom-made designs to choose from."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>3</strong> Letterhead Designs<a data-toggle="tooltip" title="Make sure your business letters clearly identify you and your business. Plus, you also get to advertise your brand for free. With this package, you will get 3 additional custom-made letterhead designs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>3</strong>  Compliment Slip Designs<a data-toggle="tooltip" title="Compliment Slips also help with branding and advertising. It also puts your business information out there. With this package, you will get 3 custom Compliment Slip designs."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><span style="color:#ff8a00;">New </span>  Email Signature Design<a data-toggle="tooltip" title="" data-placement="top" data-original-title="Displays at the bottom of your business emails featuring your logo, name and contact info. This makes your emails look far more professional and trust-worthy.
+                                        "> <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                                <li> Fax Cover Sheet Design<a data-toggle="tooltip" title="" data-placement="top" data-original-title="Ensure your faxes are not lost, and look professional at the same time.  
+                                        "> <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>Unlimited</strong> Revisions
+                                        <a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the logo of your choosing.
+                                        "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a>
+                                    </li>
+                                    <li><strong>Unlimited</strong> Logo Concepts<a data-toggle="tooltip" title="Changed your mind on the whole concept of your logo? No worries. You can always request for new logo concepts to be made just for you, for as many times as you may need, at no additional cost.
+                                    "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>Unlimited</strong> Redraws<a data-toggle="tooltip" title="Your choice won't be limited to your first set of logo samples. You will have the privilege of requesting for a completely new set of samples, free of charge.
+                                    "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>6</strong> Designers<a data-toggle="tooltip" title="Your project will have not one but 6 designers, who will all contribute to provide you with the perfect designs based on your specifications.
+                                    "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
+                                    <li><strong>Free</strong> Design Research<a data-toggle="tooltip" title="We will do all the research for you. We make sure that your designs are unique and authentic, and will match perfectly to your specifications.
+                                    "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>Dedicated</strong> Project Manager<a data-toggle="tooltip" title="Aside from your designers, we will assign a Manager to your project, with the experience and expertise to oversee the designers and their works, and make sure that everything is done with high quality and standards.
+                                    "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>Free</strong> Final Logo Files Sent via Email (includes formats for all print and web use)<a data-toggle="tooltip" title="Once your logo has been finalized, we will send you the file via email, including all formats that you can use for printing and the web."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>Free</strong> Additional Files<a data-toggle="tooltip" title="We provide you with all types of file formats. You need only ask."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>Free</strong> Complete Ownership to All the Logo Design Samples<a data-toggle="tooltip" title="ALL samples sent to you will automatically be your property, whether you chose it as your final design or not."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                    <li><strong>Free</strong> Assistance with Print Companies<a data-toggle="tooltip" title="If your printing company requires a specific file format, we can send it to you for free."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
+                                    <li><strong>Free</strong> File Designs that allow Resizing with No Distortion (suitable for professional <br> print)<a data-toggle="tooltip" title="All file formats we send you are suitable for printing in any size. Guaranteed no distortions and/or blurring when adjusted."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
+                                    <li><strong>3 minute simple</strong> online order form!</li>
+                                    <li><strong>We Start Your Designs Today!</strong><br>100% Satisfaction Guaranteed</li>
+                                    <li><strong>Free After-Sales Support <br>(For Life!)</strong></li>
                                     
-                                    
-                                                <ul>
-                                                    <li><i class="fa fa-star" aria-hidden="true"></i> <strong>24</strong> Custom Made Logos  <a data-toggle="tooltip" title="You will have 24 logo designs to choose from, which are guaranteed to be original and custom-made for you.
-                                                    "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a>
-                                                </li>
-                                                <li><strong>3</strong> Business Card Designs<a data-toggle="tooltip" title="The perfect way to look professional while advertising your business. We will provide you with 3 custom-made designs to choose from."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>3</strong> Letterhead Designs<a data-toggle="tooltip" title="Make sure your business letters clearly identify you and your business. Plus, you also get to advertise your brand for free. With this package, you will get 3 additional custom-made letterhead designs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>3</strong>  Compliment Slip Designs<a data-toggle="tooltip" title="Compliment Slips also help with branding and advertising. It also puts your business information out there. With this package, you will get 3 custom Compliment Slip designs."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                               <li><span style="color:#ff8a00;">New </span>  Email Signature Design<a data-toggle="tooltip" title="" data-placement="top" data-original-title="Displays at the bottom of your business emails featuring your logo, name and contact info. This makes your emails look far more professional and trust-worthy.
-                                                    "> <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                            <li> Fax Cover Sheet Design<a data-toggle="tooltip" title="" data-placement="top" data-original-title="Ensure your faxes are not lost, and look professional at the same time.  
-                                                    "> <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>Unlimited</strong> Revisions
-                                                    <a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the logo of your choosing.
-                                                    "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a>
-                                                </li>
-                                                <li><strong>Unlimited</strong> Logo Concepts<a data-toggle="tooltip" title="Changed your mind on the whole concept of your logo? No worries. You can always request for new logo concepts to be made just for you, for as many times as you may need, at no additional cost.
-                                                "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>Unlimited</strong> Redraws<a data-toggle="tooltip" title="Your choice won't be limited to your first set of logo samples. You will have the privilege of requesting for a completely new set of samples, free of charge.
-                                                "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>6</strong> Designers<a data-toggle="tooltip" title="Your project will have not one but 6 designers, who will all contribute to provide you with the perfect designs based on your specifications.
-                                                "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
-                                                <li><strong>Free</strong> Design Research<a data-toggle="tooltip" title="We will do all the research for you. We make sure that your designs are unique and authentic, and will match perfectly to your specifications.
-                                                "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>Dedicated</strong> Project Manager<a data-toggle="tooltip" title="Aside from your designers, we will assign a Manager to your project, with the experience and expertise to oversee the designers and their works, and make sure that everything is done with high quality and standards.
-                                                "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>Free</strong> Final Logo Files Sent via Email (includes formats for all print and web use)<a data-toggle="tooltip" title="Once your logo has been finalized, we will send you the file via email, including all formats that you can use for printing and the web."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>Free</strong> Additional Files<a data-toggle="tooltip" title="We provide you with all types of file formats. You need only ask."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>Free</strong> Complete Ownership to All the Logo Design Samples<a data-toggle="tooltip" title="ALL samples sent to you will automatically be your property, whether you chose it as your final design or not."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                                <li><strong>Free</strong> Assistance with Print Companies<a data-toggle="tooltip" title="If your printing company requires a specific file format, we can send it to you for free."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
-                                                <li><strong>Free</strong> File Designs that allow Resizing with No Distortion (suitable for professional <br> print)<a data-toggle="tooltip" title="All file formats we send you are suitable for printing in any size. Guaranteed no distortions and/or blurring when adjusted."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
-                                                <li><strong>3 minute simple</strong> online order form!</li>
-                                                <li><strong>We Start Your Designs Today!</strong><br>100% Satisfaction Guaranteed</li>
-                                                <li><strong>Free After-Sales Support <br>(For Life!)</strong></li>
-                                                
-                                                </ul>
-                                
-                                                </div>
-                                            </div>
+                                    </ul>
+                    
+                                    </div>
+                                </div>
                             </div>                    
                         </div>
                     </div>
@@ -1311,7 +1498,7 @@ $this->load->view('includes/header-common');
 
                                     <div class="pack-list">
                                         <ul>
-                                            <li  >  <span class="surge-pac-plus-left" ></span><strong><span class="surge-pac-plus1">START-UP PACKAGE </span></strong><a data-toggle="tooltip" title="All the features of our Start-up Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li  >  <span class="surge-pac-plus-left" ></span><strong><span class="surge-pac-plus1">START-UP PACKAGE PLUS </span></strong><a data-toggle="tooltip" title="All the features of our Start-up Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
 
                                             <li><strong>3</strong> Letterhead Designs<a data-toggle="tooltip" title="Make sure your business letters clearly identify you and your business. Plus, you also get to advertise your brand for free. With this package, you will get 3 additional custom-made letterhead designs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
@@ -1346,7 +1533,7 @@ $this->load->view('includes/header-common');
 
                                     <div class="pack-list">
                                         <ul>
-                                            <li  >  <span class="surge-pac-plus-left" ></span><strong><span class="surge-pac-plus1">START-UP WITH STATIONERY PACKAGE</span></strong><a data-toggle="tooltip" title="All the features of our Start-up with Stationery Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li><span class="surge-pac-plus-left" ></span><strong><span class="surge-pac-plus1">START-UP WITH STATIONERY PACKAGE PLUS</span></strong><a data-toggle="tooltip" title="All the features of our Start-up with Stationery Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li> <strong>250</strong> letterhead prints<a data-toggle="tooltip" title="In this package, you don’t just get to choose which design you want for your letterhead, but you will also get 250 print outs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li><strong>250</strong>  Compliment Slip Prints<a data-toggle="tooltip" title="Why stop with Business Cards and Letterheads? Print out your Compliment Slips as well. You will have 250 free."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
@@ -1383,7 +1570,7 @@ $this->load->view('includes/header-common');
 
                                 <div class="pack-list">
                                     <ul>
-                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">Start-up PACKAGE </span></strong><a data-toggle="tooltip" title="All the features of our Start-up Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <li> <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">Start-up PACKAGE PLUS</span></strong><a data-toggle="tooltip" title="All the features of our Start-up Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>1</strong> page website<a data-toggle="tooltip" title=" Get a simple user-friendly website that showcases your business’s personality and purpose, all in one webpage."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>1</strong> website design concept<a data-toggle="tooltip" title=" Tell us how you want your website to look like, and we will do it for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free hosting<a data-toggle="tooltip" title=" Let us worry about maintaining your website and making it accessible to everyone. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
@@ -1415,7 +1602,7 @@ $this->load->view('includes/header-common');
 
                                 <div class="pack-list">
                                     <ul>
-                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">Start-up PACKAGE </span></strong><a data-toggle="tooltip" title="All the features of our Start-up Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">Start-up PACKAGE PLUS </span></strong><a data-toggle="tooltip" title="All the features of our Start-up Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>6 </strong>page website<a data-toggle="tooltip" title="Do you require a larger website with more than one page? Then this is the one for you. A website with up to 6 different pages, for showcasing everything there is to know about your business. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>2</strong> website design concept<a data-toggle="tooltip" title="Tell us how you want your website to look like, and we will do it for you. You may choose from 2 design concepts that we will provide you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free hosting<a data-toggle="tooltip" title="Let us worry about maintaining your website and making it accessible to everyone. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
@@ -1448,7 +1635,7 @@ $this->load->view('includes/header-common');
 
                                 <div class="pack-list">
                                     <ul>
-                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">Start-up PACKAGE </span></strong><a data-toggle="tooltip" title="All the features of our Start-up Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">Start-up PACKAGE PLUS </span></strong><a data-toggle="tooltip" title="All the features of our Start-up Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>12</strong> page website<a data-toggle="tooltip" title="Need a much larger website with more pages? This package offers a website with up to 12 different pages, all for showcasing everything there is to know about your business. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>3</strong> website design concept<a data-toggle="tooltip" title="Tell us how you want your website to look like, and we will do it for you. You may choose from 3 design concepts that we will provide you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free hosting<a data-toggle="tooltip" title="Let us worry about maintaining your website and making it accessible to everyone. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
@@ -1486,7 +1673,7 @@ $this->load->view('includes/header-common');
 
                                 <div class="pack-list">
                                     <ul>
-                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">COMPLETE PACKAGE  </span></strong><a data-toggle="tooltip" title="All the features of our Complete Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">COMPLETE PACKAGE PLUS </span></strong><a data-toggle="tooltip" title="All the features of our Complete Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
 
                                         <li><strong>12</strong> page website<a data-toggle="tooltip" title="Need a much larger website with more pages? This package offers a website with up to 12 different pages, all for showcasing everything there is to know about your business."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
@@ -1518,7 +1705,7 @@ $this->load->view('includes/header-common');
 
                                 <div class="pack-list">
                                     <ul>
-                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">START-UP WITH STATIONERY PACKAGE  </span></strong><a data-toggle="tooltip" title="All the features of our Start-up with Stationery Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <li>  <span class="surge-pac-plus"></span><strong><span class="surge-pac-plus1">START-UP WITH STATIONERY PACKAGE PLUS </span></strong><a data-toggle="tooltip" title="All the features of our Start-up with Stationery Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>6</strong> page website<a data-toggle="tooltip" title="– Do you require a larger website with more than one page? Then this is the one for you. A website with up to 6 different pages, for showcasing everything there is to know about your business."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li><strong>2</strong> website design concept<a data-toggle="tooltip" title="Tell us how you want your website to look like, and we will do it for you. You may choose from 2 design concepts that we will provide you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                         <li>Free hosting<a data-toggle="tooltip" title="Let us worry about maintaining your website and making it accessible to everyone. "  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
@@ -1743,14 +1930,14 @@ $this->load->view('includes/header-common');
 
                                     <div class="pack-list">
                                         <ul>
-                                            <li> <strong>3</strong> business card designs <a data-toggle="tooltip" title="The perfect way to look professional while advertising your business. We will provide you with 3 custom-made designs to choose from."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>3</strong> letterhead designs<a data-toggle="tooltip" title="Make sure your business letters clearly identify you and your business. Plus, you also get to advertise your brand for free. With this package, you will get 3 additional custom-made letterhead designs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>3</strong> complimentary slip designs <a data-toggle="tooltip" title="Compliment Slips also help with branding and advertising. It also puts your business information out there. With this package, you will get 3 custom Compliment Slip designs."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>250</strong> business card prints<a data-toggle="tooltip" title="You already have your business card design. Now print it out! This package comes with free 250 print outs for the business card of your choice."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>250</strong> letterhead prints<a data-toggle="tooltip" title="In this package, you don’t just get to choose which design you want for your letterhead, but you will also get 250 print outs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li> <b>3</b> business card designs <a data-toggle="tooltip" title="The perfect way to look professional while advertising your business. We will provide you with 3 custom-made designs to choose from."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li><b>3</b> letterhead designs<a data-toggle="tooltip" title="Make sure your business letters clearly identify you and your business. Plus, you also get to advertise your brand for free. With this package, you will get 3 additional custom-made letterhead designs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li><b>3</b> complimentary slip designs <a data-toggle="tooltip" title="Compliment Slips also help with branding and advertising. It also puts your business information out there. With this package, you will get 3 custom Compliment Slip designs."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li><b>250</b> business card prints<a data-toggle="tooltip" title="You already have your business card design. Now print it out! This package comes with free 250 print outs for the business card of your choice."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li><b>250</b> letterhead prints<a data-toggle="tooltip" title="In this package, you don’t just get to choose which design you want for your letterhead, but you will also get 250 print outs at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
 
-                                            <li>  <strong>250 </strong> complimentary slip prints<a data-toggle="tooltip" title="Why stop with Business Cards and Letterheads? Print out your Compliment Slips as well. You will have 250 free."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li>  <b>250 </b> complimentary slip prints<a data-toggle="tooltip" title="Why stop with Business Cards and Letterheads? Print out your Compliment Slips as well. You will have 250 free."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
 
 
@@ -1785,8 +1972,8 @@ $this->load->view('includes/header-common');
 
                                     <div class="pack-list">
                                         <ul>
-                                            <li>  <span class="surge-pac-plus-left"></span><strong><span class="surge-pac-plus1">STATIONERY PACKAGE  </span></strong><a data-toggle="tooltip" title="All the features of our Stationery Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li> Brochure design (Tri fold double sided)<a data-toggle="tooltip" title="You will also be given a design for a tri-fold double-sided Brochure, absolutely free!"  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li> <span class="surge-pac-plus-left"></span><strong><span class="surge-pac-plus1">STATIONERY PACKAGE PLUS </span></strong><a data-toggle="tooltip" title="All the features of our Stationery Package, with the additional features below."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li> Brochure design (Tri fold double <br>sided)<a data-toggle="tooltip" title="You will also be given a design for a tri-fold double-sided Brochure, absolutely free!"  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li> Unlimited revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the logo of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
 
                                         </ul>
@@ -1820,17 +2007,15 @@ $this->load->view('includes/header-common');
                                         <a id="order21" class="order-pack" href="<?php echo base_url() ?>orders/index/21/" >Buy Now</a>
                                     </div>
 
-
                                     <div class="pack-list">
                                         <ul>
-                                            <li> <strong>6</strong>  Custom Made Logos<a data-toggle="tooltip" title="You will have 6 logo designs to choose from, which are guaranteed to be original and custom-made for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
-                                            <li><strong>3</strong> Designers<a data-toggle="tooltip" title="Your project will have not one but 3 designers, who will all contribute to provide you with the perfect designs based on your specifications."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>Unlimited</strong>  Logo Concepts<a data-toggle="tooltip" title="Changed your mind on the whole concept of your logo? No worries. You can always request for new logo concepts to be made just for you, for as many times as you may need, at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>Unlimited</strong> Revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the logo of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
-                                            <li><strong>Unlimited</strong> Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of logo samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li> <b>6</b> Custom Made Logos<a data-toggle="tooltip" title="You will have 6 logo designs to choose from, which are guaranteed to be original and custom-made for you."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a> </li>
+                                            <li><b>3</b> Designers<a data-toggle="tooltip" title="Your project will have not one but 3 designers, who will all contribute to provide you with the perfect designs based on your specifications."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li><b>Unlimited</b>  Logo Concepts<a data-toggle="tooltip" title="Changed your mind on the whole concept of your logo? No worries. You can always request for new logo concepts to be made just for you, for as many times as you may need, at no additional cost."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li><b>Unlimited</b> Revisions<a data-toggle="tooltip" title="There will be no limit to the number of revisions you can make on the logo of your choosing."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
+                                            <li><b>Unlimited</b> Redraws<a data-toggle="tooltip" title="Your choice won’t be limited to your first set of logo samples. You will have the privilege of requesting for a completely new set of samples, free of charge."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>
                                             <li>Animated flash logo version<a data-toggle="tooltip" title="With this package, you get more than just a logo. You also get an animated flash logo that moves and is much more attractive to your potential customers."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li>   
-                                            <!-- <li><strong>6-hour logo turnaround</strong> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
-
+                                            <!-- <li><b>6-hour logo turnaround</b> <a data-toggle="tooltip" title="Get your logos within 6 hours. You won't find a faster logo service anywhere else! Best of all, this service is available 24/7, so you can order anytime and never worry about missing a cut-off. This 6-hour service only applies to LOGO services on all packages."  data-placement='top' > <img src="assets/images/added/silver-info.jpg"> </a></li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -1933,10 +2118,14 @@ $this->load->view('includes/header-common');
     <section class="widget1 normal-gray-box clearfix">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 for-desktop">
                     <img class="img-responsive move-right" width="125" height="125" src="assets/images/time--watch1.png" alt="time watch" />
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-4 for-mobile">
+                    <img class="img-responsive move-right1" width="125" height="125" src="assets/images/time--watch1.png" alt="time watch" />
+                </div>
+
+                <div class="col-sm-8 for-mobile">
                     <h2>24x7x365 Free Support</h2>
                     <div class="list-container">
                         <ul class="width-half tick">
@@ -1946,11 +2135,36 @@ $this->load->view('includes/header-common');
                         </ul>
                         <ul class="width-half thin-arrow">
                             <li>Others Usually Offer Support Weekday 9-5</li>
-                            <li>Others Do Not Offer This</li>
+                            <li>Others Do Not Offer This</li><br>
+                            <br>
                             <li>Others Take Several Days or Weeks</li>
                         </ul>
                     </div>
                 </div>
+
+
+                <div class="col-sm-8 for-desktop">
+                    <h2>24x7x365 Free Support</h2>
+                    <div class="list-container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="tick">
+                                    <li>We Offer Support<span> 24x7x365</span></li>
+                                    <li>We Give You a <span> Dedicated Project Manager</span></li>
+                                    <li>Your Revisions Will Be Completed in Just <span> 24 Hours</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="thin-arrow">
+                                    <li>Others Usually Offer Support Weekday 9-5</li>
+                                    <li>Others Do Not Offer This</li>
+                                    <li>Others Take Several Days or Weeks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -2037,8 +2251,6 @@ $this->load->view('includes/header-common');
                         $(selectedElem).parents('.delivery').find('.service').addClass('hourd');
                     }
 
-
-
                     var current_price = parseInt(price.text());
                     //alert(data); 
                     var opt = eval('(' + data + ')');
@@ -2071,19 +2283,23 @@ $this->load->view('includes/header-common');
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <script src="<?php echo base_url() ?>assets/js/modernizr.custom.js"></script>
+
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="<?php echo base_url() ?>assets/js/bootstrap.min.js"></script>
+
 <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $('#tabs').tab();
         });
 </script> 
+
 <script type="text/javascript">
     $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip()
     });
 
 </script>
+
 <script src="<?php echo base_url() ?>assets/js/custom.js"></script>
 <script src="<?php echo base_url() ?>assets/js/jquery.loadmask.min.js"></script>
 <!--<script src="https://track.monitis.com/mon_analytics.jsp?v=1" type="text/javascript"></script>-->
@@ -2143,20 +2359,13 @@ $this->load->view('includes/header-common');
           'onStateChange': onPlayerStateChange
         }
     });
-
-
-  
-
   }
 
 
   function onPlayerReady(event) {
- 
-
   // event.target.playVideo();
   // $("#video_carousel").carousel('pause');
   //   console.log('working');
-
   }
   
   function onPlayerStateChange(event) {
@@ -2179,27 +2388,19 @@ $this->load->view('includes/header-common');
 
        // $(".video_carousel_control_right").trigger('click');
        console.log('play after video ended');}// Stop the carousel, if video is playing
-    
-
-
-
-
-  }
+    }
 
   
 
    $('#video_carousel').on('slide.bs.carousel', function () {
            console.log("player.stopVideo");
         player.stopVideo();
-      
-
-         });
+    });
 
     $('#video_carousel').on('slid.bs.carousel', function () {
            console.log("player.playVideo");
         player.playVideo();
-
-         });
+    });
 
 
 
@@ -2210,27 +2411,26 @@ $this->load->view('includes/header-common');
 
 
 </script>
+
 <script type="text/javascript">
     var t;
-var start = $('#video_carousel').find('.active').attr('data-interval');
-t = setTimeout("$('#video_carousel').carousel({interval: 1000});", start-1000);
+    var start = $('#video_carousel').find('.active').attr('data-interval');
+    t = setTimeout("$('#video_carousel').carousel({interval: 1000});", start-1000);
 
 
-t = setTimeout(function () {
-    $('#video_carousel').carousel('next')
-}, start);
+    t = setTimeout(function () {
+        $('#video_carousel').carousel('next')
+    }, start);
 
 
-$('.carousel-control.right').on('click', function(){
-    clearTimeout(t);   
-});
+    $('.carousel-control.right').on('click', function(){
+        clearTimeout(t);   
+    });
 
-$('.carousel-control.left').on('click', function(){
-    clearTimeout(t);   
-});
-
+    $('.carousel-control.left').on('click', function(){
+        clearTimeout(t);   
+    });
 </script>
-
 
 <!-- <div id="toTop"><img src="<?php echo base_url() ?>assets/images/scroll_top.png" width="30" height="30" class="img-responsive" /></div>   -->    
 </body>
