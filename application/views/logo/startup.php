@@ -112,7 +112,8 @@ $this->load->view('includes/header-common');
         border-radius: 4px;
         /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
     }
-    .three-pack .tooltip {
+
+    .pack-list .tooltip {
         left: 97px !important; /* Adjusts the tooltip slightly to the left */
         max-width: 300px; /* Sets a maximum width for the tooltip */
         white-space: normal; /* Allows the tooltip to wrap text */
@@ -122,6 +123,22 @@ $this->load->view('includes/header-common');
         padding: 10px;
         border-radius: 4px;
         /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    }
+
+    /* Base styles for tooltip */
+    .three-pack .tooltip {
+        max-width: 300px;
+        white-space: normal;
+        color: #333;
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    /* Adjust tooltip position for desktop screens */
+    @media (min-width: 992px) {
+        .three-pack .tooltip {
+            left: -10px !important; /* Adjusts the tooltip slightly to the left */
+        }
     }
 
     .hori ul {
@@ -186,19 +203,19 @@ $this->load->view('includes/header-common');
         /* Targeting the first class */
     #package-pg-body .three-pack.mtp {
         /* CSS styles for the first class */
-        min-height: 1553px; /* Adjust as needed */
+        min-height: 1556px; /* Adjust as needed */
     }
 
     /* Targeting the third class */
     #package-pg-body .three-pack.excelh {
         /* CSS styles for the third class */
-        min-height: 1553px; /* Adjust as needed */
+        min-height: 1556px; /* Adjust as needed */
     }
 
     /* Targeting the third class */
     #package-pg-body .three-pack.three-pack1{
         /* CSS styles for the third class */
-        min-height: 1553px; /* Adjust as needed */
+        min-height: 1556px; /* Adjust as needed */
     }
     
 </style>
@@ -1131,7 +1148,7 @@ $this->load->view('includes/header-common');
                         <div class="row">
                             <div class="col-md-7 package-top">
                                 <h3>Honest prices. Exceptional Features.</h3>
-                                <h5>The UK&rsquo;s No. 1 specialized design firm for start-ups and small businesses.</h5>
+                                <h5>The UK&rsquo;s No. 1 specialised design firm for start-ups and small businesses.</h5>
                             </div>
                         </div>
                         <div class="row mrtb mrtbnew">

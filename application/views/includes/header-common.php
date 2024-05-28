@@ -70,9 +70,7 @@
         .tt-head {
             font-size: 2rem;
             font-weight: 600;
-        }
-
-     
+        }     
 
         /*@font-face {
                 font-family: 'texgyreherosregular';
@@ -86,14 +84,14 @@
                 font-style: normal;
 
             }*/
+
         .hero-flag-content {
             max-width: 100%;
             /*padding: 0px 30px 10px 20px;*/
         }
 
         /*.hero-flag-text p
-            {  font-family: 'texgyreherosregular' !important;}
-*/
+            {  font-family: 'texgyreherosregular' !important;}*/
         .hero-flag-text p {
             font-family: "Arial Black", "Arial Bold", "Gadget", "sans-serif" !important;
         }
@@ -180,11 +178,11 @@
         @media (max-width: 768px) {
             
             .navbar-collapse{
-        height: 120vh !important;
-        width: 105%;
-        position: absolute;
-        left: -5rem;
-        top: -22rem;
+                height: auto !important;
+                width: 105%;
+                position: absolute;
+                left: -5rem;
+                top: -22rem;
             }
 
             .navbar-nav{
@@ -217,17 +215,19 @@
         .cross-icon{
             font-size: 24px;
             color: #fff;
-            z-index: 100000000;
-
-        
+            z-index: 1000;       
         }
-
-
-
-
-
     </style>
 
+    <style>
+        #web-design-menu {
+            display: none;
+            position: fixed; /* or absolute, depending on your layout */
+            top: 100%;
+            left: 0;
+            z-index: 1000;
+        }
+    </style>
 </head>
 
 <body>
@@ -250,14 +250,14 @@
                             <aside class="clearfix" id="right-section">
                                 <ul class="list-unstyled head-list">
                                     <li style="color:#222; font-size: 1.6rem;font-weight:600; margin-top: 35px;">UK Hand-Drawn Logos = Higher Quality <a class="test1" data-toggle="tooltip" data-placement="bottom" data-html="true" data-max-width="550px" title="" data-original-title="<span class='tt-head'>Logo Design Guarantee™</span><br/>
-<span class='tt-inner'>All our designers are based in the UK.<br/><br/>
-<ul class='ldg-tooltip'><li class='ldg-bp'>&#10004; All our designers hold graphic design degrees.</li>
-<li class='ldg-bp'>&#10004; We do <u>not</u> outsource any works.</li>
-<li class='ldg-bp'>&#10004; All our logos are hand-drawn, which greatly increases the sophistication of our logos.</li>
-<li class='ldg-bp'>&#10004; We have 16+ yrs experience.</li>
-<li class='ldg-bp'>&#10004; We have served 285,000+ clients.</li></ul><br/>
-<span class='tt-head'>Our competitors:</span><br/><ul class='ldg-tooltip'><li class='ldg-bp2'>&#10004; They often outsource to India, but use London PO 
-Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art software, which makes their logos look cheap.</li></ul>"><img src="assets/images/added/silver-info.jpg"> </a></li>
+                                        <span class='tt-inner'>All our designers are based in the UK.<br/><br/>
+                                        <ul class='ldg-tooltip'><li class='ldg-bp'>&#10004; All our designers hold graphic design degrees.</li>
+                                        <li class='ldg-bp'>&#10004; We do <u>not</u> outsource any works.</li>
+                                        <li class='ldg-bp'>&#10004; All our logos are hand-drawn, which greatly increases the sophistication of our logos.</li>
+                                        <li class='ldg-bp'>&#10004; We have 16+ yrs experience.</li>
+                                        <li class='ldg-bp'>&#10004; We have served 285,000+ clients.</li></ul><br/>
+                                        <span class='tt-head'>Our competitors:</span><br/><ul class='ldg-tooltip'><li class='ldg-bp2'>&#10004; They often outsource to India, but use London PO 
+                                        Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art software, which makes their logos look cheap.</li></ul>"><img src="assets/images/added/silver-info.jpg"> </a></li>
                                     <li style="color:#222; font-size: 1.6rem;font-weight:600;">365-Day, 100% Money Back Guarantee
                                         <a class="test tip-top" data-toggle="tooltip" data-placement="auto top" data-html="true" title="" data-original-title="No questions, no interrogations, no fuss – just a whole lot of trust. We guarantee your money back if for any reason you are dissatisfied with our services."><img src="assets/images/added/silver-info.jpg"> </a>
                                     </li>
@@ -272,7 +272,7 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
                                 <div class="info-box" style="margin-left: 15px;">
                                     <p class="text-left" style="margin-bottom:2px;">
                                         <a style="font-size: 12px; font-weight: 700; position: relative;
-  top: 0px; color: #272727;" href="#">Sales/Support </a><span style="font-size: 16px; color: #f30; font-weight: 600;  " class="ph-no"><?php echo  PHONE_NO; ?></span>
+                                            top: 0px; color: #272727;" href="#">Sales/Support </a><span style="font-size: 16px; color: #f30; font-weight: 600;  " class="ph-no"><?php echo  PHONE_NO; ?></span>
                                     </p>
                                     <p class="text-right" style="margin-bottom:2px;">
                                         <a style="font-size: 1.2rem; font-weight: 600; color: #333; color:#333;" class="live-chat" href="javascript:void(0);">Live chat <img src="assets/images/hi-bubble.png" alt="hi" width="32" height="28" /></a> <span style="margin-left:5px;"> <a style="font-size: 1.3rem; font-weight: 600; color: #333; color:#333; text-decoration: none;" id="login-trigger" href="#"><i class="fa fa-user" aria-hidden="true"></i>
@@ -282,8 +282,8 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
                                 </div>
                                 <nav>
                                     <ul class="nav1 navbar-nav1 " style="position: absolute;
-    right:0px;
-    top: 32px;">
+                                            right:0px;
+                                            top: 32px;">
                                         <li id=" login">
 
                                             <div id="login-content">
@@ -338,74 +338,139 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
 
 
             <?php $ignore_method = array('thankyou'); ?>
+
             <?php if (!in_array($this->router->method, $ignore_method)) : ?>
                 <section id="nav-main">
                     <div class="container text-center">
                         <nav class="navbar navbar-default" role="navigation">
-                            <div class="navbar-header">
-
-                            </div>
+                            <div class="navbar-header"></div>
                             <?php
                             $fc = $this->router->fetch_class();
                             $rm = $this->router->method;
                             ?>
                             <div class="collapse navbar-collapse" id="main-nav">
-                                <ul class="nav navbar-nav">
-                               
-                           
-                            
-                                    <li><a data-hover="packages" href="<?php echo site_url('packages'); ?>" <?php echo ($fc == 'logo' && $rm == 'packages') ? "class = active" : ""; ?>>packages</a>
-                                    <span class="visible-xs-block" style="padding-right: 2rem;"><i class="fa-solid fa-arrow-right fa-2x" style="color:#333333;"></i></span>
-                                        
-                                </li>
-                                    <li><a data-hover="process" href="<?php echo site_url('process'); ?>" <?php echo ($fc == 'logo' && $rm == 'process') ? "class = active" : ""; ?>>process</a>
-                                    <span class="visible-xs-block" style="padding-right: 2rem;"><i class="fa-solid fa-arrow-right fa-2x" style="color:#333333;"></i></span>
-
-                                </li>
-                                    <li><a data-hover="compare us" href="<?php echo site_url('compare'); ?>" <?php echo ($fc == 'logo' && $rm == 'compare') ? "class = active" : ""; ?>>compare us</a>
-                                    <span class="visible-xs-block" style="padding-right: 2rem;"><i class="fa-solid fa-arrow-right fa-2x" style="color:#333333;"></i></span>
-                                
-                                </li>
-                                    <li><a data-hover="portfolio" href="<?php echo site_url('portfolio'); ?>" <?php echo (($fc == 'logo' && $rm == 'portfolio') || $fc == 'logo_portfolio') ? "class = active" : ""; ?>>portfolio</a>
-                                    <span class="visible-xs-block" style="padding-right: 2rem;"><i class="fa-solid fa-arrow-right fa-2x" style="color:#333333;"></i></span>
-                                
-                                </li>
-
-                                    <?php /* ?><li><a data-hover="guarantee" href="<?php echo site_url('guarantee'); ?>" <?php echo ($fc == 'logo' && $rm == 'guarantee') ? "class = active" : ""; ?>  >guarantee</a></li><?php */ ?>
-
-                                    <li><a data-hover="about us" href="<?php echo site_url('about'); ?>" <?php echo ($fc == 'logo' && $rm == 'about') ? "class = active" : ""; ?>>about us</a>
-                                    <span class="visible-xs-block" style="padding-right: 2rem;"><i class="fa-solid fa-arrow-right fa-2x" style="color:#333333;"></i></span>
-                                
-                                </li>
-                                    <li style="margin-bottom: 5px;"><a data-hover="web design" href="<?php echo base_url(); ?>web-site-design/webdesigner-limited-sale">web design</a>
-                                    <span class="visible-xs-block" style="padding-right: 2rem;"><i class="fa-solid fa-arrow-right fa-2x" style="color:#333333;"></i></span>
-                                
-                                </li>
-
+                                <ul class="nav navbar-nav">             
+                                    <li>
+                                        <a data-hover="packages" id="packages-link" href="<?php echo site_url('packages'); ?>" <?php echo ($fc == 'logo' && $rm == 'packages') ? "class = active" : ""; ?>>packages</a>
+                                        <span class="visible-xs-block" style="padding-right: 2rem;">
+                                            <i class="fa-solid fa-arrow-right arrow-icon" id="packages-arrow" style="color:#333333;"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a data-hover="process" id="process-link" href="<?php echo site_url('process'); ?>" <?php echo ($fc == 'logo' && $rm == 'process') ? "class = active" : ""; ?>>process</a>
+                                        <span class="visible-xs-block" style="padding-right: 2rem;">
+                                            <i class="fa-solid fa-arrow-right arrow-icon" id="process-arrow" style="color:#333333;"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a data-hover="compare us" id="compare-us-link" href="<?php echo site_url('compare'); ?>" <?php echo ($fc == 'logo' && $rm == 'compare') ? "class = active" : ""; ?>>compare us</a>
+                                        <span class="visible-xs-block" style="padding-right: 2rem;">
+                                            <i class="fa-solid fa-arrow-right arrow-icon" id="compare-us-arrow" style="color:#333333;"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a data-hover="portfolio" id="porfolio-link" href="<?php echo site_url('portfolio'); ?>" <?php echo (($fc == 'logo' && $rm == 'portfolio') || $fc == 'logo_portfolio') ? "class = active" : ""; ?>>portfolio</a>
+                                        <span class="visible-xs-block" style="padding-right: 2rem;">
+                                            <i class="fa-solid fa-arrow-right arrow-icon" id="porfolio-arrow" style="color:#333333;"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <a data-hover="about us" id="about-us-link" href="<?php echo site_url('about'); ?>" <?php echo ($fc == 'logo' && $rm == 'about') ? "class = active" : ""; ?>>about us</a>
+                                        <span class="visible-xs-block" style="padding-right: 2rem;">
+                                            <i class="fa-solid fa-arrow-right arrow-icon" id="about-us-arrow" style="color:#333333;"></i>
+                                        </span>
+                                    </li>
+                                    <li style="position: relative;">
+                                        <a data-hover="web design" href="javascript:void(0);" id="web-design-link">web design</a>
+                                        <span class="visible-xs-block" style="padding-right: 2rem;">
+                                            <i class="fa-solid fa-arrow-down arrow-icon" id="web-design-arrow" style="color:#333333;"></i>
+                                        </span>
+                                        <ul class="nav submenu" id="web-design-menu" style="display: none; position: absolute; top: 100%; left: 0; z-index: 1000;">
+                                            <li><a href="<?php echo site_url('web-packages'); ?>">Web Packages</a></li>
+                                            <li><a href="<?php echo site_url('web-portfolio'); ?>">Web Portfolio</a></li>
+                                            <li><a href="<?php echo site_url('web-how-it-works'); ?>">Web: How it Works</a></li>
+                                            <li><a href="<?php echo site_url('web-why-choose-us'); ?>">Web: Why Choose Us</a></li>
+                                            <li><a href="<?php echo site_url('hosting'); ?>">Hosting</a></li>
+                                            <li><a href="<?php echo site_url('seo'); ?>">SEO</a></li>
+                                            <br>
+                                            <li><a href="javascript:void(0);" id="show-less-link">See Less <i class="fa-solid fa-arrow-up submenu-arrow-icon" style="color:#333333;"></i></a></li>
+                                            
+                                            <li>
+                                                <div style="background-color: #ff3300; padding: 5px 5px; padding-bottom:5px; margin-left:4.4rem; margin-right:0.5rem; padding-left: 1rem; padding-right: 1rem; font-weight: normal;">
+                                                    <h3 class="text-center" style="font-size: 1.8rem; color: white; margin-top:5px; margin-bottom:0;">Super Summer Sale</h3>
+                                                    <p style="color: white; font-size:1.36rem; text-align:left; margin:0;">&bull; Half-Price on All Packages</p>
+                                                    <p style="color: white; font-size:1.36rem; text-align:left; margin:0;">&bull; <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £50</p>
+                                                    <p style="color: white; font-size:1.36rem; text-align:left; margin:0;">&bull; <strong style="color:#e0ff35;">FREE</strong> Lifetime Alteration to Your Logo Worth £50</p>
+                                                    <h4 style="margin-top: 10px; color: white; font-size: 1.8rem; margin:0; " class="text-center"><strong>Ends Midnight, Friday 10 February ’24</strong></h4>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
                                     <li class="sale-section hidden-lg visible-xs">
-                                        <div style="background-color: red; padding: 5px 10px; margin-left:2rem; padding-left: 3rem;">
-                                            <h3 class="text-center" style="font-size: 2rem; color: white; margin-top:5px; margin-bottom:0;">Super Summer Sale</h3>
-                                            <p style="color: white; font-size:1.5rem; text-align:left; margin:0;">&bull; Half-Price on All Packages</p>
-                                            <p style="color: white; font-size:1.5rem; text-align:left; margin:0;">&bull; <strong style="color:#FEDC45;">FREE</strong> Copyright Certificate worth £25</p>
-                                            <p style="color: white; font-size:1.5rem; text-align:left; margin:0;">&bull; <strong style="color:#FEDC45;">FREE</strong> Lifetime Alteration to Your Logo <span style="margin-left:1rem"> worth £25</span></p>
-                                            <h4 style="margin-top: 10px; color: white; font-size: 1.9rem; margin:0; " class="text-center"><strong>Ends Midnight, Friday 10 February ’24</strong></h4>
+                                        <div style="background-color: #ff3300; padding: 5px 5px; margin-left:4.5rem; margin-right:1rem; padding-left: 1rem; padding-right: 1rem; font-weight: normal;">
+                                            <h3 class="text-center" style="font-size: 1.8rem; color: white; margin-top:5px; margin-bottom:0;">Super Summer Sale</h3>
+                                            <p style="color: white; font-size:1.36rem; text-align:left; margin:0;">&bull; Half-Price on All Packages</p>
+                                            <p style="color: white; font-size:1.36rem; text-align:left; margin:0;">&bull; <strong style="color:#e0ff35;">FREE</strong> Copyright Certificate worth £50</p>
+                                            <p style="color: white; font-size:1.36rem; text-align:left; margin:0;">&bull; <strong style="color:#e0ff35;">FREE</strong> Lifetime Alteration to Your Logo Worth £50</p>
+                                             <h4 style="margin-top: 10px; color: white; font-size: 1.8rem; margin:0; " class="text-center"><strong>Ends Midnight, Friday 10 February ’24</strong></h4>
                                         </div>
                                     </li>
-
                                 </ul>
                             </div>
                         </nav>
-
                     </div>
                 </section>
-
             <?php endif; ?>
 
 
 
-            <style type="text/css">
-               
+            <style>
+                .parent {
+                    position: relative; /* Ensure submenu positioning is relative to the parent */
+                }
 
+                .nav .submenu{
+                    padding-bottom: 6px;
+                }
+
+                .submenu {
+                    display: none;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    background-color: #fff;
+                    padding: 0px;
+                    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+                    z-index: 1000;
+                    border: 1px solid #ccc;
+                    width: 391px;
+                    overflow-y: auto; /* Add vertical scrollbar if content exceeds max-height */
+                }
+                .submenu li {
+                    list-style: none;
+                    margin: 1px 0;
+                    padding: 0; /* Remove padding */
+                }
+                .submenu li a {
+                    color: #333;
+                    text-decoration: none;
+                    font-size: 0.9rem; /* Reduced font size for submenu items */
+                    padding: 0; /* Optional padding for better spacing */
+                    display: block; /* Ensure the link takes full width */
+                }
+                .submenu li a:hover {
+                    color: #555;
+                }
+                .arrow-icon {
+                    font-size: 1.8rem; /* 10% smaller than the original 2rem */
+                    color: #333333; /* Dark grey color */
+                }
+                .submenu-arrow-icon {
+                    font-size: 1.5rem; /* 10% smaller than the original 2rem */
+                }
+            </style>
+
+            <style type="text/css">
                 nav #login-content:before {
                     content: '';
                     display: inline-block;
@@ -497,15 +562,15 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
         <style>
             /* #main-nav .nav > li > a {
                             padding: 10px 44.2px !important;
-                             padding: 10px 44.5px\0 !important;
+                            padding: 10px 44.5px\0 !important;
                         }
 
                         @media screen and (-webkit-min-device-pixel-ratio:0) {
- 
-     #main-nav .nav > li > a {
+
+                        #main-nav .nav > li > a {
                             padding: 10px 44.5px !important;
                         }
-}*/
+                    }*/
 
             @media screen and (-webkit-min-device-pixel-ratio:0) {
                 /* Safari and Chrome */
@@ -554,37 +619,83 @@ Box addresses.</li><li class='ldg-bp2'>&#10004; They use templates and clip-art 
             });
         </script>
 
-<script>
-function closeNavbar() {
-    $('#main-nav').collapse('hide'); // Utilize Bootstrap's Collapse plugin to hide the navbar
-}
+        <script>
+            function closeNavbar() {
+                $('#main-nav').collapse('hide'); // Utilize Bootstrap's Collapse plugin to hide the navbar
+            }
+        </script>
+
+        <script>
+            function closeMobileNavbar() {
+                // Fade out the close button and overlay
+                $('#closeButtonContainer').fadeOut();
+                $('#overlay').fadeOut();
+                closeNavbar();
+            }
+
+            $('#main-nav').on('show.bs.collapse', function () {
+                // Show the close button and overlay when the Bootstrap menu is toggled on
+                $('#closeButtonContainer').fadeIn();
+                $('#overlay').fadeIn();
+            });
+
+            $('#main-nav').on('hide.bs.collapse', function () {
+                // Hide the overlay when the Bootstrap menu is toggled off
+                $('#overlay').fadeOut(200);
+            });
+
+            $('#overlay').on('click', function() {
+                console.log('Overlay clicked');
+                closeMobileNavbar(); // Assuming you have a function to close the navbar
+            });
+        </script>
 
 
-</script>
+        <script>
+            function toggleSubmenu() {
+                var submenu = document.getElementById('web-design-menu');
+                var arrow = document.getElementById('web-design-arrow');
+                if (submenu.style.display === 'none' || submenu.style.display === '') {
+                    submenu.style.display = 'block';
+                    arrow.classList.remove('fa-arrow-down');
+                    arrow.classList.add('fa-arrow-up');
+                } else {
+                    submenu.style.display = 'none';
+                    arrow.classList.remove('fa-arrow-up');
+                    arrow.classList.add('fa-arrow-down');
+                }
+            }
 
-<script>
-    function closeMobileNavbar() {
-        // Hide the close button and overlay
-        document.getElementById('closeButtonContainer').style.display = 'none';
-        document.getElementById('overlay').style.display = 'none';
-        closeNavbar();
-    }
+            document.getElementById('web-design-link').addEventListener('click', toggleSubmenu);
+            document.getElementById('web-design-arrow').addEventListener('click', toggleSubmenu);
 
-    $('#main-nav').on('show.bs.collapse', function () {
-        // Show the close button and overlay when the Bootstrap menu is toggled on
-        document.getElementById('closeButtonContainer').style.display = 'block';
-        document.getElementById('overlay').style.display = 'block';
-    });
+            document.getElementById('show-less-link').addEventListener('click', function() {
+                var submenu = document.getElementById('web-design-menu');
+                var arrow = document.getElementById('web-design-arrow');
+                submenu.style.display = 'none';
+                arrow.classList.remove('fa-arrow-up');
+                arrow.classList.add('fa-arrow-down');
+            });
+        </script>
 
-    $('#main-nav').on('hide.bs.collapse', function () {
-        // Hide the overlay when the Bootstrap menu is toggled off
-        document.getElementById('overlay').style.display = 'none';
-    });
+        <script>
+            document.getElementById("packages-arrow").addEventListener("click", function() {
+                window.location.href = document.getElementById("packages-link").getAttribute("href");
+            });
 
-    $('#overlay').on('click', function() {
-    console.log('Overlay clicked');
-    closeMobileNavbar(); // Assuming you have a function to close the navbar
-});
-</script>
+            document.getElementById("process-arrow").addEventListener("click", function() {
+                window.location.href = document.getElementById("process-link").getAttribute("href");
+            });
+            document.getElementById("compare-us-arrow").addEventListener("click", function() {
+                window.location.href = document.getElementById("compare-us-link").getAttribute("href");
+            });
+            document.getElementById("portfolio-arrow").addEventListener("click", function() {
+                window.location.href = document.getElementById("portfolio-link").getAttribute("href");
+            });
+            document.getElementById("about-us-arrow").addEventListener("click", function() {
+                window.location.href = document.getElementById("about-us-link").getAttribute("href");
+            });
+
+        </script>
 
 
